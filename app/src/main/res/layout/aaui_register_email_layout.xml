@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/top_progress_bar" style="@style/AppAuthUI.TopProgressBar" />
+    <ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/AppAuthUI.WrapperStyle">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" android:labelFor="@id/email" android:transitionName="@string/aaui_email_field_name" android:transitionGroup="true" app:errorEnabled="true" style="@style/AppAuthUI.TextInputLayout.EmailField">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/email" style="@style/AppAuthUI.TextInputEditText.EmailField" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" android:labelFor="@id/name" app:errorEnabled="true" style="@style/AppAuthUI.TextInputLayout.NameField">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppAuthUI.TextInputEditText.NameField" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" app:errorEnabled="true" app:passwordToggleEnabled="true" style="@style/AppAuthUI.TextInputLayout.NewPasswordField">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/password" style="@style/AppAuthUI.TextInputEditText.PasswordField" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button android:id="@id/button_create" android:text="@string/aaui_button_text_save" style="@style/AppAuthUI.Button" />
+            <TextView android:id="@id/email_footer_tos_and_pp_text" style="@style/AppAuthUI.PrivacyFooter" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

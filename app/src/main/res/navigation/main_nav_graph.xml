@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/action_vm"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/main_tab_vm" android:name="com.android.vmapp.ui.vm.main.VMFragment" android:id="@id/action_vm" />
+    <fragment android:label="@string/main_tab_you" android:name="com.android.vmapp.ui.foryou.YouFragment" android:id="@id/action_you" />
+</navigation>

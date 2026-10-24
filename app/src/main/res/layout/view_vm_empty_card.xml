@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cat_list_horizontal_padding" android:layout_marginTop="@dimen/cat_list_vertical_padding" android:layout_marginRight="@dimen/cat_list_horizontal_padding" android:layout_marginBottom="@dimen/cat_list_vertical_padding" android:layout_marginHorizontal="@dimen/cat_list_horizontal_padding" android:layout_marginVertical="@dimen/cat_list_vertical_padding" app:contentPadding="@dimen/cat_card_content_padding" style="?materialCardViewOutlinedStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_horizontal" android:id="@id/slogan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vm_slogan" android:layout_above="@id/start" android:layout_centerHorizontal="true" style="?textAppearanceBodyMedium" />
+        <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/vm_tab_menu_create" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

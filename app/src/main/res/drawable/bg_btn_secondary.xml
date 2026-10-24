@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/card_border"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_bg" />
+            <corners android:radius="12.0dip" />
+            <stroke android:width="1.5dip" android:color="@color/card_border" />
+        </shape>
+    </item>
+</ripple>

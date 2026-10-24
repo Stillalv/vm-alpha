@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.widget.Space android:id="@id/textSpacerNoTitle" android:layout_width="fill_parent" android:layout_height="@dimen/abc_dialog_padding_top_material" />
+            <TextView android:id="@android:id/message" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?textAppearanceBody1" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.ButtonBarLayout android:gravity="bottom" android:orientation="horizontal" android:paddingLeft="?dialogPreferredPadding" android:paddingTop="@dimen/m3_alert_dialog_action_top_padding" android:paddingRight="?dialogPreferredPadding" android:paddingBottom="@dimen/m3_alert_dialog_action_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <Button android:id="@android:id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/install" app:icon="@drawable/baseline_get_app_24" app:iconGravity="textStart" />
+    </androidx.appcompat.widget.ButtonBarLayout>
+</LinearLayout>

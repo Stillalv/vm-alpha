@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/top_progress_bar" style="@style/AppAuthUI.TopProgressBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/AppAuthUI.WrapperStyle">
+            <TextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aaui_email_link_trouble_getting_email_header" style="@style/AppAuthUI.Text.Heading" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" android:text="@string/aaui_email_link_trouble_getting_possible_fixes" android:textIsSelectable="false" style="@style/AppAuthUI.Text.BodyText" />
+            <Button android:id="@id/button_resend_email" android:text="@string/aaui_email_link_resend" style="@style/AppAuthUI.Button" />
+            <TextView android:id="@id/email_footer_tos_and_pp_text" style="@style/AppAuthUI.PrivacyFooter" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

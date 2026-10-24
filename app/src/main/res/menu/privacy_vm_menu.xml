@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/add_vm" android:title="@string/privacy_vm_menu_add" app:showAsAction="never" />
+    <item android:id="@id/privacy_settings" android:title="@string/privacy_vm_menu_settings" app:showAsAction="never" />
+    <item android:icon="@drawable/outline_trackpad_input_24" android:id="@id/touch_mode" android:visible="false" android:title="@string/vm_tab_menu_touch" android:checkable="true" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/outline_crop_portrait_24" android:id="@id/layout_mode" android:title="@string/vm_tab_menu_layout" app:showAsAction="ifRoom" />
+</menu>

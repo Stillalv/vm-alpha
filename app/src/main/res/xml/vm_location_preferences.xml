@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference app:entries="@array/vm_settings_location_type_entries" app:entryValues="@array/vm_settings_location_type_values" app:iconSpaceReserved="false" app:key="vm_pref_key_location_type" app:title="@string/vm_settings_location_type" app:useSimpleSummaryProvider="true" />
+    <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:enableCopying="true" app:iconSpaceReserved="false" app:key="vm_pref_key_user_location" app:title="@string/vm_settings_user_location" app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

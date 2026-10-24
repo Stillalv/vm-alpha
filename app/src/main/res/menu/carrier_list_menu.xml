@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/outline_search_24" android:id="@id/menu_search" android:title="@string/search_go" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@drawable/outline_filter_list_24" android:id="@id/menu_country" android:title="@string/country_list_title" app:showAsAction="always" />
+</menu>

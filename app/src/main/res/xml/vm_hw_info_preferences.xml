@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_device" app:title="@string/vm_hw_device_info">
+        <com.android.vmapp.ui.base.preference.ListPreferenceEx app:defaultValue="custom" app:entries="@array/vm_hw_device_preset_entries" app:entryValues="@array/vm_hw_device_preset_values" app:iconSpaceReserved="false" app:key="vm_pref_key_device_preset" app:title="Device Preset (Android 5.1 / 7.1 / Flagship)" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_product_model" app:title="@string/vm_hw_product_model" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_product_brand" app:title="@string/vm_hw_product_brand" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_product_name" app:title="@string/vm_hw_product_name" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_product_device" app:title="@string/vm_hw_product_device" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_product_manufacturer" app:title="@string/vm_hw_product_manufacturer" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_device_id" app:title="@string/vm_hw_device_id">
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_serial_no" app:title="@string/vm_hw_serial" app:useSimpleSummaryProvider="true" />
+        <Preference android:summary="@string/vm_hw_android_id_summary" app:iconSpaceReserved="false" app:key="vm_pref_key_android_id" app:title="@string/vm_hw_android_id" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_processor" app:title="@string/vm_hw_processor_info">
+        <com.android.vmapp.ui.base.preference.ListPreferenceEx app:entries="@array/vm_hw_gpu_info_entries" app:entryValues="@array/vm_hw_gpu_info_values" app:iconSpaceReserved="false" app:key="vm_pref_key_gpu_info" app:title="@string/vm_hw_gpu_info" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

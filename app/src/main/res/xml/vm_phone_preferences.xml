@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference app:entries="@array/vm_pref_phone_type_entries" app:entryValues="@array/vm_pref_phone_type_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_type" app:title="@string/vm_pref_title_phone_type" app:useSimpleSummaryProvider="true" />
+    <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_phone_deviceid" app:title="@string/vm_pref_title_phone_imei" />
+    <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_base_band" app:title="@string/vm_pref_title_phone_base_band" app:useSimpleSummaryProvider="true" />
+    <com.android.vmapp.ui.base.preference.SwitchPreferenceCompatEx app:iconSpaceReserved="false" app:key="vm_pref_key_sim_card" app:summaryOff="@string/sim_card_off" app:summaryOn="@string/sim_card_on" app:title="@string/vm_pref_title_sim_card" />
+    <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_phone_network_carrier" app:title="@string/vm_pref_title_phone_network_carrier" />
+    <ListPreference app:entries="@array/vm_pref_phone_network_gsm_entries" app:entryValues="@array/vm_pref_phone_network_gsm_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_network_type" app:title="@string/vm_pref_title_phone_network_type" app:useSimpleSummaryProvider="true" />
+    <ListPreference app:entries="@array/vm_pref_phone_signal_strength_entries" app:entryValues="@array/vm_pref_phone_signal_strength_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_signal_strength" app:title="@string/vm_pref_title_phone_signal_strength" app:useSimpleSummaryProvider="true" />
+    <ListPreference app:entries="@array/vm_pref_phone_network_status_entries" app:entryValues="@array/vm_pref_phone_network_status_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_network_status" app:title="@string/vm_pref_title_phone_network_status" app:useSimpleSummaryProvider="true" />
+    <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_phone_sim_sms" app:summary="@string/vm_pref_summary_phone_sim_sms" app:title="@string/vm_pref_title_phone_sim_sms" />
+    <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_phone_sim_dial" app:summary="@string/vm_pref_summary_phone_sim_dial" app:title="@string/vm_pref_title_phone_sim_dial" />
+    <ListPreference app:entries="@array/vm_pref_phone_sms_option_entries" app:entryValues="@array/vm_pref_phone_sms_option_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_sms_option" app:title="@string/vm_pref_title_phone_sms_option" app:useSimpleSummaryProvider="true" />
+    <ListPreference app:entries="@array/vm_pref_phone_dial_option_entries" app:entryValues="@array/vm_pref_phone_dial_option_values" app:iconSpaceReserved="false" app:key="vm_pref_key_phone_dial_option" app:title="@string/vm_pref_title_phone_dial_option" app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

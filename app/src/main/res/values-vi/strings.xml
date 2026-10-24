@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aaui_accessibility_logo">Biểu trưng ứng dụng</string>
+    <string name="aaui_auto_verified">Đã tự động xác minh số điện thoại</string>
+    <string name="aaui_button_text_save">Lưu</string>
+    <string name="aaui_button_text_send">Gửi</string>
+    <string name="aaui_confirm_recovery_body">Làm theo hướng dẫn gửi tới %1$s để khôi phục mật khẩu của bạn.</string>
+    <string name="aaui_continue">Tiếp tục</string>
+    <string name="aaui_country_hint">Quốc gia</string>
+    <string name="aaui_email_account_creation_error">Đăng ký tài khoản email không thành công</string>
+    <string name="aaui_email_hint">Email</string>
+    <string name="aaui_email_link_confirm_email_header">Xác nhận email</string>
+    <string name="aaui_email_link_confirm_email_message">Xác nhận email để tiếp tục đăng nhập</string>
+    <string name="aaui_email_link_cross_device_linking_text">"Ban đầu, bạn có ý định kết nối %1$s với tài khoản email của bạn nhưng đã mở đường liên kết trên một thiết bị khác mà bạn chưa đăng nhập.
+
+Nếu bạn vẫn muốn kết nối với tài khoản %1$s của mình, hãy mở đường liên kết này trên cùng một thiết bị mà bạn đã đăng nhập từ đầu. Nếu không, hãy nhấn Tiếp tục để đăng nhập trên thiết bị này."</string>
+    <string name="aaui_email_link_different_anonymous_user_header">Phiên hoạt động đã kết thúc</string>
+    <string name="aaui_email_link_different_anonymous_user_message">Phiên hoạt động liên quan đến yêu cầu đăng nhập này đã hết hạn hoặc đã bị xóa.</string>
+    <string name="aaui_email_link_dismiss_button">Bỏ qua</string>
+    <string name="aaui_email_link_email_sent">Email đăng nhập có hướng dẫn bổ sung đã được gửi tới %1$s. Hãy tìm email này trong hộp thư của bạn để hoàn tất đăng nhập.</string>
+    <string name="aaui_email_link_header">"Đã gửi email đăng nhập
+"</string>
+    <string name="aaui_email_link_invalid_link_header">Không thể hoàn tất đăng nhập</string>
+    <string name="aaui_email_link_invalid_link_message">Mã kích hoạt không hợp lệ. Điều này có thể xảy ra nếu mã không đúng định dạng, đã hết hạn hoặc đã sử dụng.</string>
+    <string name="aaui_email_link_resend">Gửi lại</string>
+    <string name="aaui_email_link_trouble_getting_email_header">Bạn gặp vấn đề khi nhận email?</string>
+    <string name="aaui_email_link_trouble_getting_possible_fixes">"Hãy thử các biện pháp khắc phục phổ biến sau:
+• Kiểm tra xem email có bị đánh dấu là spam hay đã được lọc.
+• Kiểm tra kết nối Internet của bạn.
+• Kiểm tra để đảm bảo bạn không viết sai chính tả tên email.
+• Kiểm tra để đảm bảo hộp thư đến của bạn chưa hết dung lượng và không có vấn đề về cài đặt hộp thư đến.
+"</string>
+    <string name="aaui_email_link_wrong_device_header">Đã phát hiện thiết bị hoặc trình duyệt mới.</string>
+    <string name="aaui_email_link_wrong_device_message">Hãy thử mở đường liên kết bằng cùng một thiết bị hoặc trình duyệt mà bạn dùng để bắt đầu quá trình đăng nhập.</string>
+    <string name="aaui_enter_confirmation_code">Nhập mã 6 chữ số mà chúng tôi đã gửi cho bạn</string>
+    <string name="aaui_error_email_does_not_exist">Địa chỉ email đó không khớp với tài khoản hiện có</string>
+    <string name="aaui_error_invalid_password">Sai mật khẩu.</string>
+    <string name="aaui_error_quota_exceeded">Đã xảy ra sự cố khi xác minh số điện thoại của bạn</string>
+    <string name="aaui_error_session_expired">Mã này không còn hợp lệ</string>
+    <string name="aaui_error_too_many_attempts">Số điện thoại này đã được sử dụng quá nhiều lần</string>
+    <string name="aaui_error_unknown">Đã xảy ra lỗi không xác định.</string>
+    <string name="aaui_idp_name_email">Email</string>
+    <string name="aaui_idp_name_facebook">Facebook</string>
+    <string name="aaui_idp_name_github">GitHub</string>
+    <string name="aaui_idp_name_google">Google</string>
+    <string name="aaui_idp_name_phone">Điện thoại</string>
+    <string name="aaui_idp_name_twitter">Twitter</string>
+    <string name="aaui_incorrect_code_dialog_body">Mã không chính xác. Hãy thử lại.</string>
+    <string name="aaui_invalid_email_address">Địa chỉ email đó không đúng</string>
+    <string name="aaui_invalid_phone_number">Nhập số điện thoại hợp lệ</string>
+    <string name="aaui_missing_email_address">Nhập địa chỉ email của bạn để tiếp tục</string>
+    <string name="aaui_missing_first_and_last_name">Vui lòng nhập họ và tên.</string>
+    <string name="aaui_name_hint">Họ và tên</string>
+    <string name="aaui_new_password_hint">Mật khẩu mới</string>
+    <string name="aaui_next_default">Tiếp</string>
+    <string name="aaui_no_internet">Đã xảy ra lỗi mạng, hãy kiểm tra kết nối Internet của bạn.</string>
+    <string name="aaui_password_hint">Mật khẩu</string>
+    <string name="aaui_password_recovery_body">Xem hướng dẫn gửi tới email này có giải thích cách đặt lại mật khẩu của bạn.</string>
+    <string name="aaui_phone_hint">Số điện thoại</string>
+    <string name="aaui_privacy_policy">Chính sách quyền riêng tư</string>
+    <string name="aaui_progress_dialog_checking_accounts">Đang kiểm tra các tài khoản hiện có…</string>
+    <string name="aaui_progress_dialog_loading">Đang tải…</string>
+    <string name="aaui_progress_dialog_sending">Đang gửi…</string>
+    <string name="aaui_progress_dialog_signing_in">Đang đăng nhập…</string>
+    <string name="aaui_progress_dialog_signing_up">Đang đăng ký…</string>
+    <string name="aaui_required_field">Bạn không được để trống trường này.</string>
+    <string name="aaui_resend_code">Gửi lại mã</string>
+    <string name="aaui_resend_code_in">Gửi lại mã sau 0:%02d</string>
+    <string name="aaui_sign_in_anonymously">Tiếp tục với vai trò người dùng khách</string>
+    <string name="aaui_sign_in_default">Đăng nhập</string>
+    <string name="aaui_sign_in_with_apple">Đăng nhập bằng Apple</string>
+    <string name="aaui_sign_in_with_email">Đăng nhập bằng email</string>
+    <string name="aaui_sign_in_with_facebook">Đăng nhập bằng Facebook</string>
+    <string name="aaui_sign_in_with_github">Đăng nhập bằng GitHub</string>
+    <string name="aaui_sign_in_with_google">Đăng nhập bằng Google</string>
+    <string name="aaui_sign_in_with_microsoft">Đăng nhập bằng Microsoft</string>
+    <string name="aaui_sign_in_with_phone">Đăng nhập bằng điện thoại</string>
+    <string name="aaui_sign_in_with_phone_number">Đăng nhập bằng số điện thoại</string>
+    <string name="aaui_sign_in_with_twitter">Đăng nhập bằng Twitter</string>
+    <string name="aaui_sign_in_with_yahoo">Đăng nhập bằng Yahoo</string>
+    <string name="aaui_sms_terms_of_service">Bằng cách nhấn vào “%1$s”, bạn có thể nhận được một tin nhắn SMS. Cước tin nhắn và dữ liệu có thể áp dụng.</string>
+    <string name="aaui_sms_terms_of_service_and_privacy_policy_extended">Bằng cách nhấn vào “%1$s”, bạn cho biết rằng bạn chấp nhận %2$s và %3$s của chúng tôi. Bạn có thể nhận được một tin nhắn SMS. Cước tin nhắn và dữ liệu có thể áp dụng.</string>
+    <string name="aaui_terms_of_service">Điều khoản dịch vụ</string>
+    <string name="aaui_title_confirm_recover_password">Kiểm tra email của bạn</string>
+    <string name="aaui_title_recover_password_activity">Khôi phục mật khẩu</string>
+    <string name="aaui_title_register_email">Đăng ký</string>
+    <string name="aaui_tos_and_pp">Bằng cách tiếp tục, bạn cho biết rằng bạn chấp nhận %1$s và %2$s của chúng tôi.</string>
+    <string name="aaui_tos_and_pp_footer">%1$s     %2$s</string>
+    <string name="aaui_trouble_signing_in">Bạn gặp sự cố khi đăng nhập?</string>
+    <string name="aaui_verify_phone_number">Xác minh số điện thoại</string>
+    <string name="aaui_verify_phone_number_title">Nhập số điện thoại của bạn</string>
+    <string name="aaui_verify_your_phone_title">Xác minh số điện thoại của bạn</string>
+    <string name="aaui_verifying">Đang xác minh…</string>
+    <string name="aaui_welcome_back_email_header">Chào mừng bạn quay trở lại!</string>
+    <string name="aaui_welcome_back_email_link_header">"Bạn đã có tài khoản
+"</string>
+    <string name="aaui_welcome_back_email_link_prompt_body">"Bạn đã sử dụng %1$s. Bạn có thể kết nối tài khoản %2$s của mình với %1$s bằng cách đăng nhập vào liên kết email bên dưới.
+
+Để quy trình kết nối tài khoản %2$s của bạn với email này diễn ra thành công, bạn phải mở đường liên kết trên cùng một thiết bị hoặc trình duyệt."</string>
+    <string name="aaui_welcome_back_idp_header">Bạn đã có tài khoản</string>
+    <string name="aaui_welcome_back_idp_prompt">Bạn đã sử dụng %1$s. Đăng nhập bằng %2$s để tiếp tục.</string>
+    <string name="aaui_welcome_back_password_prompt_body">Bạn đã sử dụng %1$s để đăng nhập. Hãy nhập mật khẩu của bạn cho tài khoản đó.</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Mật khẩu</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Khoá truy cập</string>
+    <string name="biometric_or_screen_lock_prompt_message">Dùng dữ liệu sinh trắc học hoặc phương thức khóa màn hình để tiếp tục</string>
+    <string name="biometric_prompt_message">Dùng dữ liệu sinh trắc học để tiếp tục</string>
+    <string name="common_open_on_phone">Mở trên điện thoại</string>
+    <string name="common_signin_button_text">Đăng nhập</string>
+    <string name="common_signin_button_text_long">Đăng nhập bằng Google</string>
+    <string name="confirm_device_credential_password">Dùng mật khẩu</string>
+    <string name="default_error_msg">Lỗi không xác định</string>
+    <string name="error_a11y_label">Lỗi: không hợp lệ</string>
+    <string name="face_or_screen_lock_prompt_message">Dùng khuôn mặt hoặc phương thức khóa màn hình để tiếp tục</string>
+    <string name="face_prompt_message">Dùng khuôn mặt để tiếp tục</string>
+    <string name="fallback_menu_item_copy_link">Sao chép đường liên kết</string>
+    <string name="fallback_menu_item_open_in_browser">Mở trong trình duyệt</string>
+    <string name="fallback_menu_item_share_link">Chia sẻ đường liên kết</string>
+    <string name="fingerprint_dialog_icon_description">Biểu tượng vân tay</string>
+    <string name="fingerprint_dialog_touch_sensor">Chạm vào cảm biến vân tay</string>
+    <string name="fingerprint_error_hw_not_available">Không dùng được phần cứng vân tay.</string>
+    <string name="fingerprint_error_hw_not_present">Thiết bị này không có cảm biến vân tay</string>
+    <string name="fingerprint_error_lockout">Bạn đã thử quá nhiều lần. Vui lòng thử lại sau.</string>
+    <string name="fingerprint_error_no_fingerprints">Chưa đăng ký vân tay.</string>
+    <string name="fingerprint_error_user_canceled">Người dùng đã hủy thao tác dùng dấu vân tay.</string>
+    <string name="fingerprint_not_recognized">Không nhận dạng được</string>
+    <string name="fingerprint_or_screen_lock_prompt_message">Dùng vân tay hoặc phương thức khóa màn hình để tiếp tục</string>
+    <string name="fingerprint_prompt_message">Dùng vân tay để tiếp tục</string>
+    <string name="generic_error_no_device_credential">Chưa đặt mã PIN, hình mở khóa hoặc mật khẩu.</string>
+    <string name="generic_error_no_keyguard">Thiết bị này không hỗ trợ mã PIN, hình mở khóa hoặc mật khẩu.</string>
+    <string name="generic_error_user_canceled">Người dùng đã hủy thao tác xác thực.</string>
+    <string name="nav_app_bar_navigate_up_description">Di chuyển lên</string>
+    <string name="nav_app_bar_open_drawer_description">Mở ngăn điều hướng</string>
+    <string name="offline_dialog_image_description">Biểu tượng</string>
+    <string name="offline_dialog_text">"Cảm ơn bạn đã quan tâm.
+Chúng tôi sẽ chia sẻ nhiều hơn khi bạn kết nối mạng trở lại."</string>
+    <string name="screen_lock_prompt_message">Nhập phương thức khóa màn hình để tiếp tục</string>
+    <string name="searchview_clear_text_content_description">Xoá văn bản</string>
+    <string name="searchview_navigation_content_description">Quay lại</string>
+    <string name="use_biometric_label">Dùng dữ liệu sinh trắc học</string>
+    <string name="use_biometric_or_screen_lock_label">Dùng dữ liệu sinh trắc học hoặc phương thức khóa màn hình</string>
+    <string name="use_face_label">Dùng khuôn mặt</string>
+    <string name="use_face_or_screen_lock_label">Dùng khuôn mặt hoặc phương thức khóa màn hình</string>
+    <string name="use_fingerprint_label">Dùng vân tay</string>
+    <string name="use_fingerprint_or_screen_lock_label">Dùng vân tay hoặc phương thức khóa màn hình</string>
+    <string name="use_screen_lock_label">Dùng phương thức khóa màn hình</string>
+</resources>

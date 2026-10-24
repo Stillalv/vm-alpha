@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#7f000000" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="?dialogPreferredPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.ads.nativetemplates.TemplateView android:id="@id/my_template" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:gnt_template_type="@layout/gnt_medium_template_view" />
+    <ImageView android:id="@id/close_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/my_template" android:layout_centerHorizontal="true" android:contentDescription="@string/window_close" app:srcCompat="@drawable/admob_close_button_black_circle_white_cross" />
+</RelativeLayout>

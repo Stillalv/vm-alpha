@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/top_progress_bar" style="@style/AppAuthUI.TopProgressBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/AppAuthUI.WrapperStyle">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aaui_welcome_back_idp_header" style="@style/AppAuthUI.Text.Heading" />
+            <TextView android:id="@id/welcome_back_idp_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/AppAuthUI.Text.BodyText" />
+            <Button android:id="@id/welcome_back_idp_button" android:text="@string/aaui_sign_in_default" style="@style/AppAuthUI.Button" />
+            <TextView android:id="@id/email_footer_tos_and_pp_text" style="@style/AppAuthUI.PrivacyFooter" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

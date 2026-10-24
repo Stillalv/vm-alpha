@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_arch">
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>arm</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>aarch64</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>arm</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+        <item>x86_64</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_build_id">
+        <item>9fcfe50436d33759b34c7d845a85e1d079bd9b08</item>
+        <item>69ddcfdf107218859277e79e9d831a64fb01ad0b</item>
+        <item>a8bed1c6d879ca2a03a91b7fd072e57f799da3fe</item>
+        <item>e13b4e4b977b9cec393f3b1277a2ab50b466c15b</item>
+        <item>950a621bf22dd1f221ee9536199947b1</item>
+        <item>25cb87df278ab5d1111e65c346653fde</item>
+        <item>d1db67ff0195856f94dc92b86e2ba2ab</item>
+        <item>8bdec2b107a986fc1f8ca2c1cb227d4a</item>
+        <item>9e9b66ebd9d675fc3d3a5774012ed023</item>
+        <item>78cbb3cbee3cd60189b2866c52efd75e</item>
+        <item>1079b13b18f0c427db8260ef3c5cc151</item>
+        <item>534f969d6d0bd77e795310516d6694a6</item>
+        <item>da2dbf61debac26aaf83bc0ffbd533a0</item>
+        <item>98d2b8a57c6ed4319ba0adeeb51645346119e319</item>
+        <item>4b2eef3f7cc62cf9cc0c171c6fb5564d9b019182</item>
+        <item>8bd3ff61d562d4057c239bd3ec22768f5d61deb9</item>
+        <item>eec038e47f2f26b111bece64cf90977deef9a15d</item>
+        <item>7e329e9a7eec1b79ac7edb9690ab3cef44a604e2</item>
+        <item>bb380544b5651d27afc1e54eea2b2d18ce61759c</item>
+        <item>06a79a0be901af72299e80f6e72b71c5</item>
+        <item>25cb87df278ab5d1111e65c346653fde</item>
+        <item>d1db67ff0195856f94dc92b86e2ba2ab</item>
+        <item>8bdec2b107a986fc1f8ca2c1cb227d4a</item>
+        <item>534f969d6d0bd77e795310516d6694a6</item>
+        <item>7cdc4be185fb762fa7c610735d2c7b4133cc9393</item>
+        <item>5ea073d905fe6e4a4989901ef7b99fb05665783a</item>
+        <item>ec7e9fda3fbcea95d1f9d4f1001bcaeced58e765</item>
+        <item>3727c2b55fbf4f49e82bf50453d4f1b95e669392</item>
+        <item>8dd9900d641130c9f08077112c5bf224da4869bc</item>
+        <item>27f0219f2e9c2949a31c80690de15adf5cebc630</item>
+        <item>794b9a7d6074541ef0cf5b0787b2b651</item>
+        <item>37b5ca1d71bdaaf63c09ec7ba47148b4d0951e49</item>
+        <item>c4c30260f3293d0a84aeab5b58c45142bdf70a91</item>
+        <item>8df6117f62e9f861227f12c079de9a073c4110aa</item>
+        <item>efa30781e14db4e7db9bc665b0505834674ec668</item>
+        <item>9b436ab3c2fbfd8a85d8d02da3409b8b3d2e8187</item>
+        <item>15852ac64de8e66e842ffe52e918a722</item>
+        <item>e6d542c7ae71c288562eef3ce96c09a86be05118</item>
+    </string-array>
+    <string-array name="com.google.firebase.crashlytics.build_ids_lib">
+        <item>libcrashlytics-common.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libkr32.11.so</item>
+        <item>libkr32.12.so</item>
+        <item>libkr32.so</item>
+        <item>libkr64.11.so</item>
+        <item>libkr64.12.so</item>
+        <item>libkr64.so</item>
+        <item>libkrloader32.so</item>
+        <item>libkrloader64.so</item>
+        <item>libun7z.so</item>
+        <item>libvm.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libkr32.11.so</item>
+        <item>libkr32.12.so</item>
+        <item>libkr32.so</item>
+        <item>libkrloader32.so</item>
+        <item>libun7z.so</item>
+        <item>libvm.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libun7z.so</item>
+        <item>libcrashlytics-common.so</item>
+        <item>libcrashlytics-handler.so</item>
+        <item>libcrashlytics-trampoline.so</item>
+        <item>libcrashlytics.so</item>
+        <item>libdatastore_shared_counter.so</item>
+        <item>libun7z.so</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="keyguard_biometric_and_credential_exclude_vendors" />
+    <string-array name="night_mode">
+        <item>@string/follow_system</item>
+        <item>@string/dark_theme_off</item>
+        <item>@string/dark_theme_on</item>
+    </string-array>
+    <string-array name="night_mode_value">
+        <item>system</item>
+        <item>off</item>
+        <item>on</item>
+    </string-array>
+    <string-array name="privacy_password_verify_policy_entries">
+        <item>@string/privacy_password_verify_policy_none</item>
+        <item>@string/privacy_password_verify_policy_everytime</item>
+        <item>@string/privacy_password_verify_policy_15</item>
+        <item>@string/privacy_password_verify_policy_30</item>
+        <item>@string/privacy_password_verify_policy_60</item>
+        <item>@string/privacy_password_verify_policy_120</item>
+        <item>@string/privacy_password_verify_policy_300</item>
+        <item>@string/privacy_password_verify_policy_600</item>
+    </string-array>
+    <string-array name="privacy_password_verify_policy_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+    <string-array name="privacy_ui_timeout_entries">
+        <item>@string/privacy_ui_timeout_15</item>
+        <item>@string/privacy_ui_timeout_30</item>
+        <item>@string/privacy_ui_timeout_60</item>
+        <item>@string/privacy_ui_timeout_120</item>
+        <item>@string/privacy_ui_timeout_300</item>
+        <item>@string/privacy_ui_timeout_600</item>
+    </string-array>
+    <string-array name="privacy_ui_timeout_policy_entries">
+        <item>@string/privacy_ui_timeout_none</item>
+        <item>@string/privacy_ui_timeout_verify_password</item>
+        <item>@string/privacy_ui_timeout_clear_activity</item>
+    </string-array>
+    <string-array name="privacy_ui_timeout_policy_values">
+        <item>none</item>
+        <item>verify_password</item>
+        <item>clear_activity</item>
+    </string-array>
+    <string-array name="privacy_ui_timeout_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+    <string-array name="theme_mode">
+        <item>@string/theme_classic_purple</item>
+        <item>@string/theme_android_green</item>
+        <item>@string/theme_dynamic_colors</item>
+    </string-array>
+    <string-array name="theme_mode_value">
+        <item>classic_purple</item>
+        <item>android_green</item>
+        <item>dynamic_colors</item>
+    </string-array>
+    <string-array name="vm_hw_device_preset_entries">
+        <item>Custom / Manual (Bebas Atur Sendiri)</item>
+        <item>[Android 7.1] Google Pixel XL (Adreno 530)</item>
+        <item>[Android 7.1] Google Pixel (Adreno 530)</item>
+        <item>[Android 7.1] Samsung Galaxy S8 SM-G950F (Mali-G71)</item>
+        <item>[Android 7.1] Samsung Galaxy S7 Edge SM-G935F (Mali-T880)</item>
+        <item>[Android 7.1] OnePlus 5 A5000 (Adreno 540)</item>
+        <item>[Android 7.1] Xiaomi Mi 6 (Adreno 540)</item>
+        <item>[Android 7.1] Huawei Nexus 6P (Adreno 430)</item>
+        <item>[Android 5.1] Samsung Galaxy S6 SM-G920F (Mali-T760)</item>
+        <item>[Android 5.1] Samsung Galaxy Note 5 SM-N920C (Mali-T760)</item>
+        <item>[Android 5.1] Motorola Nexus 6 (Adreno 420)</item>
+        <item>[Android 5.1] LG Nexus 5 (Adreno 330)</item>
+        <item>[Android 5.1] LG G4 H815 (Adreno 418)</item>
+        <item>[Android 5.1] Sony Xperia Z5 E6653 (Adreno 430)</item>
+        <item>[Android 5.1] Xiaomi Redmi Note 3 Pro (Adreno 510)</item>
+        <item>[Flagship] Samsung Galaxy S23 Ultra (Adreno 740)</item>
+        <item>[Flagship] Xiaomi 13 Pro (Adreno 740)</item>
+        <item>[Flagship] Google Pixel 7 Pro (Mali-G710)</item>
+    </string-array>
+    <string-array name="vm_hw_device_preset_values">
+        <item>custom</item>
+        <item>pixel_xl_7_1</item>
+        <item>pixel_7_1</item>
+        <item>galaxy_s8_7_1</item>
+        <item>galaxy_s7_edge_7_1</item>
+        <item>oneplus_5_7_1</item>
+        <item>xiaomi_mi6_7_1</item>
+        <item>nexus_6p_7_1</item>
+        <item>galaxy_s6_5_1</item>
+        <item>galaxy_note5_5_1</item>
+        <item>nexus_6_5_1</item>
+        <item>nexus_5_5_1</item>
+        <item>lg_g4_5_1</item>
+        <item>xperia_z5_5_1</item>
+        <item>redmi_note3_5_1</item>
+        <item>galaxy_s23_ultra</item>
+        <item>xiaomi_13_pro</item>
+        <item>pixel_7_pro</item>
+    </string-array>
+    <string-array name="vm_hw_gpu_info_entries">
+        <item>@string/vm_hw_gpu_info_default</item>
+        <item>Adreno (TM) 200 (Android 4.0)</item>
+        <item>Adreno (TM) 203 (Android 4.1)</item>
+        <item>Adreno (TM) 205 (Android 4.0)</item>
+        <item>Adreno (TM) 220 (Android 4.0)</item>
+        <item>Adreno (TM) 225 (Android 4.1)</item>
+        <item>Adreno (TM) 302 (Android 4.4)</item>
+        <item>Adreno (TM) 304 (Android 5.1)</item>
+        <item>Adreno (TM) 305 (Android 4.3-5.1)</item>
+        <item>Adreno (TM) 306 (Android 5.0-6.0)</item>
+        <item>Adreno (TM) 308 (Android 6.0-7.1)</item>
+        <item>Adreno (TM) 320 (Nexus 4 / Galaxy S4)</item>
+        <item>Adreno (TM) 330 (Nexus 5 / OnePlus One)</item>
+        <item>Adreno (TM) 405 (Snapdragon 615)</item>
+        <item>Adreno (TM) 418 (LG G4 / Nexus 5X)</item>
+        <item>Adreno (TM) 420 (Nexus 6 / Note 4)</item>
+        <item>Adreno (TM) 430 (Nexus 6P / Xperia Z5)</item>
+        <item>Adreno (TM) 505 (Snapdragon 430)</item>
+        <item>Adreno (TM) 506 (Redmi Note 4 / S625)</item>
+        <item>Adreno (TM) 508 (Snapdragon 630)</item>
+        <item>Adreno (TM) 509 (Snapdragon 636)</item>
+        <item>Adreno (TM) 510 (Redmi Note 3 Pro / S650)</item>
+        <item>Adreno (TM) 512 (Snapdragon 660)</item>
+        <item>Adreno (TM) 530 (Pixel XL / Galaxy S7 / Mi 5)</item>
+        <item>Adreno (TM) 540 (OnePlus 5 / Mi 6 / Galaxy S8)</item>
+        <item>Adreno (TM) 610 (Snapdragon 665/680)</item>
+        <item>Adreno (TM) 612 (Snapdragon 675)</item>
+        <item>Adreno (TM) 613 (Snapdragon 4 Gen 2)</item>
+        <item>Adreno (TM) 615 (Snapdragon 670)</item>
+        <item>Adreno (TM) 616 (Snapdragon 710/712)</item>
+        <item>Adreno (TM) 618 (Snapdragon 720G/730G)</item>
+        <item>Adreno (TM) 619 (Snapdragon 695/750G)</item>
+        <item>Adreno (TM) 620 (Snapdragon 765G)</item>
+        <item>Adreno (TM) 630 (Snapdragon 845)</item>
+        <item>Adreno (TM) 640 (Snapdragon 855/855+)</item>
+        <item>Adreno (TM) 642 (Snapdragon 778G)</item>
+        <item>Adreno (TM) 642L (Snapdragon 778G+)</item>
+        <item>Adreno (TM) 650 (Snapdragon 865/870)</item>
+        <item>Adreno (TM) 660 (Snapdragon 888/888+)</item>
+        <item>Adreno (TM) 710 (Snapdragon 7s Gen 2)</item>
+        <item>Adreno (TM) 720 (Snapdragon 7 Gen 3)</item>
+        <item>Adreno (TM) 725 (Snapdragon 7+ Gen 2)</item>
+        <item>Adreno (TM) 730 (Snapdragon 8 Gen 1)</item>
+        <item>Adreno (TM) 732 (Snapdragon 7+ Gen 3)</item>
+        <item>Adreno (TM) 735 (Snapdragon 8s Gen 3)</item>
+        <item>Adreno (TM) 740 (Snapdragon 8 Gen 2)</item>
+        <item>Adreno (TM) 750 (Snapdragon 8 Gen 3)</item>
+        <item>Adreno (TM) 830 (Snapdragon 8 Elite)</item>
+        <item>Mali-400 MP (Galaxy S2 / S3)</item>
+        <item>Mali-450 MP4 (Android 4.4-5.1)</item>
+        <item>Mali-T604 (Nexus 10)</item>
+        <item>Mali-T624 (Exynos 5410)</item>
+        <item>Mali-T628 MP6 (Galaxy S5 Exynos)</item>
+        <item>Mali-T720 (MediaTek MT6735/MT6753)</item>
+        <item>Mali-T760 (Galaxy S6 / Note 5)</item>
+        <item>Mali-T820 (Amlogic / Spreadtrum)</item>
+        <item>Mali-T830 (Exynos 7870 / Kirin 659)</item>
+        <item>Mali-T860 MP2 (Helio P10/P20)</item>
+        <item>Mali-T880 (Galaxy S7 / Kirin 955)</item>
+        <item>Mali-G31 (Allwinner / Unisoc T610)</item>
+        <item>Mali-G51 MP4 (Kirin 710)</item>
+        <item>Mali-G52 (Helio G80/G85)</item>
+        <item>Mali-G57 (Dimensity 700/810 / Helio G99)</item>
+        <item>Mali-G68 (Dimensity 900/1080 / Exynos 1280)</item>
+        <item>Mali-G71 (Galaxy S8 / Kirin 960)</item>
+        <item>Mali-G72 (Galaxy S9 / Kirin 970)</item>
+        <item>Mali-G76 (Kirin 980/990 / Helio G90T)</item>
+        <item>Mali-G77 (Exynos 990)</item>
+        <item>Mali-G77 MC9 (Dimensity 1000+/1200)</item>
+        <item>Mali-G78 (Exynos 2100 / Kirin 9000)</item>
+        <item>Mali-G610 (Dimensity 8100/8200)</item>
+        <item>Mali-G615 (Dimensity 8300)</item>
+        <item>Mali-G710 (Pixel 7 Pro / Dimensity 9000)</item>
+        <item>Mali-G715 (Pixel 8 Pro / Dimensity 9200)</item>
+        <item>Immortalis-G715 (Dimensity 9200+)</item>
+        <item>Immortalis-G720 (Dimensity 9300)</item>
+        <item>Immortalis-G925 (Dimensity 9400)</item>
+        <item>PowerVR SGX530 (Android 4.0)</item>
+        <item>PowerVR SGX531 (Android 4.1)</item>
+        <item>PowerVR SGX540 (Galaxy Nexus)</item>
+        <item>PowerVR SGX543MP2</item>
+        <item>PowerVR SGX543MP3</item>
+        <item>PowerVR SGX544 (Galaxy S4 Exynos)</item>
+        <item>PowerVR G6200 (Redmi Note 2 / MT6795)</item>
+        <item>PowerVR G6430 (ZenFone 2)</item>
+        <item>PowerVR GT7600 (Helio X30)</item>
+        <item>PowerVR GE8100 (Helio A22)</item>
+        <item>PowerVR GE8320 (Helio P22/P35)</item>
+        <item>PowerVR GE8322 (Unisoc SC9863A)</item>
+        <item>PowerVR Rogue GE8320</item>
+        <item>PowerVR GM9446 (Helio P70/P90)</item>
+        <item>PowerVR BXM-8-256 (Dimensity 7020)</item>
+        <item>Tegra 2 AP20 (Android 4.0)</item>
+        <item>Tegra 3 (Nexus 7)</item>
+        <item>Tegra 4 T40 (Shield Portable)</item>
+        <item>Tegra K1 (Nexus 9)</item>
+        <item>Tegra X1 (Pixel C / Shield TV)</item>
+        <item>Samsung Xclipse 920 (Galaxy S22 Exynos 2200)</item>
+        <item>Samsung Xclipse 940 (Galaxy S24 Exynos 2400)</item>
+    </string-array>
+    <string-array name="vm_hw_gpu_info_values">
+        <item></item>
+        <item>Qualcomm|Adreno (TM) 200</item>
+        <item>Qualcomm|Adreno (TM) 203</item>
+        <item>Qualcomm|Adreno (TM) 205</item>
+        <item>Qualcomm|Adreno (TM) 220</item>
+        <item>Qualcomm|Adreno (TM) 225</item>
+        <item>Qualcomm|Adreno (TM) 302</item>
+        <item>Qualcomm|Adreno (TM) 304</item>
+        <item>Qualcomm|Adreno (TM) 305</item>
+        <item>Qualcomm|Adreno (TM) 306</item>
+        <item>Qualcomm|Adreno (TM) 308</item>
+        <item>Qualcomm|Adreno (TM) 320</item>
+        <item>Qualcomm|Adreno (TM) 330</item>
+        <item>Qualcomm|Adreno (TM) 405</item>
+        <item>Qualcomm|Adreno (TM) 418</item>
+        <item>Qualcomm|Adreno (TM) 420</item>
+        <item>Qualcomm|Adreno (TM) 430</item>
+        <item>Qualcomm|Adreno (TM) 505</item>
+        <item>Qualcomm|Adreno (TM) 506</item>
+        <item>Qualcomm|Adreno (TM) 508</item>
+        <item>Qualcomm|Adreno (TM) 509</item>
+        <item>Qualcomm|Adreno (TM) 510</item>
+        <item>Qualcomm|Adreno (TM) 512</item>
+        <item>Qualcomm|Adreno (TM) 530</item>
+        <item>Qualcomm|Adreno (TM) 540</item>
+        <item>Qualcomm|Adreno (TM) 610</item>
+        <item>Qualcomm|Adreno (TM) 612</item>
+        <item>Qualcomm|Adreno (TM) 613</item>
+        <item>Qualcomm|Adreno (TM) 615</item>
+        <item>Qualcomm|Adreno (TM) 616</item>
+        <item>Qualcomm|Adreno (TM) 618</item>
+        <item>Qualcomm|Adreno (TM) 619</item>
+        <item>Qualcomm|Adreno (TM) 620</item>
+        <item>Qualcomm|Adreno (TM) 630</item>
+        <item>Qualcomm|Adreno (TM) 640</item>
+        <item>Qualcomm|Adreno (TM) 642</item>
+        <item>Qualcomm|Adreno (TM) 642L</item>
+        <item>Qualcomm|Adreno (TM) 650</item>
+        <item>Qualcomm|Adreno (TM) 660</item>
+        <item>Qualcomm|Adreno (TM) 710</item>
+        <item>Qualcomm|Adreno (TM) 720</item>
+        <item>Qualcomm|Adreno (TM) 725</item>
+        <item>Qualcomm|Adreno (TM) 730</item>
+        <item>Qualcomm|Adreno (TM) 732</item>
+        <item>Qualcomm|Adreno (TM) 735</item>
+        <item>Qualcomm|Adreno (TM) 740</item>
+        <item>Qualcomm|Adreno (TM) 750</item>
+        <item>Qualcomm|Adreno (TM) 830</item>
+        <item>ARM|Mali-400 MP</item>
+        <item>ARM|Mali-450 MP4</item>
+        <item>ARM|Mali-T604</item>
+        <item>ARM|Mali-T624</item>
+        <item>ARM|Mali-T628</item>
+        <item>ARM|Mali-T720</item>
+        <item>ARM|Mali-T760</item>
+        <item>ARM|Mali-T820</item>
+        <item>ARM|Mali-T830</item>
+        <item>ARM|Mali-T860</item>
+        <item>ARM|Mali-T880</item>
+        <item>ARM|Mali-G31</item>
+        <item>ARM|Mali-G51</item>
+        <item>ARM|Mali-G52</item>
+        <item>ARM|Mali-G57</item>
+        <item>ARM|Mali-G68</item>
+        <item>ARM|Mali-G71</item>
+        <item>ARM|Mali-G72</item>
+        <item>ARM|Mali-G76</item>
+        <item>ARM|Mali-G77</item>
+        <item>ARM|Mali-G77 MC9</item>
+        <item>ARM|Mali-G78</item>
+        <item>ARM|Mali-G610</item>
+        <item>ARM|Mali-G615</item>
+        <item>ARM|Mali-G710</item>
+        <item>ARM|Mali-G715</item>
+        <item>ARM|Immortalis-G715</item>
+        <item>ARM|Immortalis-G720</item>
+        <item>ARM|Immortalis-G925</item>
+        <item>Imagination Technologies|PowerVR SGX530</item>
+        <item>Imagination Technologies|PowerVR SGX531</item>
+        <item>Imagination Technologies|PowerVR SGX540</item>
+        <item>Imagination Technologies|PowerVR SGX543MP2</item>
+        <item>Imagination Technologies|PowerVR SGX543MP3</item>
+        <item>Imagination Technologies|PowerVR SGX544</item>
+        <item>Imagination Technologies|PowerVR G6200</item>
+        <item>Imagination Technologies|PowerVR G6430</item>
+        <item>Imagination Technologies|PowerVR GT7600</item>
+        <item>Imagination Technologies|PowerVR GE8100</item>
+        <item>Imagination Technologies|PowerVR GE8320</item>
+        <item>Imagination Technologies|PowerVR GE8322</item>
+        <item>Imagination Technologies|PowerVR Rogue GE8320</item>
+        <item>Imagination Technologies|PowerVR GM9446</item>
+        <item>Imagination Technologies|PowerVR BXM-8-256</item>
+        <item>Nvidia|Tegra 2 AP20</item>
+        <item>Nvidia|Tegra 3</item>
+        <item>Nvidia|Tegra 4 T40</item>
+        <item>Nvidia|Tegra K1</item>
+        <item>Nvidia|Tegra X1</item>
+        <item>Samsung|ANGLE (Samsung Xclipse 920)</item>
+        <item>Samsung|ANGLE (Samsung Xclipse 940)</item>
+    </string-array>
+    <string-array name="vm_pref_phone_dial_option_entries">
+        <item>@string/phone_outgoing_option_dialog</item>
+        <item>@string/phone_outgoing_option_direct</item>
+        <item>@string/phone_outgoing_option_none</item>
+    </string-array>
+    <string-array name="vm_pref_phone_dial_option_values">
+        <item>dialog</item>
+        <item>direct</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_cdma_entries">
+        <item>2G CDMA-IS95A</item>
+        <item>2G CDMA-IS95B</item>
+        <item>3G 1xRTT</item>
+        <item>3G EvDo-rev.0</item>
+        <item>3G EvDo-rev.A</item>
+        <item>3G EvDo-rev.B</item>
+        <item>3G eHRPD</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_cdma_values">
+        <item>CDMA-IS95A</item>
+        <item>CDMA-IS95B</item>
+        <item>1xRTT</item>
+        <item>EvDo-rev.0</item>
+        <item>EvDo-rev.A</item>
+        <item>EvDo-rev.B</item>
+        <item>eHRPD</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_gsm_entries">
+        <item>2G GSM</item>
+        <item>2G GPRS</item>
+        <item>2G EDGE</item>
+        <item>3G UMTS</item>
+        <item>3G HSDPA</item>
+        <item>3G HSUPA</item>
+        <item>3G HSPA</item>
+        <item>3G HSPAP</item>
+        <item>3G TD-SCDMA</item>
+        <item>4G LTE</item>
+        <item>4G LTE_CA</item>
+        <item>5G NR</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_gsm_values">
+        <item>GSM</item>
+        <item>GPRS</item>
+        <item>EDGE</item>
+        <item>UMTS</item>
+        <item>HSDPA</item>
+        <item>HSUPA</item>
+        <item>HSPA</item>
+        <item>HSPAP</item>
+        <item>TD-SCDMA</item>
+        <item>LTE</item>
+        <item>LTE_CA</item>
+        <item>NR</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_status_entries">
+        <item>@string/phone_network_status_home</item>
+        <item>@string/phone_network_status_roaming</item>
+        <item>@string/phone_network_status_emergency</item>
+        <item>@string/phone_network_status_no_service</item>
+    </string-array>
+    <string-array name="vm_pref_phone_network_status_values">
+        <item>home</item>
+        <item>roaming</item>
+        <item>emergency</item>
+        <item>oos</item>
+    </string-array>
+    <string-array name="vm_pref_phone_signal_strength_entries">
+        <item>@string/phone_signal_strength_poor</item>
+        <item>@string/phone_signal_strength_moderate</item>
+        <item>@string/phone_signal_strength_good</item>
+        <item>@string/phone_signal_strength_great</item>
+    </string-array>
+    <string-array name="vm_pref_phone_signal_strength_values">
+        <item>poor</item>
+        <item>moderate</item>
+        <item>good</item>
+        <item>great</item>
+    </string-array>
+    <string-array name="vm_pref_phone_sms_option_entries">
+        <item>@string/phone_outgoing_option_dialog</item>
+        <item>@string/phone_outgoing_option_direct</item>
+        <item>@string/phone_outgoing_option_none</item>
+    </string-array>
+    <string-array name="vm_pref_phone_sms_option_values">
+        <item>dialog</item>
+        <item>direct</item>
+        <item>none</item>
+    </string-array>
+    <string-array name="vm_pref_phone_type_entries">
+        <item>GSM</item>
+        <item>CDMA</item>
+    </string-array>
+    <string-array name="vm_pref_phone_type_values">
+        <item>gsm</item>
+        <item>cdma</item>
+    </string-array>
+    <string-array name="vm_settings_builtin_nav_bar_entries">
+        <item>@string/vm_settings_builtin_nav_bar_none</item>
+        <item>@string/vm_settings_builtin_nav_bar_ltr</item>
+        <item>@string/vm_settings_builtin_nav_bar_rtl</item>
+    </string-array>
+    <string-array name="vm_settings_builtin_nav_bar_values">
+        <item>none</item>
+        <item>ltr</item>
+        <item>rtl</item>
+    </string-array>
+    <string-array name="vm_settings_cutout_entries">
+        <item>@string/vm_settings_cutout_overlaps</item>
+        <item>@string/vm_settings_cutout_exclude</item>
+    </string-array>
+    <string-array name="vm_settings_cutout_values">
+        <item>overlaps</item>
+        <item>exclude</item>
+    </string-array>
+    <string-array name="vm_settings_location_type_entries">
+        <item>@string/vm_settings_location_type_device_realtime</item>
+        <item>@string/vm_settings_location_type_user_specified</item>
+    </string-array>
+    <string-array name="vm_settings_location_type_values">
+        <item>device_realtime</item>
+        <item>user_specified</item>
+    </string-array>
+    <string-array name="vm_settings_sensor_entries">
+        <item>@string/vm_settings_sensor_not_support</item>
+        <item>@string/vm_settings_sensor_partially_support</item>
+        <item>@string/vm_settings_sensor_fully_support</item>
+    </string-array>
+    <string-array name="vm_settings_sensor_values">
+        <item>not_support</item>
+        <item>partially_support</item>
+        <item>fully_support</item>
+    </string-array>
+</resources>

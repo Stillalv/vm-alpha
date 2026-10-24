@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.vmapp.ui.vm.main.VMSmallPreviewCardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?materialCardViewOutlinedStyle">
+        <com.android.vmcore.ui.VMSurfaceView android:id="@id/vmsurfaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/overlays" android:background="@android:drawable/screen_background_dark_transparent" android:padding="@dimen/cat_card_content_padding_small" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="?textAppearanceBodySmall" />
+            <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/vm_enter" app:icon="@drawable/outline_play_circle_outline_24" app:iconSize="36.0dip" app:iconTint="@android:color/white" style="?materialIconButtonStyle" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:id="@id/shutdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_exit" app:icon="@drawable/outline_power_settings_new_24" app:iconTint="@android:color/white" style="?materialIconButtonStyle" />
+                <Button android:id="@id/volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_volume" app:icon="@drawable/outline_volume_up_24" app:iconTint="@android:color/white" style="?materialIconButtonStyle" />
+                <Button android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_settings" app:icon="@drawable/ic_settings_24px" app:iconTint="@android:color/white" style="?materialIconButtonStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.android.vmapp.ui.vm.main.VMSmallPreviewCardView>
+</FrameLayout>

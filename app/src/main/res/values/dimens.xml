@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="aaui_auth_method_button_drawablePadding">12.0dip</dimen>
+    <dimen name="aaui_auth_method_button_margin">4.0dip</dimen>
+    <dimen name="aaui_auth_method_button_width">208.0dip</dimen>
+    <dimen name="aaui_body_padding_bottom">12.0dip</dimen>
+    <dimen name="aaui_button_inset_bottom">3.0dip</dimen>
+    <dimen name="aaui_button_inset_left">1.0dip</dimen>
+    <dimen name="aaui_button_inset_right">2.0dip</dimen>
+    <dimen name="aaui_button_inset_top">0.0dip</dimen>
+    <dimen name="aaui_field_padding_vert">16.0dip</dimen>
+    <dimen name="aaui_heading_padding_bottom">12.0dip</dimen>
+    <dimen name="aaui_min_height_target">48.0dip</dimen>
+    <dimen name="aaui_wrapper_padding_horiz">16.0dip</dimen>
+    <dimen name="appcompat_dialog_background_inset">16.0dip</dimen>
+    <dimen name="bottom_edge_spacing">24.0dip</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
+    <dimen name="cat_card_content_padding">16.0dip</dimen>
+    <dimen name="cat_card_content_padding_small">8.0dip</dimen>
+    <dimen name="cat_card_demo_min_height">100.0dip</dimen>
+    <dimen name="cat_card_double_spacing">16.0dip</dimen>
+    <dimen name="cat_card_grid_spacing_horizontal">8.0dip</dimen>
+    <dimen name="cat_card_grid_spacing_vertical">16.0dip</dimen>
+    <dimen name="cat_card_rich_media_demo_min_height">148.0dip</dimen>
+    <dimen name="cat_card_single_spacing">8.0dip</dimen>
+    <dimen name="cat_card_triple_spacing">24.0dip</dimen>
+    <dimen name="cat_list_divider_size">1.0dip</dimen>
+    <dimen name="cat_list_horizontal_padding">16.0dip</dimen>
+    <dimen name="cat_list_icon_size">40.0dip</dimen>
+    <dimen name="cat_list_text_margin_from_button">16.0dip</dimen>
+    <dimen name="cat_list_text_margin_from_icon">16.0dip</dimen>
+    <dimen name="cat_list_text_margin_from_icon_large">24.0dip</dimen>
+    <dimen name="cat_list_text_margin_from_radio">8.0dip</dimen>
+    <dimen name="cat_list_text_spacing">16.0dip</dimen>
+    <dimen name="cat_list_vertical_padding">12.0dip</dimen>
+    <dimen name="clock_face_margin_start">64.0dip</dimen>
+    <dimen name="def_drawer_elevation">10.0dip</dimen>
+    <dimen name="def_height">50.0dip</dimen>
+    <dimen name="default_navigation_active_text_size">14.0sp</dimen>
+    <dimen name="default_navigation_text_size">12.0sp</dimen>
+    <dimen name="dp_10">10.0dip</dimen>
+    <dimen name="dp_4">4.0dip</dimen>
+    <dimen name="dp_40">40.0dip</dimen>
+    <dimen name="fingerprint_icon_size">64.0dip</dimen>
+    <dimen name="gnt_ad_indicator_bar_height">30.0dip</dimen>
+    <dimen name="gnt_ad_indicator_bottom_margin">10.0dip</dimen>
+    <dimen name="gnt_ad_indicator_height">20.0dip</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10.0sp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0.0dip</dimen>
+    <dimen name="gnt_ad_indicator_width">25.0dip</dimen>
+    <dimen name="gnt_default_margin">10.0dip</dimen>
+    <item type="dimen" name="gnt_media_view_weight">1.0</item>
+    <dimen name="gnt_medium_cta_button_height">50.0dip</dimen>
+    <item type="dimen" name="gnt_medium_template_bottom_weight">0.4</item>
+    <item type="dimen" name="gnt_medium_template_top_weight">0.2</item>
+    <dimen name="gnt_no_margin">0.0dip</dimen>
+    <dimen name="gnt_no_size">0.0dip</dimen>
+    <dimen name="gnt_small_cta_button_height">30.0dip</dimen>
+    <dimen name="gnt_small_margin">5.0dip</dimen>
+    <item type="dimen" name="gnt_text_row_weight">0.25</item>
+    <dimen name="gnt_text_size_large">15.0sp</dimen>
+    <dimen name="gnt_text_size_small">12.0sp</dimen>
+    <item type="dimen" name="hint_pressed_alpha_material_dark">0.7</item>
+    <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
+    <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>
+    <item type="dimen" name="m3e_searchview_appbarwithsearch_toolbar_height">@dimen/m3_comp_search_view_contained_full_screen_bar_container_height</item>
+    <dimen name="navigation_bar_height">36.0dip</dimen>
+    <dimen name="navigation_extra_key_width">36.0dip</dimen>
+    <dimen name="navigation_key_width">70.0dip</dimen>
+    <dimen name="navigation_side_padding">70.0dip</dimen>
+    <dimen name="notification_action_icon_size">32.0dip</dimen>
+    <dimen name="notification_action_text_size">13.0sp</dimen>
+    <dimen name="notification_big_circle_margin">12.0dip</dimen>
+    <dimen name="notification_content_margin_start">0.0dip</dimen>
+    <dimen name="notification_large_icon_height">64.0dip</dimen>
+    <dimen name="notification_large_icon_width">64.0dip</dimen>
+    <dimen name="notification_main_column_padding_top">0.0dip</dimen>
+    <dimen name="notification_media_narrow_margin">12.0dip</dimen>
+    <dimen name="notification_right_icon_size">16.0dip</dimen>
+    <dimen name="notification_right_side_padding_top">4.0dip</dimen>
+    <dimen name="notification_small_icon_background_padding">3.0dip</dimen>
+    <dimen name="notification_small_icon_size_as_large">24.0dip</dimen>
+    <dimen name="notification_subtext_size">13.0sp</dimen>
+    <dimen name="notification_top_pad">10.0dip</dimen>
+    <dimen name="notification_top_pad_large_text">5.0dip</dimen>
+    <dimen name="preferences_detail_width">300.0dip</dimen>
+    <dimen name="preferences_header_width">384.0dip</dimen>
+    <dimen name="profile_badge_size">24.0dip</dimen>
+    <dimen name="progress_spacing_from_text_vertical">16.0dip</dimen>
+    <dimen name="sdk_hsdp_loading_ui_height">300.0dip</dimen>
+    <dimen name="sliding_pane_detail_pane_width">300.0dip</dimen>
+    <dimen name="small_text_spacing_horizontal">8.0dip</dimen>
+    <dimen name="small_text_spacing_vertical">4.0dip</dimen>
+    <dimen name="sp_14">14.0sp</dimen>
+    <dimen name="vm_title_bar_height">24.0dip</dimen>
+    <dimen name="vm_title_bar_initial_width">248.0dip</dimen>
+    <dimen name="vm_title_bar_min_width">128.0dip</dimen>
+</resources>

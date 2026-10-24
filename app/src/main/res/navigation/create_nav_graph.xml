@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/action_rom_selection"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/rom_selection" android:name="com.android.vmapp.ui.vm.rom.RomFragment" android:id="@id/action_rom_selection" />
+    <fragment android:label="@string/resolution_selection" android:name="com.android.vmapp.ui.vm.resolution.ResolutionFragment" android:id="@id/action_resolution_selection" />
+    <fragment android:label="@string/naming_vm" android:name="com.android.vmapp.ui.vm.create.VMNamingFragment" android:id="@id/action_naming" />
+</navigation>

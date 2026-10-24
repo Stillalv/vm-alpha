@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/coinsView" android:background="?colorPrimary" android:paddingTop="?dialogPreferredPadding" android:paddingBottom="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="?dialogPreferredPadding">
+                <TextView android:textStyle="bold" android:textColor="?colorOnPrimary" android:id="@id/plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:layout_alignBaseline="@id/coin_quality" android:layout_marginEnd="@dimen/small_text_spacing_horizontal" android:layout_toStartOf="@id/coin_quality" style="?textAppearanceDisplaySmall" />
+                <TextView android:textStyle="bold" android:textColor="?colorOnPrimary" android:id="@id/coin_quality" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?textAppearanceDisplayMedium" />
+                <TextView android:textColor="?colorOnPrimary" android:id="@id/coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coins" android:layout_alignBaseline="@id/coin_quality" android:layout_marginStart="@dimen/small_text_spacing_horizontal" android:layout_toEndOf="@id/coin_quality" style="?textAppearanceLabelMedium" />
+            </RelativeLayout>
+            <TextView android:id="@id/msgView" android:padding="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Subhead" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/buttonBar" android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/action1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Material3.Button" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/action2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="@dimen/bottom_edge_spacing" android:layout_marginHorizontal="16.0dip" style="@style/Widget.Material3.Button.TextButton" />
+    </LinearLayout>
+</LinearLayout>

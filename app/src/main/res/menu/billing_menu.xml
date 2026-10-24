@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/toggle_purchased" android:visible="false" android:title="Toggle Purchased" android:checkable="true" app:showAsAction="never" />
+    <item android:id="@id/consume_otp" android:visible="false" android:title="Consume OTP" app:showAsAction="never" />
+    <item android:id="@id/manage" android:title="@string/billing_menu_manage" app:showAsAction="never" />
+    <item android:id="@id/repair" android:title="@string/billing_menu_repair" app:showAsAction="never" />
+    <item android:id="@id/help" android:title="@string/billing_menu_help" app:showAsAction="never" />
+    <item android:id="@id/feedback" android:title="@string/billing_menu_feedback" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.vmapp.ui.vm.main.VMBigCardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentPadding="@dimen/cat_card_content_padding" style="?materialCardViewOutlinedStyle">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center_horizontal" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="?textAppearanceBodyLarge" />
+            <TextView android:gravity="center_horizontal" android:id="@id/slogan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vm_slogan" android:layout_above="@id/start" android:layout_centerHorizontal="true" style="?textAppearanceBodyMedium" />
+            <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/vm_start" android:layout_centerInParent="true" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:id="@id/shutdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_exit" app:icon="@drawable/outline_power_settings_new_24" style="?materialIconButtonStyle" />
+                <Button android:id="@id/volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_volume" app:icon="@drawable/outline_volume_up_24" style="?materialIconButtonStyle" />
+                <Button android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_settings" app:icon="@drawable/ic_settings_24px" style="?materialIconButtonStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.android.vmapp.ui.vm.main.VMBigCardView>
+</FrameLayout>

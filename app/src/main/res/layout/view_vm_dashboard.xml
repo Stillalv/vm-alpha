@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.vmapp.ui.widget.StatusBarInsetView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+            <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" style="?textAppearanceTitleLarge" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/outline_volume_up_24" android:contentDescription="@string/window_mute" style="?materialIconButtonStyle" />
+        <View android:layout_width="8.0dip" android:layout_height="0.0dip" />
+        <ImageView android:id="@id/shutdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/outline_power_settings_new_24" android:contentDescription="@string/vm_exit" style="?materialIconButtonStyle" />
+        <View android:layout_width="8.0dip" android:layout_height="0.0dip" />
+        <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_vd_theme_24px" android:contentDescription="@string/window_close" style="?materialIconButtonStyle" />
+    </LinearLayout>
+    <com.android.vmapp.ui.widget.NavBarInsetView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+</merge>

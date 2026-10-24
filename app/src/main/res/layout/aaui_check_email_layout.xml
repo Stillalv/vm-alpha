@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/top_progress_bar" style="@style/AppAuthUI.TopProgressBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/AppAuthUI.WrapperStyle">
+            <TextView android:textStyle="bold" android:layout_gravity="top" android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aaui_email_link_confirm_email_message" style="@style/AppAuthUI.Text.Heading" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" android:labelFor="@id/email" android:transitionName="@string/aaui_email_field_name" android:transitionGroup="true" app:errorEnabled="true" style="@style/AppAuthUI.TextInputLayout.EmailField">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/email" style="@style/AppAuthUI.TextInputEditText.EmailField" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@id/button_sign_up" android:text="@string/aaui_title_register_email" android:layout_marginEnd="16.0dip" style="@style/AppAuthUI.Button" />
+                <Button android:id="@id/button_sign_in" android:text="@string/aaui_sign_in_default" style="@style/AppAuthUI.Button" />
+            </LinearLayout>
+            <TextView android:id="@id/email_tos_and_pp_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/aaui_field_padding_vert" android:textIsSelectable="false" style="@style/AppAuthUI.Text.BodyText" />
+            <TextView android:id="@id/email_footer_tos_and_pp_text" style="@style/AppAuthUI.PrivacyFooter" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

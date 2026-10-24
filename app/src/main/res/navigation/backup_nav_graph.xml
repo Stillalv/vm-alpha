@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/action_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.android.vmapp.ui.vm.backup.VMBackupFragment1" android:id="@id/action_start" />
+    <fragment android:name="com.android.vmapp.ui.vm.backup.VMBackupFragment2" android:id="@id/action_working" />
+    <fragment android:name="com.android.vmapp.ui.vm.backup.VMBackupFragment3" android:id="@id/action_finish" />
+</navigation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_android_vd_theme_24" android:enabled="true" android:id="@id/action_vm" android:title="@string/main_tab_vm" />
+    <item android:icon="@drawable/ic_person_checkable_24" android:enabled="true" android:id="@id/action_you" android:title="@string/main_tab_you" />
+</menu>

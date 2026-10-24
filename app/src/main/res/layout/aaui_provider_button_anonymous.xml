@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:text="@string/aaui_sign_in_anonymously" style="@style/AppAuthUI.Button.AccountChooser.AnonymousButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

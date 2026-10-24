@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?selectableItemBackground" android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RadioButton android:id="@id/select" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cat_list_text_margin_from_icon">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceListItem" />
+            <TextView android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceListItemSecondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/del" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icon="@drawable/outline_delete_24" style="?materialIconButtonStyle" />
+</LinearLayout>

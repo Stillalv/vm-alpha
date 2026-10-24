@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:paddingTop="@dimen/cat_card_content_padding" android:paddingBottom="@dimen/cat_card_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cat_card_content_padding" android:paddingEnd="0.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/diamond" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginEnd="@dimen/cat_card_single_spacing" app:srcCompat="@drawable/outline_diamond_24" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_card_title" style="?textAppearanceTitleMedium" />
+            <TextView android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cat_card_single_spacing" android:text="@string/billing_card_subtitle_none" style="?textAppearanceBodyMedium" />
+        </LinearLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" app:icon="@drawable/chevron_forward_24px" style="?materialIconButtonStyle" />
+    </LinearLayout>
+</merge>

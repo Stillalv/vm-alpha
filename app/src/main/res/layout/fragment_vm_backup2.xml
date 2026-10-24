@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cat_list_horizontal_padding" android:layout_marginRight="@dimen/cat_list_horizontal_padding" android:layout_marginHorizontal="@dimen/cat_list_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/cat_card_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/progress_logo" android:layout_width="108.0dip" android:layout_height="108.0dip" android:contentDescription="@string/backup_logo" app:srcCompat="@drawable/ic_settings_backup_restore_24" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/cat_card_single_spacing" />
+            <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progress_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/progress_spacing_from_text_vertical" />
+            <TextView android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBodyLarge" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/cat_card_single_spacing" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/backup_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_cancel" style="?borderlessButtonStyle" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

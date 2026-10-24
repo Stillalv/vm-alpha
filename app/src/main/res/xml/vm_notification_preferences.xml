@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_share_notification" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_notification_share" />
+</PreferenceScreen>

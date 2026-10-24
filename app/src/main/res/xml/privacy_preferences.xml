@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference app:defaultValue="15" app:entries="@array/privacy_password_verify_policy_entries" app:entryValues="@array/privacy_password_verify_policy_values" app:iconSpaceReserved="false" app:key="pref_key_privacy_password_verify_policy" app:title="@string/pref_title_privacy_password_verify_policy" app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat app:defaultValue="false" app:iconSpaceReserved="false" app:key="pref_key_privacy_show_privacy_vm_in_floating_window" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/pref_title_privacy_show_privacy_vm_in_floating_window" />
+    <SwitchPreferenceCompat app:defaultValue="true" app:iconSpaceReserved="false" app:key="pref_key_privacy_security_privacy_ui_in_recents" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/pref_title_privacy_security_privacy_ui_in_recents" />
+    <ListPreference app:defaultValue="verify_password" app:entries="@array/privacy_ui_timeout_policy_entries" app:entryValues="@array/privacy_ui_timeout_policy_values" app:iconSpaceReserved="false" app:key="pref_key_privacy_ui_timeout_policy" app:title="@string/pref_title_privacy_ui_timeout_policy" app:useSimpleSummaryProvider="true" />
+    <ListPreference app:defaultValue="60" app:entries="@array/privacy_ui_timeout_entries" app:entryValues="@array/privacy_ui_timeout_values" app:iconSpaceReserved="false" app:key="pref_key_privacy_ui_timeout_fg" app:title="@string/pref_title_privacy_ui_timeout_fg" app:useSimpleSummaryProvider="true" />
+    <ListPreference app:defaultValue="60" app:entries="@array/privacy_ui_timeout_entries" app:entryValues="@array/privacy_ui_timeout_values" app:iconSpaceReserved="false" app:key="pref_key_privacy_ui_timeout_bg" app:title="@string/pref_title_privacy_ui_timeout_bg" app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

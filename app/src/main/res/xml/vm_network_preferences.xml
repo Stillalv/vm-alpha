@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_wifi" app:title="@string/vm_pref_category_wifi_info">
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_wifi_ssid" app:title="@string/vm_pref_title_wifi_ssid" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_wifi_bssid" app:title="@string/vm_pref_title_wifi_bssid" app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_share_wifi_list" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_pref_title_wifi_share_list" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_nic" app:title="@string/vm_pref_category_nic_info">
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_local_mac" app:title="@string/vm_pref_title_local_mac" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_local_ip" app:title="@string/vm_pref_title_local_ip" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_gateway_ip" app:title="@string/vm_pref_title_gateway_ip" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_ipv6_prefix" app:title="@string/vm_pref_title_ipv6_prefix" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_dns_ipv4" app:title="@string/vm_pref_title_dns_ipv4" app:useSimpleSummaryProvider="true" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:dialogLayout="@layout/preference_dialog_edittext_ex" app:iconSpaceReserved="false" app:key="vm_pref_key_dns_ipv6" app:title="@string/vm_pref_title_dns_ipv6" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_network_advanced" app:title="@string/vm_pref_category_network_advanced">
+        <com.android.vmapp.ui.base.preference.SwitchPreferenceCompatEx app:iconSpaceReserved="false" app:key="vm_pref_key_network_proxy" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_pref_title_network_proxy" />
+        <com.android.vmapp.ui.base.preference.SwitchPreferenceCompatEx app:iconSpaceReserved="false" app:key="vm_pref_key_network_adb" app:title="@string/vm_pref_title_network_adb" />
+    </PreferenceCategory>
+</PreferenceScreen>

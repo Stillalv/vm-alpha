@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add" android:background="?selectableItemBackground" android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/outline_add_24" android:contentDescription="@string/add_resolution" android:layout_marginStart="4.0dip" />
+                    <RadioButton android:focusable="false" android:focusableInTouchMode="false" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/cat_list_text_margin_from_icon">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_resolution" style="?textAppearanceListItem" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_resolution_desc" style="?textAppearanceListItemSecondary" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

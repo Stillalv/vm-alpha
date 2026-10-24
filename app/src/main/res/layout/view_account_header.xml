@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" android:layout_alignParentStart="true" app:srcCompat="@drawable/account_circle_24px" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="@dimen/cat_list_horizontal_padding" android:layout_toStartOf="@id/alertMessage" android:layout_toEndOf="@id/avatar">
+        <TextView android:textAppearance="?textAppearanceTitleLarge" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_sign_in_title" android:maxLines="1" android:textAlignment="viewStart" />
+        <TextView android:textAppearance="?textAppearanceSubtitle1" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_sign_in_subtitle" android:maxLines="1" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <ImageView android:id="@id/alertMessage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/warning_24px" />
+</merge>

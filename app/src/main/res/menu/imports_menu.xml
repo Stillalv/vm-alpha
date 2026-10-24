@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/outline_search_24" android:id="@id/menu_search" android:title="@string/search_go" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="ifRoom|collapseActionView" />
+    <item android:icon="@drawable/outline_history_24" android:id="@id/menu_import_records" android:title="@string/imports_menu_view_imports" app:showAsAction="ifRoom" />
+    <group android:checkableBehavior="all">
+        <item android:id="@id/menu_not_show_system" android:title="@string/imports_menu_hide_system" app:showAsAction="never" />
+        <item android:id="@id/menu_not_show_32bit" android:title="@string/imports_menu_hide_32bit" app:showAsAction="never" />
+        <item android:id="@id/menu_not_show_incompatible" android:title="@string/imports_menu_hide_incompatible" app:showAsAction="never" />
+    </group>
+</menu>

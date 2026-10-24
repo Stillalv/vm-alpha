@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="com.android.permission.GET_INSTALLED_APPS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="moe.shizuku.manager.permission.API_V23" />
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.location.network" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="http" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+        <package android:name="com.android.vending" />
+    </queries>
+
+    <application
+        android:name="com.android.vmapp.VMApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="false"
+        android:extractNativeLibs="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:gwpAsanMode="always"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Catalog.Purple"
+        tools:targetApi="35">
+
+        <!-- VM VPN Service -->
+        <service
+            android:name="com.android.vmapp.vm.VMVpnService"
+            android:exported="true"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+                android:value="false" />
+        </service>
+
+        <!-- Main App Activities -->
+        <activity
+            android:name="com.android.vmapp.ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.android.vmapp.ui.eula.EulaActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.billing.BillingActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.settings.SettingsActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.about.AboutActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.add.ImportsActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.add.RecordsActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMSettingsActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMSensorActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMLocationActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMNetworkActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMPhoneActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMHWInfoActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMSecurityActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMResolutionActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.settings.VMNotificationActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.create.VMCreateActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.rom.VMRomActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.advanced.SettingsActivity" android:exported="false" />
+
+        <activity
+            android:name="com.android.vmapp.vm.VMStopActivity"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.Transparent" />
+        <activity
+            android:name="com.android.vmapp.vm.VMStartActivity0"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity=".vm0" />
+        <activity
+            android:name="com.android.vmapp.vm.VMStartActivity1"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity=".vm1" />
+        <activity
+            android:name="com.android.vmapp.vm.VMStartActivity2"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity=".vm2" />
+        <activity
+            android:name="com.android.vmapp.vm.VMStartActivity3"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity=".vm3" />
+        <activity
+            android:name="com.android.vmapp.vm.VMDisplayActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="com.android.vmapp.vm.VMReportActivity"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.Transparent" />
+
+        <activity android:name="com.android.vmapp.ui.vm.backup.VMBackupActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.backup.VMBackupRestoreActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.privacy.PrivacyMainActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.privacy.PrivacyAddActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.vm.privacy.PrivacySettingActivity" android:exported="false" />
+        <activity android:name="com.android.vmapp.ui.points.FreeVipActivity" android:exported="false" />
+        <activity
+            android:name="com.android.vmapp.ui.points.WatchAdActivity"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.android.vmapp.ui.vm.carrier.CarrierListActivity" android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver android:name="com.android.vmapp.receivers.ShareSheetReceiver" android:exported="false" />
+
+        <service
+            android:name="com.android.vmapp.vm.VMCoreService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Run Virtual Android Engine" />
+        </service>
+
+        <!-- AdMob Meta-Data -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4779391881178919~5560462527" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT"
+            android:value="true" />
+
+        <!-- Phantom Killer Disabler Module -->
+        <activity
+            android:name="com.phantom.killer.disabler.ui.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:resizeableActivity="true"
+            android:theme="@style/Theme.PhantomKillerDisabler">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.phantom.killer.disabler.ui.shizuku.ShizukuActivity"
+            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="false"
+            android:label="@string/shizuku_title_header"
+            android:theme="@style/Theme.PhantomKillerDisabler" />
+
+        <provider
+            android:name="rikka.shizuku.ShizukuProvider"
+            android:authorities="${applicationId}.shizuku"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="false"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+        <service
+            android:name="com.phantom.killer.disabler.core.overlay.FloatingPairingOverlayService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.phantom.killer.disabler.core.notification.PairingNotificationReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.phantom.killer.disabler.ACTION_SUBMIT_PAIRING_CODE" />
+                <action android:name="com.phantom.killer.disabler.ACTION_AUTO_RETRY" />
+            </intent-filter>
+        </receiver>
+
+        <!-- AuthUI & Auth Internal Module -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+
+        <activity
+            android:name="com.android.ui.auth.KickoffActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppAuthUI.Transparent" />
+        <activity
+            android:name="com.android.ui.auth.ui.idp.SingleSignInActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppAuthUI.Transparent" />
+        <activity
+            android:name="com.android.ui.auth.ui.credentials.CredentialSaveActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppAuthUI.Transparent" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:label="@string/aaui_title_recover_password_activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.EmailActivity"
+            android:exported="false"
+            android:label="@string/aaui_sign_in_default"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.phone.PhoneActivity"
+            android:exported="false"
+            android:label="@string/aaui_sign_in_with_phone_number"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+            android:exported="false"
+            android:label="@string/aaui_title_welcome_back_idp_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:label="@string/aaui_title_welcome_back_password_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+            android:exported="false"
+            android:label="@string/aaui_title_welcome_back_password_prompt"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.EmailLinkCatcherActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/AppAuthUI.Transparent"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+            android:exported="false"
+            android:label="@string/aaui_sign_in_default"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.android.ui.auth.ui.idp.AuthMethodPickerActivity"
+            android:exported="false"
+            android:label="@string/aaui_default_toolbar_title" />
+
+        <provider
+            android:name="com.android.ui.auth.data.client.AuthUiInitProvider"
+            android:authorities="${applicationId}.authuiinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <activity
+            android:name="com.android.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="android.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.android.auth.internal.CaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="android.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
+
+        <!-- VMCore Binder Service -->
+        <service
+            android:name="com.android.vmcore.service.BinderService"
+            android:exported="false" />
+    </application>
+
+</manifest>

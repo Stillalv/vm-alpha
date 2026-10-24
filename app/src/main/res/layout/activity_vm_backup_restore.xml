@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarlayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/vm_tab_menu_backup_restore" app:titleCentered="true" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/contentView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.card.MaterialCardView android:id="@id/backup_keep_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cat_list_horizontal_padding" android:layout_marginRight="@dimen/cat_list_horizontal_padding" android:layout_marginHorizontal="@dimen/cat_list_horizontal_padding" app:contentPadding="@dimen/cat_card_content_padding" style="?materialCardViewFilledStyle">
+                <TextView android:id="@id/backup_keep_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_keep_tips" style="?textAppearanceBodySmall" />
+            </com.google.android.material.card.MaterialCardView>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <com.android.vmapp.ui.widget.CommonEmptyView android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/add_imports" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bottom_edge_spacing" android:contentDescription="@string/backup_import" app:layout_behavior="com.android.vmapp.ui.widget.FabScrollBehavior" app:srcCompat="@drawable/outline_folder_open_24" style="?floatingActionButtonSurfaceStyle" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

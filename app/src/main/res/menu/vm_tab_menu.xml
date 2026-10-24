@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/create_vm" android:title="@string/vm_tab_menu_create" app:showAsAction="never" />
+    <item android:id="@id/backup_restore" android:title="@string/vm_tab_menu_backup_restore" app:showAsAction="never" />
+    <item android:id="@id/floating_window" android:visible="true" android:title="@string/vm_tab_floating_window" app:showAsAction="never" />
+    <item android:id="@id/preview_mode" android:visible="true" android:title="@string/vm_tab_menu_preview_mode" android:checkable="true" app:showAsAction="never" />
+    <item android:id="@id/advanced_options" android:title="@string/vm_tab_menu_advanced_options" app:showAsAction="never" />
+    <item android:icon="@drawable/outline_trackpad_input_24" android:id="@id/touch_mode" android:visible="false" android:title="@string/vm_tab_menu_touch" android:checkable="true" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/outline_crop_portrait_24" android:id="@id/layout_mode" android:title="@string/vm_tab_menu_layout" app:showAsAction="ifRoom" />
+</menu>

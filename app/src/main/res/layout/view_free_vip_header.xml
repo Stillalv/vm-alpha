@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentPadding="@dimen/cat_card_content_padding" style="@style/Widget.Material3.CardView.Outlined"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/coin_quality" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" style="?textAppearanceDisplayMedium" />
+        <TextView android:id="@id/coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/coin_quality" android:layout_marginStart="@dimen/small_text_spacing_horizontal" android:layout_toEndOf="@id/coin_quality" style="?textAppearanceLabelMedium" />
+        <com.google.android.material.button.MaterialButton android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cat_card_single_spacing" android:layout_below="@id/coins" android:layout_centerHorizontal="true" style="?materialButtonOutlinedStyle" />
+        <TextView android:textStyle="bold" android:id="@id/benefit_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cat_card_double_spacing" android:layout_below="@id/action" android:layout_centerHorizontal="true" style="?textAppearanceBodyMedium" />
+        <TextView android:gravity="center_horizontal" android:id="@id/benefit_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cat_card_single_spacing" android:layout_below="@id/benefit_status" android:layout_centerHorizontal="true" style="?textAppearanceBodySmall" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

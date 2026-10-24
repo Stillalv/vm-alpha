@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen app:iconSpaceReserved="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_plugin" app:title="@string/vm_settings_category_plugin">
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_magisk" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_magisk" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_su" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_su" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_xposed" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_xp" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_gsf" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_gsf" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_display" app:title="@string/vm_settings_category_display">
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_resolution" app:persistent="false" app:title="@string/vm_settings_resolution" />
+        <com.android.vmapp.ui.base.preference.EditTextPreferenceEX app:iconSpaceReserved="false" app:key="vm_pref_key_fps" app:title="@string/vm_settings_refresh_rates" app:useSimpleSummaryProvider="true" />
+        <ListPreference app:entries="@array/vm_settings_cutout_entries" app:entryValues="@array/vm_settings_cutout_values" app:iconSpaceReserved="false" app:key="vm_pref_key_cutout" app:title="@string/vm_settings_cutout" app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_navigation" app:title="@string/vm_settings_category_navigation">
+        <ListPreference app:entries="@array/vm_settings_builtin_nav_bar_entries" app:entryValues="@array/vm_settings_builtin_nav_bar_values" app:iconSpaceReserved="false" app:key="vm_pref_key_builtin_nav_bar" app:title="@string/vm_settings_builtin_nav_bar" app:useSimpleSummaryProvider="true" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_floating_window" app:persistent="false" app:title="@string/vm_settings_floating_window" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_virtualization" app:title="@string/vm_settings_category_virtualization">
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_sensor" app:persistent="false" app:summary="@string/vm_settings_sensor_summary" app:title="@string/vm_settings_sensor" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_camera" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_camera" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_location" app:persistent="false" app:summary="@string/vm_settings_location_summary" app:title="@string/vm_settings_location" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_network" app:persistent="false" app:summary="@string/vm_settings_network_summary" app:title="@string/vm_settings_network" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_phone" app:persistent="false" app:summary="@string/vm_settings_phone_summary" app:title="@string/vm_settings_phone" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_hw_info" app:persistent="false" app:summary="@string/vm_settings_hw_info_summary" app:title="@string/vm_settings_hw_info" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_security" app:persistent="false" app:summary="@string/vm_settings_security_summary" app:title="@string/vm_settings_security" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_share" app:title="@string/vm_settings_category_share">
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_clipboard" app:summaryOff="@string/switch_off" app:summaryOn="@string/switch_on" app:title="@string/vm_settings_clipboard_share" />
+        <SwitchPreferenceCompat app:iconSpaceReserved="false" app:key="vm_pref_key_folder" app:title="@string/vm_settings_folder_share" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_notification" app:persistent="false" app:summary="@string/vm_settings_notification_summary" app:title="@string/vm_settings_notification" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_backup_restore" app:title="@string/vm_settings_category_backup_restore">
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_backup" app:persistent="false" app:title="@string/vm_settings_backup" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_restore" app:persistent="false" app:title="@string/vm_settings_restore" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_power" app:title="@string/vm_settings_category_power">
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_shutdown" app:persistent="false" app:title="@string/vm_settings_shutdown" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_restart" app:persistent="false" app:title="@string/vm_settings_restart" />
+    </PreferenceCategory>
+    <PreferenceCategory app:allowDividerAbove="false" app:iconSpaceReserved="false" app:key="vm_pref_power" app:title="@string/vm_settings_category_manage">
+        <EditTextPreference app:iconSpaceReserved="false" app:key="vm_pref_key_rename" app:title="@string/vm_settings_rename" app:useSimpleSummaryProvider="true" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_reset" app:persistent="false" app:title="@string/vm_settings_reset" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_reset_new" app:persistent="false" app:title="@string/vm_settings_reset_new" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_repair" app:persistent="false" app:title="@string/vm_settings_repair" />
+        <Preference app:iconSpaceReserved="false" app:key="vm_pref_key_delete" app:persistent="false" app:title="@string/vm_settings_delete" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aaui_accessibility_logo">App-Logo</string>
+    <string name="aaui_auto_verified">Telefonnummer wurde automatisch bestätigt</string>
+    <string name="aaui_button_text_save">Speichern</string>
+    <string name="aaui_button_text_send">Senden</string>
+    <string name="aaui_confirm_recovery_body">Folgen Sie der an %1$s gesendeten Anleitung, um Ihr Passwort zurückzusetzen.</string>
+    <string name="aaui_continue">Weiter</string>
+    <string name="aaui_country_hint">Land</string>
+    <string name="aaui_email_account_creation_error">Registrierung des E-Mail-Kontos fehlgeschlagen</string>
+    <string name="aaui_email_hint">E-Mail-Adresse</string>
+    <string name="aaui_email_link_confirm_email_header">E-Mail-Adresse bestätigen</string>
+    <string name="aaui_email_link_confirm_email_message">E-Mail-Adresse bestätigen, um Anmeldung fortzusetzen</string>
+    <string name="aaui_email_link_cross_device_linking_text">"Sie haben versucht, %1$s auf einem Gerät, auf dem Sie nicht angemeldet sind, mit Ihrem E-Mail-Konto zu verbinden.
+
+Wenn Sie Ihr %1$s-Konto weiterhin verbinden möchten, öffnen Sie den Link bitte auf dem Gerät, auf dem Sie den Anmeldevorgang gestartet haben. Andernfalls tippen Sie auf \"Weiter\", um sich auf diesem Gerät anzumelden."</string>
+    <string name="aaui_email_link_different_anonymous_user_header">Sitzung beendet</string>
+    <string name="aaui_email_link_different_anonymous_user_message">Die mit dieser Anmeldeanfrage verknüpfte Sitzung ist entweder abgelaufen oder wurde gelöscht.</string>
+    <string name="aaui_email_link_dismiss_button">Ablehnen</string>
+    <string name="aaui_email_link_email_sent">Wir haben eine Anmelde-E-Mail mit zusätzlichen Informationen an %1$s gesendet. Bitte öffnen Sie die E-Mail, um die Anmeldung abzuschließen.</string>
+    <string name="aaui_email_link_header">"Anmelde-E-Mail gesendet
+"</string>
+    <string name="aaui_email_link_invalid_link_header">Anmelden nicht möglich</string>
+    <string name="aaui_email_link_invalid_link_message">Der Aktionscode ist ungültig. Möglicherweise ist der Code fehlerhaft oder abgelaufen oder er wurde bereits verwendet.</string>
+    <string name="aaui_email_link_resend">Erneut senden</string>
+    <string name="aaui_email_link_trouble_getting_email_header">Probleme beim Empfangen von E-Mails?</string>
+    <string name="aaui_email_link_trouble_getting_possible_fixes">"Versuchen Sie es mit diesen gängigen Korrekturen:
+• Prüfen Sie, ob die E-Mail als Spam markiert oder gefiltert wurde.
+• Prüfen Sie Ihre Internetverbindung.
+• Prüfen Sie, ob Sie die E-Mail-Adresse korrekt geschrieben haben.
+• Prüfen Sie, ob Ihr Posteingang über genügend Speicherplatz verfügt oder ob es Probleme mit den Einstellungen gibt.
+"</string>
+    <string name="aaui_email_link_wrong_device_header">Neues Gerät oder neuer Browser erkannt.</string>
+    <string name="aaui_email_link_wrong_device_message">Öffnen Sie den Link mit demselben Gerät oder Browser, mit dem Sie die Anmeldung begonnen haben.</string>
+    <string name="aaui_enter_confirmation_code">Geben Sie den 6-stelligen Code ein, der gesendet wurde an</string>
+    <string name="aaui_error_email_does_not_exist">Diese E-Mail-Adresse passt zu keinem Konto</string>
+    <string name="aaui_error_invalid_password">Falsches Passwort</string>
+    <string name="aaui_error_quota_exceeded">Bei der Bestätigung Ihrer Telefonnummer ist ein Problem aufgetreten</string>
+    <string name="aaui_error_session_expired">Dieser Code ist nicht mehr gültig</string>
+    <string name="aaui_error_too_many_attempts">Diese Telefonnummer wurde schon zu oft verwendet</string>
+    <string name="aaui_error_unknown">Ein unbekannter Fehler ist aufgetreten.</string>
+    <string name="aaui_idp_name_email">E-Mail</string>
+    <string name="aaui_idp_name_facebook">Facebook</string>
+    <string name="aaui_idp_name_github">GitHub</string>
+    <string name="aaui_idp_name_google">Google</string>
+    <string name="aaui_idp_name_phone">Telefon</string>
+    <string name="aaui_idp_name_twitter">Twitter</string>
+    <string name="aaui_incorrect_code_dialog_body">Falscher Code. Versuchen Sie es noch einmal.</string>
+    <string name="aaui_invalid_email_address">Ungültige E-Mail-Adresse</string>
+    <string name="aaui_invalid_phone_number">Geben Sie eine gültige Telefonnummer ein</string>
+    <string name="aaui_missing_email_address">E-Mail-Adresse eingeben, um fortzufahren</string>
+    <string name="aaui_missing_first_and_last_name">Geben Sie einen Vor- und Nachnamen ein.</string>
+    <string name="aaui_name_hint">Vor- und Nachname</string>
+    <string name="aaui_new_password_hint">Neues Passwort</string>
+    <string name="aaui_next_default">Weiter</string>
+    <string name="aaui_no_internet">Netzwerkfehler. Überprüfen Sie Ihre Internetverbindung.</string>
+    <string name="aaui_password_hint">Passwort</string>
+    <string name="aaui_password_recovery_body">In der an diese E-Mail-Adresse gesendeten Anleitung wird beschrieben, wie Sie Ihr Passwort zurücksetzen können.</string>
+    <string name="aaui_phone_hint">Telefonnummer</string>
+    <string name="aaui_privacy_policy">Datenschutzerklärung</string>
+    <string name="aaui_progress_dialog_checking_accounts">Auf vorhandene Konten wird geprüft…</string>
+    <string name="aaui_progress_dialog_loading">Wird geladen…</string>
+    <string name="aaui_progress_dialog_sending">Wird gesendet…</string>
+    <string name="aaui_progress_dialog_signing_in">Anmeldung wird durchgeführt…</string>
+    <string name="aaui_progress_dialog_signing_up">Registrierung wird durchgeführt…</string>
+    <string name="aaui_required_field">Pflichtfeld.</string>
+    <string name="aaui_resend_code">Code erneut senden</string>
+    <string name="aaui_resend_code_in">Code in 0:%02d erneut senden</string>
+    <string name="aaui_sign_in_anonymously">Als Gast fortfahren</string>
+    <string name="aaui_sign_in_default">Anmelden</string>
+    <string name="aaui_sign_in_with_apple">Über Apple anmelden</string>
+    <string name="aaui_sign_in_with_email">Mit einer E-Mail-Adresse anmelden</string>
+    <string name="aaui_sign_in_with_facebook">Über Facebook anmelden</string>
+    <string name="aaui_sign_in_with_github">Über GitHub anmelden</string>
+    <string name="aaui_sign_in_with_google">Über Google anmelden</string>
+    <string name="aaui_sign_in_with_microsoft">Über Microsoft anmelden</string>
+    <string name="aaui_sign_in_with_phone">Mit einer Telefonnummer anmelden</string>
+    <string name="aaui_sign_in_with_phone_number">Mit einer Telefonnummer anmelden</string>
+    <string name="aaui_sign_in_with_twitter">Über Twitter anmelden</string>
+    <string name="aaui_sign_in_with_yahoo">Über Yahoo anmelden</string>
+    <string name="aaui_sms_terms_of_service">Wenn Sie auf “%1$s” tippen, erhalten Sie möglicherweise eine SMS. Es können Gebühren für SMS und Datenübertragung anfallen.</string>
+    <string name="aaui_sms_terms_of_service_and_privacy_policy_extended">Indem Sie auf “%1$s” tippen, stimmen Sie unseren %2$s und unserer %3$s zu. Sie erhalten möglicherweise eine SMS und es können Gebühren für die Nachricht und die Datenübertragung anfallen.</string>
+    <string name="aaui_terms_of_service">Nutzungsbedingungen</string>
+    <string name="aaui_title_confirm_recover_password">Im Posteingang nachsehen</string>
+    <string name="aaui_title_recover_password_activity">Passwort zurücksetzen</string>
+    <string name="aaui_title_register_email">Registrieren</string>
+    <string name="aaui_tos_and_pp">Indem Sie fortfahren, stimmen Sie unseren %1$s und unserer %2$s zu.</string>
+    <string name="aaui_tos_and_pp_footer">%1$s     %2$s</string>
+    <string name="aaui_trouble_signing_in">Probleme bei der Anmeldung?</string>
+    <string name="aaui_verify_phone_number">Telefonnummer bestätigen</string>
+    <string name="aaui_verify_phone_number_title">Telefonnummer eingeben</string>
+    <string name="aaui_verify_your_phone_title">Telefonnummer bestätigen</string>
+    <string name="aaui_verifying">Wird verifiziert…</string>
+    <string name="aaui_welcome_back_email_header">Willkommen zurück!</string>
+    <string name="aaui_welcome_back_email_link_header">"Sie haben schon ein Konto
+"</string>
+    <string name="aaui_welcome_back_email_link_prompt_body">"Sie haben %1$s schon benutzt. Sie können Ihr %2$s-Konto mit %1$s verbinden, indem Sie sich über den folgenden E-Mail-Link anmelden.
+
+Öffnen Sie den Link mit demselben Gerät oder Browser, um Ihr %2$s-Konto mit dieser E-Mail-Adresse zu verbinden."</string>
+    <string name="aaui_welcome_back_idp_header">Sie haben bereits ein Konto</string>
+    <string name="aaui_welcome_back_idp_prompt">Sie haben %1$s bereits verwendet. Melden Sie sich mit %2$s an, um fortzufahren.</string>
+    <string name="aaui_welcome_back_password_prompt_body">Sie haben %1$s bereits zur Anmeldung verwendet. Geben Sie das Passwort für dieses Konto ein.</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Passwort</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
+    <string name="biometric_or_screen_lock_prompt_message">Verwende das biometrische Verfahren oder die Displaysperre, um fortzufahren</string>
+    <string name="biometric_prompt_message">Verwende das biometrische Verfahren, um fortzufahren</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="common_signin_button_text">Anmelden</string>
+    <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string name="confirm_device_credential_password">Passwort nutzen</string>
+    <string name="default_error_msg">Unbekannter Fehler</string>
+    <string name="error_a11y_label">Fehler: ungültig</string>
+    <string name="face_or_screen_lock_prompt_message">Verwende die Gesichtserkennung oder die Displaysperre, um fortzufahren</string>
+    <string name="face_prompt_message">Verwende die Gesichtserkennung, um fortzufahren</string>
+    <string name="fallback_menu_item_copy_link">Link kopieren</string>
+    <string name="fallback_menu_item_open_in_browser">Im Browser öffnen</string>
+    <string name="fallback_menu_item_share_link">Link teilen</string>
+    <string name="fingerprint_dialog_icon_description">Fingerabdruck-Symbol</string>
+    <string name="fingerprint_dialog_touch_sensor">Fingerabdrucksensor berühren</string>
+    <string name="fingerprint_error_hw_not_available">Fingerabdruckhardware nicht verfügbar.</string>
+    <string name="fingerprint_error_hw_not_present">Dieses Gerät hat keinen Fingerabdrucksensor</string>
+    <string name="fingerprint_error_lockout">Zu viele Versuche. Versuche es bitte später noch einmal.</string>
+    <string name="fingerprint_error_no_fingerprints">Keine Fingerabdrücke erfasst.</string>
+    <string name="fingerprint_error_user_canceled">Vorgang der Fingerabdruckauthentifizierung vom Nutzer abgebrochen.</string>
+    <string name="fingerprint_not_recognized">Nicht erkannt</string>
+    <string name="fingerprint_or_screen_lock_prompt_message">Verwende den Fingerabdruck oder die Displaysperre, um fortzufahren</string>
+    <string name="fingerprint_prompt_message">Verwende den Fingerabdruck, um fortzufahren</string>
+    <string name="generic_error_no_device_credential">Keine PIN, kein Muster und kein Passwort festgelegt.</string>
+    <string name="generic_error_no_keyguard">Dieses Gerät kann nicht mit einer PIN, einem Muster oder einem Passwort gesperrt bzw. entsperrt werden.</string>
+    <string name="generic_error_user_canceled">Authentifizierung vom Nutzer abgebrochen.</string>
+    <string name="nav_app_bar_navigate_up_description">Nach oben</string>
+    <string name="nav_app_bar_open_drawer_description">Navigationsleiste öffnen</string>
+    <string name="offline_dialog_image_description">Symbol</string>
+    <string name="offline_dialog_text">"Vielen Dank für dein Interesse.
+Du erhältst weitere Informationen, sobald du wieder online bist."</string>
+    <string name="screen_lock_prompt_message">Gib die Displaysperre ein, um fortzufahren</string>
+    <string name="searchview_clear_text_content_description">Text löschen</string>
+    <string name="searchview_navigation_content_description">Zurück</string>
+    <string name="use_biometric_label">Biometrisches Verfahren verwenden</string>
+    <string name="use_biometric_or_screen_lock_label">Biometrisches Verfahren oder Displaysperre verwenden</string>
+    <string name="use_face_label">Gesichtserkennung verwenden</string>
+    <string name="use_face_or_screen_lock_label">Gesichtserkennung oder Displaysperre verwenden</string>
+    <string name="use_fingerprint_label">Fingerabdruck verwenden</string>
+    <string name="use_fingerprint_or_screen_lock_label">Fingerabdruck oder Displaysperre verwenden</string>
+    <string name="use_screen_lock_label">Displaysperre verwenden</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cat_list_horizontal_padding" android:layout_marginRight="@dimen/cat_list_horizontal_padding" android:layout_marginHorizontal="@dimen/cat_list_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/cat_card_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/backup_status_logo" android:layout_width="108.0dip" android:layout_height="108.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/cat_card_single_spacing" />
+            <TextView android:gravity="center_horizontal" android:id="@id/backup_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceBodyLarge" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/cat_card_single_spacing" />
+            <TextView android:id="@id/backup_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceBodyLarge" />
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/cat_card_single_spacing" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/backup_error_link" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_error_link" style="?borderlessButtonStyle" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

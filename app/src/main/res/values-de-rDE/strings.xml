@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_facebook">Like uns auf Facebook</string>
+    <string name="about_telegram">Treten Sie unserem Telegram-Kanal bei</string>
+    <string name="about_twitter">Follow uns auf Twitter</string>
+    <string name="add_resolution">Hinzufügen Bildauflösung</string>
+    <string name="add_resolution_desc">Benutzerdefinierte bildauflösung</string>
+    <string name="app_name">Virtual Master</string>
+    <string name="bad_aspect_ratio_tips">Das seitenverhältnis muss innerhalb des bereichs liegen %1$.2f~%2$.2f, jetzt ist es %3$.2f</string>
+    <string name="bad_number_hint">Bitte geben sie die richtige mummer ein</string>
+    <string name="billing_action_fix">Zahlung Fixieren</string>
+    <string name="billing_action_manage">Abos Verwalten</string>
+    <string name="billing_action_recovery">Abos Wiederherstellen</string>
+    <string name="billing_active_dialog_msg">Abos ist aktiviert.</string>
+    <string name="billing_benefits">"VIP vorteile：
+1.Alle Features
+2.Keine Werbung
+3.Spezielle Stützen"</string>
+    <string name="billing_button_change">Abos ändern</string>
+    <string name="billing_button_discount">%s zu Erleben</string>
+    <string name="billing_button_free">Testversion Starten</string>
+    <string name="billing_button_retry">Wiederholen</string>
+    <string name="billing_button_sub">Jetzt abonnieren</string>
+    <string name="billing_button_sub_price">%s zu Abonnieren</string>
+    <string name="billing_card_subtitle_active">Abo ist gültig</string>
+    <string name="billing_card_subtitle_auto_renew">Automatische Verlängerung ist aktiv</string>
+    <string name="billing_card_subtitle_discount">Sie haben eine rabattaktion erhalten</string>
+    <string name="billing_card_subtitle_free">Sie haben eine kostenlose Testversion</string>
+    <string name="billing_card_subtitle_none">Abonnieren Sie, um alle funktionen zu genießen</string>
+    <string name="billing_card_subtitle_pending">Die Zahlung steht aus, bitte beheben Sie das Problem</string>
+    <string name="billing_card_title">VIP Abos</string>
+    <string name="billing_error_msg">Wir können derzeit keine Abonnements laden. Bitte stellen Sie sicher, dass Sie sich mit Ihrem Google-Konto angemeldet haben. Bitte beachten Sie, dass In-App-Käufe auf diesem Gerät oder in dieser Region möglicherweise nicht verfügbar sind.</string>
+    <string name="billing_help_dialog_i_known">OK</string>
+    <string name="billing_help_dialog_msg">"1.Abonnements mit kostenloser Testversion werden nach Ablauf des Testzeitraums gemäß dem festgelegten Preis berechnet. Sie können das Abonnement jederzeit vor Ablauf des Testzeitraums kündigen, sodass keine Gebühren anfallen.
+
+2.Das Abonnement mit automatischer Verlängerung wird innerhalb von 24 Stunden vor Ablauf des aktuellen Abonnementzeitraums automatisch berechnet und verlängert, und Sie können das Abonnement mit automatischer Verlängerung 24 Stunden im Voraus im Play Store kündigen.
+
+3.Wenn Sie das Abonnement kündigen, wird die bereits geleistete Zahlung nicht zurückerstattet, aber Sie können die Vorteile noch bis zum Ende des aktuellen Zeitraums genießen, und es fallen danach keine Gebühren an.
+
+4.Über diese App erworbene Abonnements werden Ihrem Play Store-Konto belastet und unterliegen den Rückerstattungsrichtlinien des Play Store.
+
+5.Sie müssen beim Kauf des Abonnements im Play Store zum Google-Konto wechseln, um Ihren Abonnentenstatus in dieser App beizubehalten.
+
+6.Um das Abonnement zu verwalten, können Sie auf \"In Play verwalten\" klicken und werden dann zur Abonnementverwaltungsseite im Play Store weitergeleitet.
+
+7.Wenn Sie Fragen zum Abonnement haben, können Sie auf \"Feedback\" klicken, um uns per E-Mail zu kontaktieren."</string>
+    <string name="billing_help_dialog_title">Abos Regeln</string>
+    <string name="billing_inactive_dialog_msg">Abos ist inaktiv.</string>
+    <string name="billing_last_offer">Dann %1$s/zeitraum</string>
+    <string name="billing_loading_msg">Überprüfung verfügbarer Abos…</string>
+    <string name="billing_menu_feedback">Feedback</string>
+    <string name="billing_menu_help">Regeln sehen</string>
+    <string name="billing_menu_manage">In Play verwalten</string>
+    <string name="billing_menu_repair">Probleme beheben</string>
+    <string name="billing_offer1_free_days">Kostenlose probezeit für %d tage</string>
+    <string name="billing_offer1_free_months">Kostenlose probezeit für %d monate</string>
+    <string name="billing_offer1_free_weeks">Kostenlose probezeit für %d wochen</string>
+    <string name="billing_offer1_free_years">Kostenlose probezeit für %d jahre</string>
+    <string name="billing_offer1_oneshot_discount_days">Testversion preis %2$s für %1$d tage</string>
+    <string name="billing_offer1_oneshot_discount_months">Testversion preis %2$s für %1$d monate</string>
+    <string name="billing_offer1_oneshot_discount_weeks">Testversion preis %2$s für %1$d wochen</string>
+    <string name="billing_offer1_oneshot_discount_years">Testversion preis %2$s für %1$d jahre</string>
+    <string name="billing_offer1_recurring_discount">Trial preis %2$s/zeitraum für %1$d perioden</string>
+    <string name="billing_offer2_free_days">Dann %d tage kostenlose testversion</string>
+    <string name="billing_offer2_free_months">Dann %d monate kostenlose testversion</string>
+    <string name="billing_offer2_free_weeks">Dann %d wochen kostenlose testversion</string>
+    <string name="billing_offer2_free_years">Dann %d jahre kostenlose testversion</string>
+    <string name="billing_offer2_oneshot_discount_days">Dann versuchspreis %2$s für %1$d tage</string>
+    <string name="billing_offer2_oneshot_discount_months">Dann versuchspreis %2$s für %1$d monate</string>
+    <string name="billing_offer2_oneshot_discount_weeks">Dann versuchspreis %2$s für %1$d wochen</string>
+    <string name="billing_offer2_oneshot_discount_years">Dann versuchspreis %2$s für %1$d jahre</string>
+    <string name="billing_offer2_recurring_discount">Dann versuchspreis %2$s/zeitraum für %1$d perioden</string>
+    <string name="billing_pending_dialog_fix">Jetzt beheben</string>
+    <string name="billing_pending_dialog_msg">Zahlung noch nicht ausgeführt, und VIP ist jetzt noch inaktiv, bitte reparieren sie es.</string>
+    <string name="billing_repair_dialog_i_known">OK</string>
+    <string name="billing_repair_dialog_msg">"Ihr Abonnement kann aus verschiedenen Gründen Probleme haben:
+
+1.Möglicherweise liegt ein Problem mit der Netzwerkverbindung Ihres Geräts vor, der Abonnementstatus kann nicht online abgerufen werden. In diesem Fall sollten Sie die Netzwerkverbindung reparieren und es erneut versuchen.
+
+2.Möglicherweise haben Sie das Konto oder die Region (z. B. über ein VPN) im Play Store gewechselt. In diesem Fall sollten Sie wieder zu dem Konto und der Region wechseln, in dem Sie das Abonnement gekauft haben, und Sie müssen möglicherweise sogar die Daten im Play Store löschen.
+
+3.Möglicherweise haben Sie zu einem neuen Gerät gewechselt. In diesem Fall sollten Sie sich beim Kauf des Abonnements im Play Store des neuen Geräts mit dem Google-Konto anmelden. 
+
+4.Möglicherweise ist Ihr Abonnement abgelaufen. In diesem Fall können Sie auf In Play verwalten klicken und werden dann zur Abonnementverwaltungsseite im Play Store weitergeleitet, oder Sie können das Abonnement auch hier kaufen."</string>
+    <string name="billing_repair_dialog_title">Hinweis zu Problemen</string>
+    <string name="billing_state_active">Abos ist aktiv</string>
+    <string name="billing_state_auto_renew">Automatische verlängerung ist aktiv</string>
+    <string name="billing_state_none">Abos ist inaktiv</string>
+    <string name="billing_state_pending">Die zahlung steht aus</string>
+    <string name="billing_text_rules">Abos Regeln</string>
+    <string name="billing_tips_please_select_sub">Bitte treffen Sie eine Auswahl</string>
+    <string name="billing_tips_start_billing_failed">Abos fehlgeschlagen,Bitte versuchen Sie es später erneut</string>
+    <string name="billing_title">VIP Abos</string>
+    <string name="billing_title_days">%d tage</string>
+    <string name="billing_title_days_auto">%d tage | Automatisch verlängern</string>
+    <string name="billing_title_months">%d monate | Vorauszahlung</string>
+    <string name="billing_title_months_auto">%d monate | Automatisch verlängern</string>
+    <string name="billing_title_weeks">%d wochen</string>
+    <string name="billing_title_weeks_auto">%d wochen | Automatisch verlängern</string>
+    <string name="billing_title_years">%d jahre</string>
+    <string name="billing_title_years_auto">%d jahre | Automatisch verlängern</string>
+    <string name="correct_range_hint">Bereich %1$d~%2$d</string>
+    <string name="dark_theme_off">Immer aus</string>
+    <string name="dark_theme_on">Immer auf</string>
+    <string name="dialog_button_cancel">Abbrechen</string>
+    <string name="dialog_button_confirm">OK</string>
+    <string name="dialog_button_dismiss">Abbrechen</string>
+    <string name="dialog_button_give_up">Aufgeben</string>
+    <string name="dialog_button_got_it">OK</string>
+    <string name="dialog_button_import">Importieren</string>
+    <string name="dialog_button_purchase">Kauf</string>
+    <string name="dialog_button_recovery">Erholung</string>
+    <string name="dialog_button_reimport">Re-Importieren</string>
+    <string name="dialog_msg_delete">Löschen löscht alle Daten in der virtuellen Maschine und löscht die virtuelle Maschine, möchten Sie wirklich zurücksetzen?</string>
+    <string name="dialog_msg_in_progress">In Bearbeitung, bitte warten…</string>
+    <string name="dialog_msg_install_prompt">Beim Starten von VM wird ein anderes Android-System auf Ihrem Gerät ausgeführt. In diesem neuen Android-System können Sie seine eigenen Apps installieren, einen eigenen Launcher einrichten, ein eigenes Hintergrundbild festlegen und es nach Ihren Bedürfnissen anpassen, genau wie bei Ihrem anderen Telefon! Dazu müssen Sie jedoch die Vollversion (derzeit eine Experience-Version) installieren. Bestätigen Sie die Installation?</string>
+    <string name="dialog_msg_repair">Wenn die VM beschädigt ist, können sie versuchen, sie hier zu reparieren, Reparieren?</string>
+    <string name="dialog_msg_reset">Durch das zurücksetzen werden alle daten in der VM gelöscht. Möchten sie wirklich zurücksetzen?</string>
+    <string name="dialog_msg_restart">Wir müssen die VM neu starten, damit diese Änderung wirksam wird. Neu starten?</string>
+    <string name="dialog_msg_shutdown">Möchten Sie die VM wirklich zumachen?</string>
+    <string name="dialog_msg_shutdown_all">Möchten Sie wirklich alle VMs herunterfahren?</string>
+    <string name="dialog_msg_window_permission">Um das kleine Fenster zu aktivieren, erlauben Sie bitte die Berechtigung Anzeige über anderen Apps.</string>
+    <string name="dialog_title_delete">Löschen</string>
+    <string name="dialog_title_repair">Reparieren</string>
+    <string name="dialog_title_reset">Zurücksetzen</string>
+    <string name="dialog_title_restart">Neustart</string>
+    <string name="dialog_title_shutdown">Zumachen</string>
+    <string name="dialog_title_shutdown_all">Alle herunterfahren</string>
+    <string name="dialog_title_window_permission">Berechtigung erforderlich</string>
+    <string name="done">Erledigt</string>
+    <string name="dpi">DPI</string>
+    <string name="dpi_hint">Zum Beispiel 320</string>
+    <string name="failed_with_arg">%s fehlgeschlagen</string>
+    <string name="floating_window_settings_title">Einstellungen für kleine Fenster</string>
+    <string name="follow_system">System folgen</string>
+    <string name="for_you_about">Über uns</string>
+    <string name="for_you_adb_activate">Aktivierung</string>
+    <string name="for_you_feedback">Feedback</string>
+    <string name="for_you_rating">Geben Sie uns ein Like</string>
+    <string name="for_you_rating_dialog_msg">Danke für deine Bewertung.</string>
+    <string name="for_you_settings">Einstellungen</string>
+    <string name="for_you_share">Teilen Sie uns mit</string>
+    <string name="for_you_share_desc">Teile diese App mit deinen Freunden</string>
+    <string name="future_rom_desc">Kommt demnächst</string>
+    <string name="height">Höhe</string>
+    <string name="height_hint">Zum Beispiel 1280</string>
+    <string name="imports_add_desc">Import aus dem Dateimanager</string>
+    <string name="imports_app_version">Version: %1$s</string>
+    <string name="imports_button_default">Importieren</string>
+    <string name="imports_button_done">Importiert</string>
+    <string name="imports_button_error">Fehler</string>
+    <string name="imports_button_pending">Importieren</string>
+    <string name="imports_dialog_msg_done">Die App wurde erfolgreich importiert, starten sie es jetzt in VM, order du kannst auch re-importieren.</string>
+    <string name="imports_dialog_title_import_files">Dateien importieren</string>
+    <string name="imports_import_records">Datensätze importieren</string>
+    <string name="imports_installed_apps_empty_tips">Fehler beim Laden von Apps, Bitte erteile uns die Berechtigung</string>
+    <string name="imports_loading_tips">App-Liste wird geladen…</string>
+    <string name="imports_menu_hide_32bit">Ausblenden 32bit apps</string>
+    <string name="imports_menu_hide_incompatible">Ausblenden nicht unterstützt apps</string>
+    <string name="imports_menu_hide_system">Ausblenden system apps</string>
+    <string name="imports_menu_view_imports">Importaufzeichnungen anzeigen</string>
+    <string name="imports_no_apps_found_tips">Keine apps gefunden</string>
+    <string name="imports_title">Importieren</string>
+    <string name="install">Installieren</string>
+    <string name="install_failed_aborted_msg">Der Installationsvorgang wurde vom Benutzer abgebrochen</string>
+    <string name="install_failed_already_exists_msg">Die Anwendung existiert bereits</string>
+    <string name="install_failed_conflicting_provider_msg">Anbieterkonflikt mit anderen Anwendungen</string>
+    <string name="install_failed_container_error_msg">Unsicherer Installationsort</string>
+    <string name="install_failed_cpu_abi_incompatible_msg">Die Codeanweisungen dieser Anwendung sind nicht mit Ihrem Telefon kompatibel</string>
+    <string name="install_failed_dexopt_msg">DEX-Optimierung oder -Verifizierung fehlgeschlagen</string>
+    <string name="install_failed_duplicate_package_msg">Paketnamenskonflikt</string>
+    <string name="install_failed_duplicate_permission_msg">steht in Konflikt mit anderen Anwendungsberechtigungsdefinitionen</string>
+    <string name="install_failed_insufficient_storage_msg">Unzureichender Speicherplatz</string>
+    <string name="install_failed_internal_error_msg">Systeminstallationsdienstfehler</string>
+    <string name="install_failed_invalid_apk_msg">Das Installationspaket scheint beschädigt zu sein</string>
+    <string name="install_failed_invalid_install_location_msg">Ungültiger Installationsort</string>
+    <string name="install_failed_invalid_uri_msg">Das Installationspaket wurde gelöscht</string>
+    <string name="install_failed_media_unavailable_msg">SD-Karte ist nicht gemountet</string>
+    <string name="install_failed_missing_feature_msg">Die Funktionen deines Mobiltelefons erfüllen nicht die Betriebsanforderungen dieser Anwendung</string>
+    <string name="install_failed_missing_shared_library_msg">Eine gemeinsam genutzte Bibliothek, die von der Anwendung benötigt wird, fehlt</string>
+    <string name="install_failed_newer_sdk_msg">Diese Anwendung ist nicht mit der aktuellen Version von Android kompatibel</string>
+    <string name="install_failed_no_matching_abis_msg">Unterstützt keine 32-Bit-Anwendungen</string>
+    <string name="install_failed_no_shared_user_msg">Das Installationspaket kann nicht gefunden werden, die Anwendung wurde möglicherweise deinstalliert</string>
+    <string name="install_failed_older_sdk_msg">Diese App ist nur für spätere Versionen von Android verfügbar</string>
+    <string name="install_failed_package_changed_msg">Das Installationspaket hat sich abnormal geändert</string>
+    <string name="install_failed_replace_couldnt_delete_msg">Die ursprüngliche Anwendung konnte nicht gelöscht werden</string>
+    <string name="install_failed_shared_user_incompatible_msg">inkompatibel mit der Signatur der Hauptanwendung</string>
+    <string name="install_failed_test_only_msg">Debug-Paket darf nicht installiert werden</string>
+    <string name="install_failed_uid_changed_msg">Fehler verursacht durch Deinstallationsrückstände</string>
+    <string name="install_failed_unknown_msg">Unbekannter Fehler</string>
+    <string name="install_failed_update_incompatible_msg">inkompatibel mit der ursprünglichen Anwendungssignatur</string>
+    <string name="install_failed_user_restricted_msg">Der Benutzer ist nicht berechtigt, diese Anwendung zu installieren</string>
+    <string name="install_failed_verification_failure_msg">Das Installationspaket konnte nicht überprüft werden</string>
+    <string name="install_failed_verification_timeout_msg">Zeitüberschreitung des Verifizierungsinstallationspakets</string>
+    <string name="install_failed_version_downgrade_msg">Downgrade-Installation ist nicht erlaubt</string>
+    <string name="install_parse_failed_bad_manifest_msg">Fehler beim Inhalt des Manifests</string>
+    <string name="install_parse_failed_bad_package_name_msg">Der Paketname ist nicht konform</string>
+    <string name="install_parse_failed_bad_shared_user_id_msg">Namensverletzung der gemeinsam genutzten Benutzer-ID</string>
+    <string name="install_parse_failed_certificate_encoding_msg">Es gibt ein Problem mit der Verschlüsselung des Installationspaketzertifikats</string>
+    <string name="install_parse_failed_inconsistent_certificates_msg">Die Signatur des Installationspakets ist inkonsistent</string>
+    <string name="install_parse_failed_manifest_empty_msg">Manifestinhalt ist leer</string>
+    <string name="install_parse_failed_manifest_malformed_msg">Manifest fehlerhaft</string>
+    <string name="install_parse_failed_no_certificates_msg">Das Installationspaket ist nicht mit einem Zertifikat signiert</string>
+    <string name="install_parse_failed_not_apk_msg">Die Datei ist kein Installationspaket</string>
+    <string name="install_parse_failed_unexpected_exception_msg">Ausnahme beim Parsen des Installationspakets</string>
+    <string name="install_succeeded_msg">Installation erfolgreich</string>
+    <string name="main_tab_vm">VM</string>
+    <string name="main_tab_you">Für Dich</string>
+    <string name="main_title_vm">VM</string>
+    <string name="main_title_you">Für Dich</string>
+    <string name="naming_vm">Benennen Sie die VM</string>
+    <string name="next">Als Nächstes</string>
+    <string name="normal_rom_desc">Version: %1$s | Größe: %2$s</string>
+    <string name="open_email_failed_tips">Mail-App starten fehlgeschlagen</string>
+    <string name="open_file_browser_failed_tips">Konnte Dateimanager nicht öffnen</string>
+    <string name="pref_title_small_window">Kleines Fenster</string>
+    <string name="privacy">Datenschutzerklärung</string>
+    <string name="privacy_agree">Ich stimme zu</string>
+    <string name="privacy_content">Willkommen beim Virtual Master. Bitte lesen Sie die &lt;a href=%1$s>Datenschutzerklärung&lt;/a> und die &lt;a href=%2$s>Hinweise von Drittanbietern&lt;/a> sorgfältig, um zu erfahren, wie wir die Sicherheit Ihrer personenbezogenen Daten während des Erfassungs-, Verwendungs-, Speicherungs- und Weitergabeprozesses und die entsprechenden Rechte, die Sie besitzen, gewährleisten. Wir ergreifen branchenführende technische Sicherheitsmaßnahmen, um Ihre personenbezogenen Daten vollständig zu schützen.&lt;br>&lt;br>Um lokale Dateien, Fotos und Medien zu durchsuchen und zu speichern, werden wir Sie um Zugriff auf Ihren Gerätespeicher bitten, wenn Sie solche Funktionen verwenden. &lt;br>&lt;br>Um Apps von Ihrem Gerät in die VM zu importieren, fordern wir eine auf Ihrem Gerät installierte App-Liste an. Sie sollten uns die Berechtigungen erteilen, andernfalls ist diese Funktion nicht verfügbar.&lt;br>&lt;br>Die VM unterstützt virtuelle Hardware wie Kameras, Mikrofone, GPS, Sensoren, Vibratoren usw., die auf der realen Hardware auf Ihrem Gerät basieren. Wenn Sie virtuelle Hardware verwenden, werden wir Sie um Ihre Zustimmung bitten, bevor Sie die echte Hardware verwenden, und Sie können dies ablehnen. Obwohl dies dazu führen wird, dass die virtuelle Hardware nicht funktioniert, hat dies keinen Einfluss auf Ihre weitere Nutzung von Virtual Master.&lt;br>&lt;br>Wir erfassen Ihre OAID und Android-ID, um Diagnosen durchzuführen, wenn Sie auf technische Schwierigkeiten stoßen Erstellen Sie Statistiken über die Gesamtnutzung von Virtual Master. Wir werden Sie um Ihre Autorisierung bitten, bevor wir Ihre OAID und Android-ID erfassen.&lt;br>&lt;br>Einzelheiten zu den vom Produkt verwendeten Drittanbieterdiensten, wie z. B. SDK, finden Sie im &lt;a href=%3$s>Hinweise von Drittanbietern&lt;/a>.&lt;br>&lt;br>Bitte klicken Sie auf \"Ich stimme zu\", um unserer Datenschutzerklärung zuzustimmen und diese App zu verwenden.</string>
+    <string name="privacy_disagree">Uneinigkeit und Ausstieg</string>
+    <string name="privacy_title">Datenschutzhinweis</string>
+    <string name="records_empty_tips">Keine Aufzeichnungen</string>
+    <string name="records_loading_tips">Wird geladen Liste…</string>
+    <string name="records_status_complete">Erfolgreich importiert</string>
+    <string name="records_status_copying">Datei kopieren %d%%</string>
+    <string name="records_status_error">Import fehlgeschlagen</string>
+    <string name="records_status_importing">Importieren %d%%</string>
+    <string name="records_status_waiting">Warten…</string>
+    <string name="records_title">Datensätze importieren</string>
+    <string name="resolution_selection">Wahl der Auflösung</string>
+    <string name="resolution_selection_none_tips">" Bitte wähle eine Auflösung"</string>
+    <string name="resolution_setting_title">Bildauflösung</string>
+    <string name="rom_selection">Wählen Sie Android-System</string>
+    <string name="rom_selection_future_tips">Kommt demnächst</string>
+    <string name="rom_selection_none_tips">Bitte wählen Sie ein System aus</string>
+    <string name="search_go">Suchen</string>
+    <string name="settings_category_appearance">Aussehen</string>
+    <string name="settings_category_language">Sprache</string>
+    <string name="settings_dark_theme">Dunkles Design</string>
+    <string name="settings_language">Sprache</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="succeed_with_arg">%s erfolgreich</string>
+    <string name="switch_off">Deaktiviert</string>
+    <string name="switch_on">Aktiviert</string>
+    <string name="tos">Nutzungsbedingungen</string>
+    <string name="vm_already_stopped_tips">Die VM wurde bereits geschlossen</string>
+    <string name="vm_create_succeed_tips">VM erfolgreich erstellt</string>
+    <string name="vm_enter">Eingabetaste VM</string>
+    <string name="vm_exit">Beenden VM</string>
+    <string name="vm_imports">Importieren</string>
+    <string name="vm_naming_tips">Tipp: Es wird empfohlen, die virtuellen Maschinen nach ihrer Verwendung zu benennen, damit Sie verschiedene virtuelle Maschinen unterscheiden können, z. B.: sicherer Bereich, privater Bereich, soziales Konto, Spielunterhaltung usw.</string>
+    <string name="vm_not_started_tips">Die VM wurde noch nicht gestartet. Bitte versuchen Sie es nach dem start</string>
+    <string name="vm_settings">VM Einstellungen</string>
+    <string name="vm_settings_accelerometer">Beschleunigungsmesser</string>
+    <string name="vm_settings_builtin_nav_bar">Eingebaute Navigationsleiste</string>
+    <string name="vm_settings_category_display">Anzeigen</string>
+    <string name="vm_settings_category_manage">Verwalten</string>
+    <string name="vm_settings_category_navigation">Navigation</string>
+    <string name="vm_settings_category_plugin">Apps</string>
+    <string name="vm_settings_category_share">Teilen</string>
+    <string name="vm_settings_category_virtualization">Virtualisierung</string>
+    <string name="vm_settings_clipboard_share">Zwischenablage teilen</string>
+    <string name="vm_settings_cutout">Ausschnitt anzeigen</string>
+    <string name="vm_settings_cutout_exclude">Ausgenommen Ausschnittbereich</string>
+    <string name="vm_settings_cutout_overlaps">Überschneidung mit Ausschnittbereich</string>
+    <string name="vm_settings_delete">VM löschen</string>
+    <string name="vm_settings_folder_share">Ordner teilen</string>
+    <string name="vm_settings_gsf">Google Services</string>
+    <string name="vm_settings_gyro">Gyroskop</string>
+    <string name="vm_settings_refresh_rates">Bildwiederholraten</string>
+    <string name="vm_settings_rename">Benennen Sie die VM</string>
+    <string name="vm_settings_repair">Reparieren VM</string>
+    <string name="vm_settings_reset">Zurücksetzen VM</string>
+    <string name="vm_settings_resolution">Bildauflösung</string>
+    <string name="vm_settings_shutdown">Zumachen VM</string>
+    <string name="vm_settings_su">Superuser</string>
+    <string name="vm_settings_title">VM Einstellungen</string>
+    <string name="vm_settings_xp">Xposed</string>
+    <string name="vm_slogan">"Führen Sie ein anderes Android OS in einer App
+Klonen, Dual, Parallel, Virtuell und mehre"</string>
+    <string name="vm_start">Starten VM</string>
+    <string name="vm_tab_floating_window">Kleines Fenster</string>
+    <string name="vm_tab_menu_create">Erstellen VM</string>
+    <string name="vm_tab_menu_layout">Layout ändern</string>
+    <string name="vm_tab_menu_touch">Touch-Modus umschalten</string>
+    <string name="vm_volume">Stumm Ein/Aus</string>
+    <string name="width">Breite</string>
+    <string name="width_hint">Zum Beispiel 720</string>
+    <string name="window_close">Fenster schließen</string>
+    <string name="window_grid">Öffnen Sie das Dashboard</string>
+    <string name="window_lock">Sperre ein/aus</string>
+    <string name="window_mute">Stumm ein/aus</string>
+    <string name="window_rotation">Dreh den Bildschirm</string>
+</resources>

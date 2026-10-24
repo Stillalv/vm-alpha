@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    <string name="about_facebook">ഫേസ്ബുക്കിൽ ഞങ്ങളെ ലൈക്ക് ചെയ്യുക</string>
+    <string name="about_telegram">ഞങ്ങളുടെ ടെലിഗ്രാം ചാനലിൽ ചേരൂ</string>
+    <string name="about_twitter">ട്വിറ്ററിൽ ഞങ്ങളെ പിൻതുടരൂ</string>
+    <string name="add_resolution">മിഴിവ് ചേർക്കുക</string>
+    <string name="add_resolution_desc">നിങ്ങൾക്ക് ആവശ്യമുള്ള ഇഷ്‌ടാനുസൃത മിഴിവ്</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">പാസ്‌വേഡ്</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">പാസ്‌കീ</string>
+    <string name="app_name">വെർച്വൽ മാസ്റ്റർ</string>
+    <string name="bad_aspect_ratio_tips">വീക്ഷണാനുപാതം %1$.2f~%2$.2f ശ്രേണിയിലായിരിക്കണം, ഇപ്പോൾ അത് %3$.2f ആണ്</string>
+    <string name="bad_number_hint">ദയവായി ശരിയായ നമ്പർ നൽകുക</string>
+    <string name="billing_action_fix">പേയ്‌മെന്റ് പരിഹരിക്കുക</string>
+    <string name="billing_action_manage">സബ്സ്ക്രിപ്ഷൻ നിയന്ത്രിക്കുക</string>
+    <string name="billing_action_recovery">സബ്സ്ക്രിപ്ഷൻ വീണ്ടെടുക്കുക</string>
+    <string name="billing_active_dialog_msg">സബ്‌സ്‌ക്രിപ്‌ഷൻ ഇപ്പോൾ സജീവമാണ്.</string>
+    <string name="billing_benefits">"വിഐപി ആനുകൂല്യങ്ങൾ:
+1.എല്ലാ ഫീച്ചറുകളും
+2.പരസ്യങ്ങളില്ല
+3.പ്രത്യേക പിന്തുണ"</string>
+    <string name="billing_button_change">സബ്സ്ക്രിപ്ഷൻ മാറ്റുക</string>
+    <string name="billing_button_discount">അനുഭവിക്കാൻ %s</string>
+    <string name="billing_button_free">ട്രയൽ ആരംഭിക്കുക</string>
+    <string name="billing_button_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="billing_button_sub">ഇപ്പോൾ സബ്സ്ക്രൈബ് ചെയ്യുക</string>
+    <string name="billing_button_sub_price">വരിക്കാരാകാൻ %s</string>
+    <string name="billing_card_subtitle_active">സബ്സ്ക്രിപ്ഷൻ സജീവമാണ്</string>
+    <string name="billing_card_subtitle_auto_renew">സ്വയമേവ പുതുക്കൽ സജീവമാണ്</string>
+    <string name="billing_card_subtitle_discount">നിങ്ങൾക്ക് ഒരു കിഴിവ് പ്രമോഷൻ ലഭിച്ചു</string>
+    <string name="billing_card_subtitle_free">നിങ്ങൾക്ക് ഒരു സൗജന്യ ട്രയൽ ലഭിച്ചു</string>
+    <string name="billing_card_subtitle_none">എല്ലാ ഫീച്ചറുകളും ആസ്വദിക്കാൻ സബ്സ്ക്രൈബ് ചെയ്യുക</string>
+    <string name="billing_card_subtitle_pending">പേയ്‌മെന്റ് തീർച്ചപ്പെടുത്തിയിട്ടില്ല, ദയവായി അത് പരിഹരിക്കുക</string>
+    <string name="billing_card_title">വിഐപി സബ്സ്ക്രിപ്ഷൻ</string>
+    <string name="billing_error_msg">ഞങ്ങൾക്ക് ഇപ്പോൾ സബ്‌സ്‌ക്രിപ്‌ഷനുകൾ ലോഡുചെയ്യാൻ കഴിയില്ല, നിങ്ങളുടെ Google അക്കൗണ്ട് ഉപയോഗിച്ച് ലോഗിൻ ചെയ്‌തുവെന്ന് ഉറപ്പാക്കുക. ഈ ഉപകരണത്തിലോ ഈ പ്രദേശത്തോ ഇൻ-ആപ്പ് വാങ്ങൽ ലഭ്യമായേക്കില്ല എന്നത് ശ്രദ്ധിക്കുക.</string>
+    <string name="billing_help_dialog_i_known">മനസ്സിലായി</string>
+    <string name="billing_help_dialog_msg">"1.സൗജന്യ ട്രയൽ ഉള്ള സബ്‌സ്‌ക്രിപ്‌ഷന് ട്രയൽ കാലയളവ് അവസാനിച്ചതിന് ശേഷം നിശ്ചയിച്ച വില അനുസരിച്ച് ഈടാക്കും. ട്രയൽ കാലയളവ് അവസാനിക്കുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് എപ്പോൾ വേണമെങ്കിലും സബ്‌സ്‌ക്രിപ്‌ഷൻ റദ്ദാക്കാം, അതുവഴി നിരക്കുകളൊന്നും ഉണ്ടാകില്ല.
+
+2. നിലവിലെ സബ്‌സ്‌ക്രിപ്‌ഷൻ കാലയളവ് അവസാനിക്കുന്നതിന് 24 മണിക്കൂറിനുള്ളിൽ സ്വയമേവ പുതുക്കുന്ന സബ്‌സ്‌ക്രിപ്‌ഷൻ സ്വയമേവ ചാർജ് ചെയ്യുകയും പുതുക്കുകയും ചെയ്യും. നിങ്ങൾക്ക് Play Store-ൽ 24 മണിക്കൂർ മുമ്പ് സ്വയമേവ പുതുക്കുന്ന സബ്‌സ്‌ക്രിപ്‌ഷൻ റദ്ദാക്കാം.
+
+3.നിങ്ങൾ സബ്‌സ്‌ക്രിപ്‌ഷൻ റദ്ദാക്കുകയാണെങ്കിൽ, ഇതിനകം സംഭവിച്ച പേയ്‌മെന്റ് റീഫണ്ട് ചെയ്യപ്പെടില്ല, എന്നാൽ ഇതിന്റെ അവസാനം വരെ നിങ്ങൾക്ക് ആനുകൂല്യങ്ങൾ ആസ്വദിക്കാനാകും. നിലവിലെ കാലയളവ്, അതിനുശേഷം നിരക്കുകളൊന്നും ഉണ്ടാകില്ല.
+
+4.ഈ ആപ്പിൽ നിന്ന് വാങ്ങിയ സബ്‌സ്‌ക്രിപ്‌ഷൻ നിങ്ങളുടെ Play സ്റ്റോർ അക്കൗണ്ടിൽ നിന്ന് ഈടാക്കും, അത് Play Store-ന്റെ റീഫണ്ട് നയത്തിന് വിധേയമാണ്.
+
+5.നിങ്ങൾ മാറണം. ഈ ആപ്പിനുള്ളിൽ നിങ്ങളുടെ സബ്‌സ്‌ക്രൈബർ സ്റ്റാറ്റസ് നിലനിർത്തുന്നതിന് Play Store-ൽ നിങ്ങൾ സബ്‌സ്‌ക്രിപ്‌ഷൻ വാങ്ങിയപ്പോൾ Google അക്കൗണ്ടിലേക്ക്.
+
+6.സബ്‌സ്‌ക്രിപ്‌ഷൻ മാനേജ് ചെയ്യാൻ, നിങ്ങൾക്ക് \"Play-യിൽ ഇത് മാനേജ് ചെയ്യുക\" ക്ലിക്ക് ചെയ്യാം, തുടർന്ന് നിങ്ങളെ റീഡയറക്‌ടുചെയ്യും. Play Store-ലെ സബ്‌സ്‌ക്രിപ്‌ഷൻ മാനേജ്‌മെന്റ് പേജിലേക്ക്.
+
+7.നിങ്ങൾ എച്ച് സബ്‌സ്‌ക്രിപ്‌ഷനെ കുറിച്ച് എന്തെങ്കിലും ചോദ്യങ്ങളുണ്ടെങ്കിൽ, ഇമെയിൽ വഴി ഞങ്ങളെ ബന്ധപ്പെടുന്നതിന് നിങ്ങൾക്ക് \"ഫീഡ്‌ബാക്ക്\" ക്ലിക്ക് ചെയ്യാം."</string>
+    <string name="billing_help_dialog_title">സബ്സ്ക്രിപ്ഷൻ നിയമങ്ങൾ</string>
+    <string name="billing_inactive_dialog_msg">സബ്‌സ്‌ക്രിപ്‌ഷൻ ഇപ്പോൾ നിഷ്‌ക്രിയമാണ്.</string>
+    <string name="billing_last_offer">തുടർന്ന് %1$s/കാലയളവ്</string>
+    <string name="billing_loading_msg">ലഭ്യമായ സബ്‌സ്‌ക്രിപ്‌ഷനുകൾ പരിശോധിക്കുന്നു...</string>
+    <string name="billing_menu_feedback">പ്രതികരണം</string>
+    <string name="billing_menu_help">നിയമങ്ങൾ കാണുക</string>
+    <string name="billing_menu_manage">Play-യിൽ ഇത് മാനേജ് ചെയ്യുക</string>
+    <string name="billing_menu_repair">പ്രശ്നങ്ങൾ പരിഹരിക്കുക</string>
+    <string name="billing_offer1_free_days">%d ദിവസത്തേക്ക് സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer1_free_months">%d മാസത്തേക്ക് സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer1_free_weeks">%d ആഴ്‌ചത്തേക്ക് സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer1_free_years">%d വർഷത്തേക്ക് സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer1_oneshot_discount_days">%1$d ദിവസത്തേക്കുള്ള ട്രയൽ വില %2$s</string>
+    <string name="billing_offer1_oneshot_discount_months">%1$d മാസത്തേക്കുള്ള ട്രയൽ വില %2$s</string>
+    <string name="billing_offer1_oneshot_discount_weeks">%1$d ആഴ്ചത്തേക്കുള്ള ട്രയൽ വില %2$s</string>
+    <string name="billing_offer1_oneshot_discount_years">%1$d വർഷത്തേക്ക് ട്രയൽ വില %2$s</string>
+    <string name="billing_offer1_recurring_discount">%1$d കാലയളവിലേക്കുള്ള ട്രയൽ വില %2$s/കാലയളവ്</string>
+    <string name="billing_offer2_free_days">തുടർന്ന് %d ദിവസത്തെ സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer2_free_months">തുടർന്ന് %d മാസത്തെ സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer2_free_weeks">തുടർന്ന് %d ആഴ്ച സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer2_free_years">തുടർന്ന് %d വർഷത്തെ സൗജന്യ ട്രയൽ</string>
+    <string name="billing_offer2_oneshot_discount_days">തുടർന്ന് %1$d ദിവസത്തേക്ക് ട്രയൽ വില %2$s</string>
+    <string name="billing_offer2_oneshot_discount_months">തുടർന്ന് %1$d മാസത്തേക്ക് ട്രയൽ വില %2$s</string>
+    <string name="billing_offer2_oneshot_discount_weeks">തുടർന്ന് %1$d ആഴ്‌ചയ്‌ക്കുള്ള ട്രയൽ വില %2$s</string>
+    <string name="billing_offer2_oneshot_discount_years">തുടർന്ന് %1$d വർഷത്തേക്ക് ട്രയൽ വില %2$s</string>
+    <string name="billing_offer2_recurring_discount">തുടർന്ന് %1$d കാലയളവിനുള്ള ട്രയൽ വില %2$s/കാലയളവ്</string>
+    <string name="billing_pending_dialog_fix">ഇപ്പോൾ പരിഹരിക്കാൻ</string>
+    <string name="billing_pending_dialog_msg">പേയ്‌മെന്റ് തീർച്ചപ്പെടുത്തിയിട്ടില്ല, വിഐപി ഇപ്പോഴും നിഷ്‌ക്രിയമാണ്, ദയവായി അത് പരിഹരിക്കുക.</string>
+    <string name="billing_repair_dialog_i_known">മനസ്സിലായി</string>
+    <string name="billing_repair_dialog_msg">"വിവിധ കാരണങ്ങളാൽ നിങ്ങളുടെ സബ്‌സ്‌ക്രിപ്‌ഷന് പ്രശ്‌നങ്ങൾ ഉണ്ടായേക്കാം:
+
+1.നിങ്ങളുടെ ഉപകരണത്തിന്റെ നെറ്റ്‌വർക്ക് കണക്ഷനിൽ ഒരു പ്രശ്‌നമുണ്ടാകാം, സബ്‌സ്‌ക്രിപ്‌ഷൻ നില ഓൺലൈനിൽ നിന്ന് ലഭ്യമാക്കാൻ കഴിയില്ല. ഈ സാഹചര്യത്തിൽ, നിങ്ങൾ നെറ്റ്‌വർക്ക് കണക്ഷൻ ശരിയാക്കി വീണ്ടും ശ്രമിക്കണം.
+
+2. Play Store-ൽ നിങ്ങൾ അക്കൗണ്ടോ പ്രദേശമോ (ഉദാഹരണത്തിന്, VPN വഴി) മാറിയിരിക്കാം. ഈ സാഹചര്യത്തിൽ, നിങ്ങൾ സബ്‌സ്‌ക്രിപ്‌ഷൻ വാങ്ങുമ്പോൾ അക്കൗണ്ടിലേക്കും റീജിയനിലേക്കും തിരികെ മാറണം, കൂടാതെ Play സ്‌റ്റോറിലെ ഡാറ്റ മായ്‌ക്കേണ്ടി വന്നേക്കാം.
+
+3.നിങ്ങൾ ഒരു പുതിയ ഉപകരണത്തിലേക്ക് മാറിയിരിക്കാം. ഈ സാഹചര്യത്തിൽ, പുതിയ ഉപകരണത്തിന്റെ Play Store-ൽ സബ്‌സ്‌ക്രിപ്‌ഷൻ വാങ്ങുമ്പോൾ നിങ്ങൾ Google അക്കൗണ്ട് ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യണം. 
+
+4.നിങ്ങളുടെ സബ്സ്ക്രിപ്ഷൻ കാലഹരണപ്പെട്ടിരിക്കാം. ഈ സാഹചര്യത്തിൽ, നിങ്ങൾക്ക് \"ഇത് പ്ലേയിൽ മാനേജ് ചെയ്യുക\" ക്ലിക്ക് ചെയ്യാം, തുടർന്ന് നിങ്ങളെ Play Store-ലെ സബ്‌സ്‌ക്രിപ്‌ഷൻ മാനേജ്‌മെന്റ് പേജിലേക്ക് റീഡയറക്‌ടുചെയ്യും, അല്ലെങ്കിൽ നിങ്ങൾക്ക് ഇവിടെ സബ്‌സ്‌ക്രിപ്‌ഷൻ വാങ്ങാനും കഴിയും."</string>
+    <string name="billing_repair_dialog_title">ഇഷ്യൂസ് നോട്ടീസ്</string>
+    <string name="billing_state_active">സബ്സ്ക്രിപ്ഷൻ സജീവമാണ്</string>
+    <string name="billing_state_auto_renew">സ്വയമേവ പുതുക്കൽ സജീവമാണ്</string>
+    <string name="billing_state_none">സബ്‌സ്‌ക്രിപ്‌ഷൻ നിഷ്‌ക്രിയമാണ്</string>
+    <string name="billing_state_pending">പേയ്‌മെന്റ് തീർച്ചപ്പെടുത്തിയിട്ടില്ല</string>
+    <string name="billing_text_rules">സബ്സ്ക്രിപ്ഷൻ നിയമങ്ങൾ</string>
+    <string name="billing_tips_please_select_sub">ദയവായി ആദ്യം ഒരു തിരഞ്ഞെടുപ്പ് നടത്തുക</string>
+    <string name="billing_tips_start_billing_failed">സബ്‌സ്‌ക്രിപ്‌ഷൻ പരാജയപ്പെട്ടു, പിന്നീട് വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="billing_title">വിഐപി സബ്സ്ക്രിപ്ഷൻ</string>
+    <string name="billing_title_days">%d ദിവസം</string>
+    <string name="billing_title_days_auto">%d ദിവസം | സ്വയമേവ പുതുക്കുക</string>
+    <string name="billing_title_months">%d മാസം | പ്രീപെയ്‌ഡ്</string>
+    <string name="billing_title_months_auto">%d മാസം | സ്വയമേവ പുതുക്കുക</string>
+    <string name="billing_title_weeks">%d ആഴ്ചകൾ</string>
+    <string name="billing_title_weeks_auto">%d ആഴ്ച | സ്വയമേവ പുതുക്കുക</string>
+    <string name="billing_title_years">%d വർഷം</string>
+    <string name="billing_title_years_auto">%d വർഷം | സ്വയമേവ പുതുക്കുക</string>
+    <string name="biometric_or_screen_lock_prompt_message">തുടരാൻ നിങ്ങളുടെ ബയോമെട്രിക്‌ അല്ലെങ്കിൽ സ്‌ക്രീൻ ലോക്ക് ഉപയോഗിക്കുക</string>
+    <string name="biometric_prompt_message">തുടരാൻ ബയോമെട്രിക് ഉപയോഗിക്കുക</string>
+    <string name="common_open_on_phone">ഫോണിൽ തുറക്കുക</string>
+    <string name="common_signin_button_text">സൈൻ ഇൻ ചെയ്യുക</string>
+    <string name="common_signin_button_text_long">Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക</string>
+    <string name="confirm_device_credential_password">പാസ്‌വേഡ് ഉപയോഗിക്കുക</string>
+    <string name="correct_range_hint">ശ്രേണി %1$d~%2$d</string>
+    <string name="dark_theme_off">എപ്പോഴും ഓഫ്</string>
+    <string name="dark_theme_on">എപ്പോഴും ഓണാണ്</string>
+    <string name="default_error_msg">അജ്ഞാത പിശക്</string>
+    <string name="dialog_button_cancel">റദ്ദാക്കുക</string>
+    <string name="dialog_button_confirm">സ്ഥിരീകരിക്കുക</string>
+    <string name="dialog_button_dismiss">പിരിച്ചുവിടുക</string>
+    <string name="dialog_button_give_up">ഉപേക്ഷിക്കുക</string>
+    <string name="dialog_button_got_it">മനസ്സിലായി</string>
+    <string name="dialog_button_import">ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="dialog_button_purchase">വാങ്ങൽ</string>
+    <string name="dialog_button_recovery">വീണ്ടെടുക്കൽ</string>
+    <string name="dialog_button_reimport">വീണ്ടും ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="dialog_msg_delete">ഇല്ലാതാക്കുന്നത് VM-ലെ എല്ലാ ഡാറ്റയും മായ്‌ക്കുകയും VM ഇല്ലാതാക്കുകയും ചെയ്യും, നിങ്ങൾക്ക് ഇല്ലാതാക്കുമെന്ന് ഉറപ്പാണോ?</string>
+    <string name="dialog_msg_in_progress">പുരോഗതിയിലാണ്, കാത്തിരിക്കൂ...</string>
+    <string name="dialog_msg_install_prompt">VM ആരംഭിക്കുന്നത് നിങ്ങളുടെ ഉപകരണത്തിൽ മറ്റൊരു Android സിസ്റ്റം പ്രവർത്തിപ്പിക്കും. ഈ പുതിയ ആൻഡ്രോയിഡ് സിസ്റ്റത്തിൽ, നിങ്ങൾക്ക് സ്വന്തം ആപ്പുകൾ ഇൻസ്റ്റാൾ ചെയ്യാനും, സ്വന്തം ലോഞ്ചർ ക്രമീകരിക്കാനും, സ്വന്തം വാൾപേപ്പർ സജ്ജീകരിക്കാനും, നിങ്ങളുടെ മറ്റൊരു ഫോൺ പോലെ നിങ്ങളുടെ ആവശ്യങ്ങൾക്കനുസരിച്ച് ഇഷ്ടാനുസൃതമാക്കാനും കഴിയും! എന്നാൽ ഇതിന് നിങ്ങൾ പൂർണ്ണ പതിപ്പ് (നിലവിൽ ഒരു അനുഭവ പതിപ്പ്) ഇൻസ്റ്റാൾ ചെയ്യേണ്ടതുണ്ട്, ഇൻസ്റ്റാൾ ചെയ്യാൻ സ്ഥിരീകരിക്കണോ?</string>
+    <string name="dialog_msg_repair">വിഎം കേടായാൽ ഇവിടെ റിപ്പയർ ചെയ്യാൻ ശ്രമിക്കാം, റിപ്പയർ ചെയ്യണോ?</string>
+    <string name="dialog_msg_reset">പുനഃസജ്ജമാക്കുന്നത് VM-ലെ എല്ലാ ഡാറ്റയും മായ്‌ക്കും, നിങ്ങൾക്ക് റീസെറ്റ് ചെയ്യുമെന്ന് ഉറപ്പാണോ?</string>
+    <string name="dialog_msg_restart">ഈ മാറ്റം സംഭവിക്കാൻ നമുക്ക് VM പുനരാരംഭിക്കേണ്ടതുണ്ട്, പുനരാരംഭിക്കണോ?</string>
+    <string name="dialog_msg_shutdown">VM ഷട്ട്ഡൗൺ ചെയ്യുമെന്ന് ഉറപ്പാണോ?</string>
+    <string name="dialog_title_delete">ഇല്ലാതാക്കുക</string>
+    <string name="dialog_title_repair">നന്നാക്കുക</string>
+    <string name="dialog_title_reset">പുനഃസജ്ജമാക്കുക</string>
+    <string name="dialog_title_restart">പുനരാരംഭിക്കുക</string>
+    <string name="dialog_title_shutdown">ഷട്ട് ഡൗൺ</string>
+    <string name="done">പൂർത്തിയാക്കുക</string>
+    <string name="dpi">ഡിപിഐ</string>
+    <string name="dpi_hint">ഉദാഹരണത്തിന് 320</string>
+    <string name="error_a11y_label">പിശക്: അസാധുവാണ്</string>
+    <string name="face_or_screen_lock_prompt_message">തുടരാൻ നിങ്ങളുടെ മുഖമോ സ്‌ക്രീൻ ലോക്കോ ഉപയോഗിക്കുക</string>
+    <string name="face_prompt_message">തുടരാൻ നിങ്ങളുടെ മുഖം ഉപയോഗിക്കുക</string>
+    <string name="failed_with_arg">%s പരാജയപ്പെട്ടു</string>
+    <string name="fallback_menu_item_copy_link">ലിങ്ക് പകർത്തുക</string>
+    <string name="fallback_menu_item_open_in_browser">ബ്രൗസറിൽ തുറക്കുക</string>
+    <string name="fallback_menu_item_share_link">ലിങ്ക് പങ്കിടുക</string>
+    <string name="fingerprint_dialog_icon_description">ഫിംഗർപ്രിന്റ് ഐക്കൺ</string>
+    <string name="fingerprint_dialog_touch_sensor">ഫിംഗർപ്രിന്റ് സെൻസർ സ്‌പർശിക്കുക</string>
+    <string name="fingerprint_error_hw_not_available">ഫിംഗർപ്രിന്റ് ഹാർഡ്‌വെയർ ലഭ്യമല്ല.</string>
+    <string name="fingerprint_error_hw_not_present">ഈ ഉപകരണത്തിൽ ഫിംഗർപ്രിന്റ് സെൻസർ ഇല്ല</string>
+    <string name="fingerprint_error_lockout">നിരവധി ശ്രമങ്ങൾ. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="fingerprint_error_no_fingerprints">ഫിംഗർപ്രിന്റുകളൊന്നും എൻറോൾ ചെയ്‌തിട്ടില്ല.</string>
+    <string name="fingerprint_error_user_canceled">ഫിംഗർപ്രിന്റിന്റെ പ്രവർത്തനം ഉപയോക്താവ് റദ്ദാക്കി.</string>
+    <string name="fingerprint_not_recognized">തിരിച്ചറിഞ്ഞില്ല</string>
+    <string name="fingerprint_or_screen_lock_prompt_message">തുടരാൻ നിങ്ങളുടെ ഫിംഗർപ്രിന്റോ സ്‌ക്രീൻ ലോക്കോ ഉപയോഗിക്കുക</string>
+    <string name="fingerprint_prompt_message">തുടരുന്നതിന് നിങ്ങളുടെ ഫിംഗർപ്രിന്റ് ഉപയോഗിക്കുക</string>
+    <string name="follow_system">സിസ്റ്റം പിന്തുടരുക</string>
+    <string name="for_you_about">കുറിച്ച്</string>
+    <string name="for_you_adb_activate">സജീവമാക്കൽ</string>
+    <string name="for_you_feedback">പ്രതികരണം</string>
+    <string name="for_you_rating">ഞങ്ങളെ റേറ്റുചെയ്യുക</string>
+    <string name="for_you_rating_dialog_msg">നിങ്ങളുടെ റേറ്റിംഗിന് നന്ദി.</string>
+    <string name="for_you_settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="for_you_share">ഞങ്ങളെ പങ്കിടുക</string>
+    <string name="for_you_share_desc">നിങ്ങളുടെ സുഹൃത്തുക്കളുമായി ഈ ആപ്പ് പങ്കിടുക</string>
+    <string name="future_rom_desc">ഉടൻ വരുന്നു, തുടരുക</string>
+    <string name="generic_error_no_device_credential">പിൻ, പാറ്റേൺ, അല്ലെങ്കിൽ പാസ്‍വേഡ് ഇവയൊന്നും സജ്ജീകരിച്ചിട്ടില്ല.</string>
+    <string name="generic_error_no_keyguard">പിൻ, പാറ്റേൺ, പാസ്‌വേഡ് എന്നിവ ഈ ഉപകരണം പിന്തുണയ്ക്കുന്നില്ല.</string>
+    <string name="generic_error_user_canceled">പരിശോധിച്ചുറപ്പിക്കൽ ഉപയോക്താവ് റദ്ദാക്കി.</string>
+    <string name="height">ഉയരം</string>
+    <string name="height_hint">ഉദാഹരണത്തിന് 1280</string>
+    <string name="imports_add_desc">ഫയൽ മാനേജറിൽ നിന്ന് ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="imports_app_version">പതിപ്പ്: %1$s</string>
+    <string name="imports_button_default">ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="imports_button_done">ഇറക്കുമതി ചെയ്തത്</string>
+    <string name="imports_button_error">പിശക്</string>
+    <string name="imports_button_pending">ഇറക്കുമതി ചെയ്യുന്നു</string>
+    <string name="imports_dialog_msg_done">ആപ്പ് വിജയകരമായി ഇമ്പോർട്ടുചെയ്‌തു, നിങ്ങൾക്കത് ഇപ്പോൾ VM-ൽ ആരംഭിക്കാം, അല്ലെങ്കിൽ നിങ്ങൾക്കത് ഇവിടെ വീണ്ടും ഇംപോർട്ട് ചെയ്യാം.</string>
+    <string name="imports_dialog_msg_import_files">ഇറക്കുമതിക്ക് കുറച്ച് സമയമെടുത്തേക്കാം, നിങ്ങൾക്ക് പിന്നീട് \"ഇറക്കുമതി റെക്കോർഡുകളിൽ\" വിശദാംശങ്ങൾ പരിശോധിക്കാം. കൂടാതെ, ഞങ്ങൾ നിലവിൽ apk ഫയലുകളെ മാത്രമേ പിന്തുണയ്ക്കൂ, എന്നാൽ മറ്റ് തരത്തിലുള്ള ഫയലുകൾ അവഗണിക്കുമ്പോൾ apk, obb എന്നിവ വിഭജിക്കുന്നില്ല.</string>
+    <string name="imports_dialog_title_import_files">ഫയലുകൾ ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="imports_import_records">രേഖകൾ ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="imports_installed_apps_empty_tips">ആപ്പ് ലിസ്റ്റ് ലോഡുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു, ദയവായി ഞങ്ങൾക്ക് അനുമതി നൽകുക</string>
+    <string name="imports_loading_tips">ആപ്പുകളുടെ ലിസ്റ്റ് ലോഡുചെയ്യുന്നു...</string>
+    <string name="imports_menu_hide_32bit">32ബിറ്റ് ആപ്പുകൾ മറയ്ക്കുക</string>
+    <string name="imports_menu_hide_incompatible">പിന്തുണയ്ക്കാത്ത ആപ്പുകൾ മറയ്ക്കുക</string>
+    <string name="imports_menu_hide_system">സിസ്റ്റം ആപ്പുകൾ മറയ്ക്കുക</string>
+    <string name="imports_menu_view_imports">ഇറക്കുമതി രേഖകൾ കാണുക</string>
+    <string name="imports_no_apps_found_tips">ആപ്പുകളൊന്നും കണ്ടെത്തിയില്ല</string>
+    <string name="imports_title">ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="install">ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="main_tab_vm">VM</string>
+    <string name="main_tab_you">നിനക്കായി</string>
+    <string name="main_title_vm">VM</string>
+    <string name="main_title_you">നിനക്കായി</string>
+    <string name="naming_vm">പേര് വിഎം</string>
+    <string name="nav_app_bar_navigate_up_description">മുകളിലേക്ക് നാവിഗേറ്റ് ചെയ്യുക</string>
+    <string name="nav_app_bar_open_drawer_description">നാവിഗേഷൻ ഡ്രോയർ തുറക്കുക</string>
+    <string name="next">അടുത്തത്</string>
+    <string name="normal_rom_desc">പതിപ്പ്:%1$s | വലിപ്പം:%2$s</string>
+    <string name="offline_dialog_image_description">ഐക്കൺ</string>
+    <string name="offline_dialog_text">"താൽപ്പര്യം കാണിച്ചതിന് നന്ദി.
+നിങ്ങൾ ഓൺലൈനിൽ തിരികെയെത്തി കഴിഞ്ഞ് ഞങ്ങൾ കൂടുതൽ വിവരങ്ങൾ പങ്കിടും."</string>
+    <string name="open_email_failed_tips">മെയിൽ ആപ്പ് ലോഞ്ച് ചെയ്യുന്നത് പരാജയപ്പെട്ടു</string>
+    <string name="open_file_browser_failed_tips">ഫയൽ മാനേജർ സമാരംഭിക്കുന്നതിൽ പരാജയപ്പെട്ടു</string>
+    <string name="privacy">സ്വകാര്യതാ നയം</string>
+    <string name="privacy_agree">ഞാൻ അംഗീകരിക്കുന്നു</string>
+    <string name="privacy_content">വെർച്വൽ മാസ്റ്ററിലേക്ക് സ്വാഗതം. ദയവായി &lt;a href=%1$s>സ്വകാര്യതാ പ്രസ്താവന&lt;/a> കൂടാതെ &lt;a href=%2$s>മൂന്നാം കക്ഷി അറിയിപ്പുകൾ&lt;/a> ശേഖരണം, ഉപയോഗം, സംഭരണം, പങ്കിടൽ എന്നിവയ്‌ക്കിടയിലും നിങ്ങളുടെ ഉടമസ്ഥതയിലുള്ള പ്രസക്തമായ അവകാശങ്ങളുടേയും പ്രക്രിയയിൽ നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങളുടെ സുരക്ഷ ഞങ്ങൾ എങ്ങനെ ഉറപ്പാക്കുന്നുവെന്ന് ശ്രദ്ധാപൂർവ്വം പഠിക്കുക. നിങ്ങളുടെ സ്വകാര്യ വിവരങ്ങൾ പൂർണ്ണമായി പരിരക്ഷിക്കുന്നതിന് ഞങ്ങൾ വ്യവസായ പ്രമുഖ സുരക്ഷാ സാങ്കേതിക നടപടികൾ കൈക്കൊള്ളുന്നു. &lt;br>&lt;br>നിങ്ങളുടെ ഉപകരണത്തിൽ നിന്ന് VM-ലേക്ക് ആപ്പുകൾ ഇമ്പോർട്ടുചെയ്യുന്നതിന്, നിങ്ങളുടെ ഉപകരണത്തിൽ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുള്ള ആപ്പ് ലിസ്റ്റ് ഞങ്ങൾ അഭ്യർത്ഥിക്കും, നിങ്ങൾ ഞങ്ങൾക്ക് അനുമതികൾ നൽകണം, അല്ലാത്തപക്ഷം ഈ ഫീച്ചർ ലഭ്യമാകില്ല.&lt;br>&lt; br>നിങ്ങളുടെ ഉപകരണത്തിലെ യഥാർത്ഥ ഹാർഡ്‌വെയറിനെ ആശ്രയിക്കുന്ന ക്യാമറകൾ, മൈക്രോഫോണുകൾ, GPS, സെൻസറുകൾ, വൈബ്രേറ്ററുകൾ മുതലായവ പോലുള്ള വെർച്വൽ ഹാർഡ്‌വെയറിനെ VM പിന്തുണയ്ക്കുന്നു. നിങ്ങൾ ചില വെർച്വൽ ഹാർഡ്‌വെയർ ഉപയോഗിക്കുമ്പോൾ, യഥാർത്ഥ ഹാർഡ്‌വെയർ ഉപയോഗിക്കുന്നതിന് മുമ്പ് ഞങ്ങൾ നിങ്ങളുടെ സമ്മതം ചോദിക്കും, നിങ്ങൾക്ക് നിരസിക്കാൻ തിരഞ്ഞെടുക്കാം. ഇത് വെർച്വൽ ഹാർഡ്‌വെയർ പരാജയപ്പെടുന്നതിന് കാരണമാകുമെങ്കിലും, നിങ്ങളുടെ വെർച്വൽ മാസ്റ്ററിന്റെ തുടർച്ചയായ ഉപയോഗത്തെ ഇത് ബാധിക്കില്ല. വെർച്വൽ മാസ്റ്ററിന്റെ മൊത്തത്തിലുള്ള ഉപയോഗത്തിന്റെ സ്ഥിതിവിവരക്കണക്കുകൾ തയ്യാറാക്കുക. നിങ്ങളുടെ OAID, Android ID എന്നിവ ശേഖരിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ അംഗീകാരത്തിനായി ഞങ്ങൾ ആവശ്യപ്പെടും. %3$s>മൂന്നാം കക്ഷി അറിയിപ്പുകൾ&lt;/a>.&lt;br>&lt;br>ഞങ്ങളുടെ സ്വകാര്യതാ പ്രസ്താവനയ്ക്ക് സമ്മതം നൽകാനും ഈ ആപ്പ് ഉപയോഗിക്കാൻ തുടങ്ങാനും ദയവായി ഞാൻ അംഗീകരിക്കുന്നു ക്ലിക്ക് ചെയ്യുക.</string>
+    <string name="privacy_disagree">വിയോജിച്ച് പുറത്തുകടക്കുക</string>
+    <string name="privacy_title">സ്വകാര്യതാ അറിയിപ്പ്</string>
+    <string name="records_empty_tips">രേഖകളില്ല</string>
+    <string name="records_loading_tips">റെക്കോർഡ് ലിസ്റ്റ് ലോഡ് ചെയ്യുന്നു...</string>
+    <string name="records_status_complete">വിജയകരമായി ഇറക്കുമതി ചെയ്തു</string>
+    <string name="records_status_copying">%d%% ഫയൽ പകർത്തുന്നു</string>
+    <string name="records_status_error">ഇറക്കുമതി പരാജയപ്പെട്ടു</string>
+    <string name="records_status_importing">%d%% ഇറക്കുമതി ചെയ്യുന്നു</string>
+    <string name="records_status_waiting">കാത്തിരിക്കുന്നു...</string>
+    <string name="records_title">രേഖകൾ ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="resolution_selection">റെസല്യൂഷൻ തിരഞ്ഞെടുക്കുക</string>
+    <string name="resolution_selection_none_tips">ദയവായി ഒരു മിഴിവ് തിരഞ്ഞെടുക്കുക</string>
+    <string name="resolution_setting_title">റെസലൂഷൻ</string>
+    <string name="rom_selection">ആൻഡ്രോയിഡ് സിസ്റ്റം തിരഞ്ഞെടുക്കുക</string>
+    <string name="rom_selection_future_tips">ഇതുവരെ പിന്തുണയ്‌ക്കുന്നില്ല, ഞങ്ങളുടെ ഭാവി റിലീസ് കാത്തിരിക്കുക</string>
+    <string name="rom_selection_none_tips">ദയവായി ഒരു സിസ്റ്റം തിരഞ്ഞെടുക്കുക</string>
+    <string name="screen_lock_prompt_message">തുടരാൻ നിങ്ങളുടെ സ്‌ക്രീൻ ലോക്ക് നൽകുക</string>
+    <string name="search_go">തിരയുക</string>
+    <string name="searchview_clear_text_content_description">ടെക്‌സ്‌റ്റ് മായ്‌ക്കുക</string>
+    <string name="searchview_navigation_content_description">മടങ്ങുക</string>
+    <string name="settings_category_appearance">രൂപഭാവം</string>
+    <string name="settings_category_language">ഭാഷ</string>
+    <string name="settings_dark_theme">ഇരുണ്ട തീം</string>
+    <string name="settings_language">ഭാഷ</string>
+    <string name="settings_title">ക്രമീകരണങ്ങൾ</string>
+    <string name="succeed_with_arg">%s വിജയിച്ചു</string>
+    <string name="switch_off">അപ്രാപ്തമാക്കി</string>
+    <string name="switch_on">പ്രവർത്തനക്ഷമമാക്കി</string>
+    <string name="tos">സേവന നിബന്ധനകൾ</string>
+    <string name="use_biometric_label">ബയോമെട്രിക്‌സ് ഉപയോഗിക്കുക</string>
+    <string name="use_biometric_or_screen_lock_label">ബയോമെട്രിക്‌സോ സ്‌ക്രീൻ ലോക്കോ ഉപയോഗിക്കുക</string>
+    <string name="use_face_label">മുഖം ഉപയോഗിക്കുക</string>
+    <string name="use_face_or_screen_lock_label">മുഖമോ സ്‌ക്രീൻ ലോക്കോ ഉപയോഗിക്കുക</string>
+    <string name="use_fingerprint_label">ഫിംഗർപ്രിന്റ് ഉപയോഗിക്കുക</string>
+    <string name="use_fingerprint_or_screen_lock_label">ഫിംഗർപ്രിന്റോ സ്‌ക്രീൻ ലോക്കോ ഉപയോഗിക്കുക</string>
+    <string name="use_screen_lock_label">സ്‌ക്രീൻ ലോക്ക് ഉപയോഗിക്കുക</string>
+    <string name="vm_already_stopped_tips">VM ഇതിനകം ഷട്ട്ഡൗൺ ചെയ്തു</string>
+    <string name="vm_create_succeed_tips">VM വിജയകരമായി സൃഷ്ടിച്ചു</string>
+    <string name="vm_enter">വിഎം നൽകുക</string>
+    <string name="vm_exit">ഷട്ട്ഡൗൺ വി.എം</string>
+    <string name="vm_imports">ഇറക്കുമതി ചെയ്യുക</string>
+    <string name="vm_naming_tips">നുറുങ്ങുകൾ: VM-ന് അതിന്റെ ഉപയോഗത്തിനനുസരിച്ച് പേര് നൽകാൻ ശുപാർശ ചെയ്യുന്നു, അതുവഴി നിങ്ങൾക്ക് വ്യത്യസ്ത VM-കൾ വേർതിരിച്ചറിയാൻ കഴിയും, ഉദാഹരണത്തിന്: സുരക്ഷിത ഇടം, സ്വകാര്യ ഇടം, സോഷ്യൽസ്, ഗെയിമുകൾ മുതലായവ.</string>
+    <string name="vm_not_started_tips">VM ഇതുവരെ ആരംഭിച്ചിട്ടില്ല, അത് ആരംഭിക്കുമ്പോൾ ശ്രമിക്കുക</string>
+    <string name="vm_settings">വിഎം ക്രമീകരണങ്ങൾ</string>
+    <string name="vm_settings_accelerometer">ആക്സിലറോമീറ്റർ</string>
+    <string name="vm_settings_builtin_nav_bar">ബിൽറ്റ്-ഇൻ നാവിഗേഷൻ ബാർ</string>
+    <string name="vm_settings_category_display">പ്രദർശിപ്പിക്കുക</string>
+    <string name="vm_settings_category_manage">കൈകാര്യം ചെയ്യുക</string>
+    <string name="vm_settings_category_navigation">നാവിഗേഷൻ</string>
+    <string name="vm_settings_category_plugin">ആപ്പുകൾ</string>
+    <string name="vm_settings_category_share">പങ്കിടുക</string>
+    <string name="vm_settings_category_virtualization">വെർച്വലൈസേഷൻ</string>
+    <string name="vm_settings_clipboard_share">ക്ലിപ്പ്ബോർഡ് പങ്കിടുക</string>
+    <string name="vm_settings_cutout">ഡിസ്പ്ലേ കട്ട്ഔട്ട്</string>
+    <string name="vm_settings_cutout_exclude">കട്ടൗട്ട് ഏരിയ ഒഴികെ</string>
+    <string name="vm_settings_cutout_overlaps">കട്ട്ഔട്ട് ഏരിയയിൽ ഓവർലാപ്പുചെയ്യുന്നു</string>
+    <string name="vm_settings_delete">വിഎം ഇല്ലാതാക്കുക</string>
+    <string name="vm_settings_folder_share">ഷെയർ ഫോൾഡർ</string>
+    <string name="vm_settings_gsf">ഗൂഗിൾ സേവനങ്ങൾ</string>
+    <string name="vm_settings_gyro">ഗൈറോസ്കോപ്പ്</string>
+    <string name="vm_settings_refresh_rates">നിരക്കുകൾ പുതുക്കുക</string>
+    <string name="vm_settings_rename">VM എന്ന പേര് മാറ്റുക</string>
+    <string name="vm_settings_repair">റിപ്പയർ വി.എം</string>
+    <string name="vm_settings_reset">VM പുനഃസജ്ജമാക്കുക</string>
+    <string name="vm_settings_resolution">റെസലൂഷൻ</string>
+    <string name="vm_settings_shutdown">ഷട്ട്ഡൗൺ വി.എം</string>
+    <string name="vm_settings_su">സൂപ്പർ യൂസർ</string>
+    <string name="vm_settings_title">വിഎം ക്രമീകരണങ്ങൾ</string>
+    <string name="vm_settings_xp">എക്സ്പോസ്ഡ്</string>
+    <string name="vm_slogan">"ഒരു ആപ്പിൽ മറ്റൊരു ആൻഡ്രോയിഡ് ഓപ്പറേറ്റിംഗ് സിസ്റ്റം (ഒ.എസ്) പ്രവർത്തിപ്പിക്കുക
+ക്ലോൺ, ഡ്യുവൽ, പാരലൽ, വെർച്വൽ എന്നിവയും മറ്റും"</string>
+    <string name="vm_start">VM ആരംഭിക്കുക</string>
+    <string name="vm_tab_menu_create">വിഎം സൃഷ്ടിക്കുക</string>
+    <string name="vm_tab_menu_layout">ലേഔട്ട് മാറ്റുക</string>
+    <string name="vm_tab_menu_touch">ടച്ച് മോഡ് ടോഗിൾ ചെയ്യുക</string>
+    <string name="vm_volume">നിശബ്ദമാക്കുക/ഓഫ് ചെയ്യുക</string>
+    <string name="width">വീതി</string>
+    <string name="width_hint">ഉദാഹരണത്തിന് 720</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_icon" android:layout_width="@dimen/cat_list_icon_size" android:layout_height="@dimen/cat_list_icon_size" android:layout_centerVertical="true" android:contentDescription="@string/item_icon_desc" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/cat_list_text_margin_from_icon" android:layout_toEndOf="@id/item_icon">
+            <TextView android:ellipsize="end" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceListItem" />
+            <TextView android:ellipsize="end" android:id="@id/item_desc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceListItemSecondary" />
+            <TextView android:ellipsize="end" android:id="@id/item_desc2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceListItemSecondary" />
+            <TextView android:ellipsize="end" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceListItemSecondary" />
+        </LinearLayout>
+        <Button android:id="@id/action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="?materialIconButtonStyle" />
+    </RelativeLayout>
+    <Button android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content" android:contentDescription="@string/backup_delete" android:layout_toStartOf="@id/share" app:icon="@drawable/outline_delete_24" style="?materialIconButtonStyle" />
+    <Button android:id="@id/share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/content" android:contentDescription="@string/backup_share" android:layout_alignParentEnd="true" app:icon="@drawable/ic_share_24" style="?materialIconButtonStyle" />
+</RelativeLayout>

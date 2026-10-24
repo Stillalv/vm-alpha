@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.PhantomKillerDisabler" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_page</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:statusBarColor">#fff8fafc</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorPrimary">@color/primary_emerald</item>
+        <item name="colorPrimaryVariant">@color/primary_emerald_dark</item>
+        <item name="colorSecondary">#ff3b82f6</item>
+        <item name="colorSecondaryVariant">#ff2563eb</item>
+    </style>
+
+    <style name="Theme.PhantomKillerDisabler.GooglePlay" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/md3_surface_background</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:statusBarColor">@color/md3_surface_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorOnPrimary">#ffffffff</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorPrimary">@color/md3_primary</item>
+        <item name="colorPrimaryVariant">@color/md3_primary_hover</item>
+        <item name="colorSecondary">@color/md3_primary</item>
+        <item name="colorSecondaryVariant">@color/md3_primary_hover</item>
+    </style>
+</resources>

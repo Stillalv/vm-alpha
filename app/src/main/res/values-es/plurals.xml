@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="aaui_error_weak_password">
+        <item quantity="other">La contraseña no es lo suficientemente segura. Usa %1$d caracteres como mínimo y combina letras y números.</item>
+        <item quantity="one">La contraseña no es lo suficientemente segura. Usa %1$d carácter como mínimo y combina letras y números.</item>
+    </plurals>        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+</resources>

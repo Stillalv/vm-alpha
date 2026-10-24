@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/title" android:paddingTop="?dialogPreferredPadding" android:paddingBottom="?dialogPreferredPadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_title_watch_ad" android:paddingVertical="?dialogPreferredPadding" style="?textAppearanceHeadline6" />
+    <androidx.core.widget.NestedScrollView android:paddingLeft="?dialogPreferredPadding" android:paddingRight="?dialogPreferredPadding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingHorizontal="?dialogPreferredPadding">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/today_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad_coins_today" style="?textAppearanceHeadline6" />
+            <TextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/today_coins" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceHeadline5" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/opening_times_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cat_card_double_spacing" android:text="@string/ad_opening_times" style="?textAppearanceBodyMedium" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/opening_times" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?textAppearanceBodyMedium" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button android:layout_gravity="center_horizontal" android:id="@id/action1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="?dialogPreferredPadding" android:layout_marginTop="@dimen/cat_card_double_spacing" android:layout_marginRight="?dialogPreferredPadding" android:text="@string/dialog_btn_watch_ad" android:layout_marginHorizontal="?dialogPreferredPadding" style="@style/Widget.Material3.Button" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/action2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?dialogPreferredPadding" android:layout_marginRight="?dialogPreferredPadding" android:layout_marginBottom="@dimen/bottom_edge_spacing" android:text="@string/watch_ad_rules" android:layout_marginHorizontal="?dialogPreferredPadding" style="@style/Widget.Material3.Button.TextButton" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App.Starting" parent="@style/Theme.SplashScreen">
+        <item name="android:windowSplashScreenBrandingImage">@drawable/splash_screen_brand_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Catalog.Purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+    </style>
+</resources>

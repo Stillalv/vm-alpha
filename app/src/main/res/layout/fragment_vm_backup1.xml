@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cat_list_horizontal_padding" android:layout_marginRight="@dimen/cat_list_horizontal_padding" android:layout_marginHorizontal="@dimen/cat_list_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.google.android.material.card.MaterialCardView android:id="@id/backup_tips_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentPadding="@dimen/cat_card_content_padding" style="?materialCardViewFilledStyle">
+                <TextView android:id="@id/backup_tips_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_tips_content" style="?textAppearanceBodySmall" />
+            </com.google.android.material.card.MaterialCardView>
+            <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <include android:id="@id/full_backup" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_vm_backup_type" />
+            <View android:layout_width="fill_parent" android:layout_height="12.0dip" />
+            <include android:id="@id/data_backup" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_vm_backup_type" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

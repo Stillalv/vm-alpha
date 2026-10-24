@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarlayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:liftOnScroll="true">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/imports_title" app:titleCentered="true" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.android.vmapp.ui.widget.CommonEmptyView android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/add_imports" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/bottom_edge_spacing" android:contentDescription="@string/imports_add_desc" app:layout_behavior="com.android.vmapp.ui.widget.FabScrollBehavior" app:srcCompat="@drawable/outline_folder_open_24" style="?floatingActionButtonSurfaceStyle" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

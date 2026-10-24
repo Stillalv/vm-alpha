@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.vmapp.ui.vm.main.VMListItemView android:orientation="horizontal" android:background="?android:colorBackground" android:paddingLeft="@dimen/cat_list_horizontal_padding" android:paddingTop="@dimen/cat_list_vertical_padding" android:paddingRight="@dimen/cat_list_horizontal_padding" android:paddingBottom="@dimen/cat_list_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/cat_list_horizontal_padding" android:paddingVertical="@dimen/cat_list_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?textAppearanceListItem" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name">
+        <Button android:id="@id/shutdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_exit" app:icon="@drawable/outline_power_settings_new_24" style="?materialIconButtonStyle" />
+        <Button android:id="@id/volume" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_volume" app:icon="@drawable/outline_volume_up_24" style="?materialIconButtonStyle" />
+        <Button android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/vm_settings" app:icon="@drawable/ic_settings_24px" style="?materialIconButtonStyle" />
+    </LinearLayout>
+    <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vm_start_short" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?buttonBarButtonStyle" />
+</com.android.vmapp.ui.vm.main.VMListItemView>

@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="about" />
+
+    <item type="id" name="account_header" />
+
+    <item type="id" name="action" />
+
+    <item type="id" name="action0" />
+
+    <item type="id" name="action1" />
+
+    <item type="id" name="action2" />
+
+    <item type="id" name="action_finish" />
+
+    <item type="id" name="action_naming" />
+
+    <item type="id" name="action_resolution_selection" />
+
+    <item type="id" name="action_rom_selection" />
+
+    <item type="id" name="action_start" />
+
+    <item type="id" name="action_vm" />
+
+    <item type="id" name="action_working" />
+
+    <item type="id" name="action_you" />
+
+    <item type="id" name="adb_activate" />
+
+    <item type="id" name="add_imports" />
+
+    <item type="id" name="add_vm" />
+
+    <item type="id" name="advanced_options" />
+
+    <item type="id" name="agree" />
+
+    <item type="id" name="alertMessage" />
+
+    <item type="id" name="appbarlayout" />
+
+    <item type="id" name="avatar" />
+
+    <item type="id" name="background" />
+
+    <item type="id" name="backup_cancel" />
+
+    <item type="id" name="backup_error_link" />
+
+    <item type="id" name="backup_keep_card" />
+
+    <item type="id" name="backup_keep_tips" />
+
+    <item type="id" name="backup_list_link" />
+
+    <item type="id" name="backup_name" />
+
+    <item type="id" name="backup_restore" />
+
+    <item type="id" name="backup_status_logo" />
+
+    <item type="id" name="backup_status_text" />
+
+    <item type="id" name="backup_tips_card" />
+
+    <item type="id" name="backup_tips_content" />
+
+    <item type="id" name="benefit_duration" />
+
+    <item type="id" name="benefit_status" />
+
+    <item type="id" name="body" />
+
+    <item type="id" name="btn_action_jump_a14" />
+
+    <item type="id" name="btn_action_start_notif" />
+
+    <item type="id" name="btn_action_start_overlay" />
+
+    <item type="id" name="btn_action_start_split" />
+
+    <item type="id" name="btn_back_to_a14" />
+
+    <item type="id" name="btn_capsule_close" />
+
+    <item type="id" name="btn_capsule_submit" />
+
+    <item type="id" name="btn_clear_log" />
+
+    <item type="id" name="btn_copy_log" />
+
+    <item type="id" name="btn_dialog_negative" />
+
+    <item type="id" name="btn_dialog_positive" />
+
+    <item type="id" name="btn_direct_unlock" />
+
+    <item type="id" name="btn_gp_a12_act_repair" />
+
+    <item type="id" name="btn_gp_a12_act_shizuku" />
+
+    <item type="id" name="btn_gp_a12_unpaired_shizuku" />
+
+    <item type="id" name="btn_gp_dialog_negative" />
+
+    <item type="id" name="btn_gp_dialog_positive" />
+
+    <item type="id" name="btn_gp_fallback_shizuku" />
+
+    <item type="id" name="btn_gp_fallback_wireless" />
+
+    <item type="id" name="btn_gp_help_back" />
+
+    <item type="id" name="btn_gp_pairing_back" />
+
+    <item type="id" name="btn_gp_primary_cta" />
+
+    <item type="id" name="btn_gp_repair_link" />
+
+    <item type="id" name="btn_gp_start_capsule" />
+
+    <item type="id" name="btn_gp_start_notif" />
+
+    <item type="id" name="btn_gp_status_back_a14" />
+
+    <item type="id" name="btn_gp_submit_pair" />
+
+    <item type="id" name="btn_holder" />
+
+    <item type="id" name="btn_open_pairing_wizard" />
+
+    <item type="id" name="btn_overlay_step1_action" />
+
+    <item type="id" name="btn_overlay_step2_action" />
+
+    <item type="id" name="btn_prompt_dialog_action" />
+
+    <item type="id" name="btn_prompt_dialog_cancel" />
+
+    <item type="id" name="btn_re_pair_wizard" />
+
+    <item type="id" name="btn_shizuku_back" />
+
+    <item type="id" name="btn_shizuku_grant_unlock" />
+
+    <item type="id" name="btn_split_pair_submit" />
+
+    <item type="id" name="btn_wizard_back" />
+
+    <item type="id" name="button" />
+
+    <item type="id" name="buttonBar" />
+
+    <item type="id" name="button_continue" />
+
+    <item type="id" name="button_create" />
+
+    <item type="id" name="button_done" />
+
+    <item type="id" name="button_resend_email" />
+
+    <item type="id" name="button_sign_in" />
+
+    <item type="id" name="button_sign_up" />
+
+    <item type="id" name="cancel_action" />
+
+    <item type="id" name="card_overlay_step1" />
+
+    <item type="id" name="card_overlay_step2" />
+
+    <item type="id" name="card_view" />
+
+    <item type="id" name="carrier_input" />
+
+    <item type="id" name="carrier_layout" />
+
+    <item type="id" name="cat_demo_landing_content" />
+
+    <item type="id" name="chip_brand_oppo" />
+
+    <item type="id" name="chip_brand_samsung" />
+
+    <item type="id" name="chip_brand_vivo" />
+
+    <item type="id" name="chip_brand_xiaomi" />
+
+    <item type="id" name="circular_indicator" />
+
+    <item type="id" name="close" />
+
+    <item type="id" name="close_btn" />
+
+    <item type="id" name="coil_request_manager" />
+
+    <item type="id" name="coin_quality" />
+
+    <item type="id" name="coins" />
+
+    <item type="id" name="coinsView" />
+
+    <item type="id" name="confirmation_code" />
+
+    <item type="id" name="confirmation_code_layout" />
+
+    <item type="id" name="consume_otp" />
+
+    <item type="id" name="content2" />
+
+    <item type="id" name="contentView" />
+
+    <item type="id" name="content_frame" />
+
+    <item type="id" name="countryCode" />
+
+    <item type="id" name="country_list" />
+
+    <item type="id" name="country_list_layout" />
+
+    <item type="id" name="country_list_popup_anchor" />
+
+    <item type="id" name="create_vm" />
+
+    <item type="id" name="credit" />
+
+    <item type="id" name="credit_desc" />
+
+    <item type="id" name="credit_title" />
+
+    <item type="id" name="cross_device_linking_body" />
+
+    <item type="id" name="cta" />
+
+    <item type="id" name="dataBinding" />
+
+    <item type="id" name="data_backup" />
+
+    <item type="id" name="del" />
+
+    <item type="id" name="delete" />
+
+    <item type="id" name="desc" />
+
+    <item type="id" name="detail" />
+
+    <item type="id" name="dial_from_input" />
+
+    <item type="id" name="dial_from_layout" />
+
+    <item type="id" name="diamond" />
+
+    <item type="id" name="disagree" />
+
+    <item type="id" name="discord" />
+
+    <item type="id" name="discord_name" />
+
+    <item type="id" name="discord_text" />
+
+    <item type="id" name="dns4_input" />
+
+    <item type="id" name="dns4_layout" />
+
+    <item type="id" name="dns6_input" />
+
+    <item type="id" name="dns6_layout" />
+
+    <item type="id" name="dns_help_text" />
+
+    <item type="id" name="dns_inputs_container" />
+
+    <item type="id" name="dns_summary" />
+
+    <item type="id" name="dns_switch" />
+
+    <item type="id" name="dns_switch_layout" />
+
+    <item type="id" name="dns_title" />
+
+    <item type="id" name="dpi_input" />
+
+    <item type="id" name="dpi_layout" />
+
+    <item type="id" name="drag_handle" />
+
+    <item type="id" name="edit_phone_number" />
+
+    <item type="id" name="email" />
+
+    <item type="id" name="email_button" />
+
+    <item type="id" name="email_footer_tos_and_pp_text" />
+
+    <item type="id" name="email_layout" />
+
+    <item type="id" name="email_tos_and_pp_text" />
+
+    <item type="id" name="emptyView" />
+
+    <item type="id" name="enabled_selected" />
+
+    <item type="id" name="end_padder" />
+
+    <item type="id" name="esn_input" />
+
+    <item type="id" name="esn_layout" />
+
+    <item type="id" name="et_capsule_code" />
+
+    <item type="id" name="et_gp_pair_code" />
+
+    <item type="id" name="et_split_pair_code" />
+
+    <item type="id" name="extraWidget" />
+
+    <item type="id" name="facebook" />
+
+    <item type="id" name="facebook_name" />
+
+    <item type="id" name="facebook_text" />
+
+    <item type="id" name="feature_image" />
+
+    <item type="id" name="feedback" />
+
+    <item type="id" name="fingerprint_description" />
+
+    <item type="id" name="fingerprint_error" />
+
+    <item type="id" name="fingerprint_icon" />
+
+    <item type="id" name="fingerprint_subtitle" />
+
+    <item type="id" name="flag" />
+
+    <item type="id" name="floating_window" />
+
+    <item type="id" name="fragment_container_view" />
+
+    <item type="id" name="fragment_phone" />
+
+    <item type="id" name="fragment_register_email" />
+
+    <item type="id" name="free_vip" />
+
+    <item type="id" name="full_backup" />
+
+    <item type="id" name="glide_custom_view_target_tag" />
+
+    <item type="id" name="global_loading_spinner" />
+
+    <item type="id" name="grid" />
+
+    <item type="id" name="header" />
+
+    <item type="id" name="headerView" />
+
+    <item type="id" name="header_card" />
+
+    <item type="id" name="header_text" />
+
+    <item type="id" name="heading" />
+
+    <item type="id" name="headline" />
+
+    <item type="id" name="height_input" />
+
+    <item type="id" name="height_layout" />
+
+    <item type="id" name="help" />
+
+    <item type="id" name="iccid_input" />
+
+    <item type="id" name="iccid_layout" />
+
+    <item type="id" name="icon" />
+
+    <item type="id" name="imei_input" />
+
+    <item type="id" name="imei_layout" />
+
+    <item type="id" name="imsi_input" />
+
+    <item type="id" name="imsi_layout" />
+
+    <item type="id" name="indicator" />
+
+    <item type="id" name="input_box" />
+
+    <item type="id" name="insets" />
+
+    <item type="id" name="install" />
+
+    <item type="id" name="invisible_frame" />
+
+    <item type="id" name="item_app_icon" />
+
+    <item type="id" name="item_app_name" />
+
+    <item type="id" name="item_app_package" />
+
+    <item type="id" name="item_app_version" />
+
+    <item type="id" name="item_desc1" />
+
+    <item type="id" name="item_desc2" />
+
+    <item type="id" name="item_icon" />
+
+    <item type="id" name="item_name" />
+
+    <item type="id" name="iv_add" />
+
+    <item type="id" name="iv_delete" />
+
+    <item type="id" name="last" />
+
+    <item type="id" name="layout_a14_back_bar" />
+
+    <item type="id" name="layout_a14_fallback_card" />
+
+    <item type="id" name="layout_a14_native_container" />
+
+    <item type="id" name="layout_a14_status_capsule" />
+
+    <item type="id" name="layout_adb_container" />
+
+    <item type="id" name="layout_adb_paired_section" />
+
+    <item type="id" name="layout_adb_unpaired_entry_section" />
+
+    <item type="id" name="layout_adb_wizard_container" />
+
+    <item type="id" name="layout_bottom_status_bar" />
+
+    <item type="id" name="layout_capsule_root" />
+
+    <item type="id" name="layout_drag_header" />
+
+    <item type="id" name="layout_gp_a12_activated_actions" />
+
+    <item type="id" name="layout_gp_fallback_grid" />
+
+    <item type="id" name="layout_gp_help_card" />
+
+    <item type="id" name="layout_gp_icon_badge" />
+
+    <item type="id" name="layout_gp_pairing_card" />
+
+    <item type="id" name="layout_gp_panel_capsule" />
+
+    <item type="id" name="layout_gp_panel_notif" />
+
+    <item type="id" name="layout_gp_panel_split" />
+
+    <item type="id" name="layout_gp_status_card" />
+
+    <item type="id" name="layout_log_terminal" />
+
+    <item type="id" name="layout_mode" />
+
+    <item type="id" name="layout_os_badge_bar" />
+
+    <item type="id" name="layout_wizard_notif_content" />
+
+    <item type="id" name="layout_wizard_overlay_content" />
+
+    <item type="id" name="layout_wizard_split_content" />
+
+    <item type="id" name="license" />
+
+    <item type="id" name="license_activity_scrollview" />
+
+    <item type="id" name="license_activity_textview" />
+
+    <item type="id" name="license_list" />
+
+    <item type="id" name="linear_indicator" />
+
+    <item type="id" name="list" />
+
+    <item type="id" name="listview" />
+
+    <item type="id" name="loading_animation" />
+
+    <item type="id" name="lock" />
+
+    <item type="id" name="logo" />
+
+    <item type="id" name="lottie_layer_name" />
+
+    <item type="id" name="main_tos_and_pp" />
+
+    <item type="id" name="manage" />
+
+    <item type="id" name="mccmnc" />
+
+    <item type="id" name="media_actions" />
+
+    <item type="id" name="media_controller_compat_view_tag" />
+
+    <item type="id" name="media_view" />
+
+    <item type="id" name="meid_input" />
+
+    <item type="id" name="meid_layout" />
+
+    <item type="id" name="menu_country" />
+
+    <item type="id" name="menu_import_records" />
+
+    <item type="id" name="menu_not_show_32bit" />
+
+    <item type="id" name="menu_not_show_incompatible" />
+
+    <item type="id" name="menu_not_show_system" />
+
+    <item type="id" name="menu_refresh" />
+
+    <item type="id" name="menu_search" />
+
+    <item type="id" name="message" />
+
+    <item type="id" name="msgView" />
+
+    <item type="id" name="my_template" />
+
+    <item type="id" name="name" />
+
+    <item type="id" name="name_layout" />
+
+    <item type="id" name="native_ad_view" />
+
+    <item type="id" name="nav_bar" />
+
+    <item type="id" name="nav_controller_view_tag" />
+
+    <item type="id" name="nav_graph" />
+
+    <item type="id" name="nav_host_container" />
+
+    <item type="id" name="nav_host_fragment_container" />
+
+    <item type="id" name="navigation_bar_item_content_container" />
+
+    <item type="id" name="navigation_menu_subheader_label" />
+
+    <item type="id" name="no_licenses_text" />
+
+    <item type="id" name="offer1" />
+
+    <item type="id" name="offer2" />
+
+    <item type="id" name="official_web" />
+
+    <item type="id" name="official_web_text" />
+
+    <item type="id" name="official_web_url" />
+
+    <item type="id" name="onAttachStateChangeListener" />
+
+    <item type="id" name="onDateChanged" />
+
+    <item type="id" name="open_search_bar_placeholder_text_view" />
+
+    <item type="id" name="open_search_bar_text_view_container" />
+
+    <item type="id" name="open_search_view_dummy_text_view" />
+
+    <item type="id" name="open_search_view_text_container" />
+
+    <item type="id" name="opening_times" />
+
+    <item type="id" name="opening_times_title" />
+
+    <item type="id" name="oss" />
+
+    <item type="id" name="oss_desc" />
+
+    <item type="id" name="oss_title" />
+
+    <item type="id" name="overflow_button" />
+
+    <item type="id" name="overlays" />
+
+    <item type="id" name="parent_matrix" />
+
+    <item type="id" name="password" />
+
+    <item type="id" name="password_input" />
+
+    <item type="id" name="password_layout" />
+
+    <item type="id" name="pb_capsule_loading" />
+
+    <item type="id" name="pb_direct_unlock_loading" />
+
+    <item type="id" name="pb_gp_cta_loading" />
+
+    <item type="id" name="pb_gp_split_loading" />
+
+    <item type="id" name="pb_shizuku_loading" />
+
+    <item type="id" name="pb_split_loading" />
+
+    <item type="id" name="phone_button" />
+
+    <item type="id" name="phone_layout" />
+
+    <item type="id" name="phone_number" />
+
+    <item type="id" name="phone_number_input" />
+
+    <item type="id" name="phone_number_layout" />
+
+    <item type="id" name="placeholder_loading" />
+
+    <item type="id" name="play_prism" />
+
+    <item type="id" name="plus" />
+
+    <item type="id" name="port_input" />
+
+    <item type="id" name="port_layout" />
+
+    <item type="id" name="preferences_detail" />
+
+    <item type="id" name="preferences_header" />
+
+    <item type="id" name="preferences_sliding_pane_layout" />
+
+    <item type="id" name="preview_mode" />
+
+    <item type="id" name="price" />
+
+    <item type="id" name="primary" />
+
+    <item type="id" name="privacy" />
+
+    <item type="id" name="privacy_settings" />
+
+    <item type="id" name="progress_indicator" />
+
+    <item type="id" name="progress_logo" />
+
+    <item type="id" name="progress_text" />
+
+    <item type="id" name="protection_layout" />
+
+    <item type="id" name="pullCloseView" />
+
+    <item type="id" name="pullMsgView" />
+
+    <item type="id" name="pullTipsView" />
+
+    <item type="id" name="random_fill" />
+
+    <item type="id" name="rating" />
+
+    <item type="id" name="rating_bar" />
+
+    <item type="id" name="recycler_view" />
+
+    <item type="id" name="recyclerview" />
+
+    <item type="id" name="releaseTipsView" />
+
+    <item type="id" name="repair" />
+
+    <item type="id" name="report" />
+
+    <item type="id" name="resend_barrier" />
+
+    <item type="id" name="resend_code" />
+
+    <item type="id" name="rom_arch" />
+
+    <item type="id" name="rom_desc" />
+
+    <item type="id" name="rom_icon" />
+
+    <item type="id" name="rom_name" />
+
+    <item type="id" name="root" />
+
+    <item type="id" name="rotate" />
+
+    <item type="id" name="row_two" />
+
+    <item type="id" name="screenshot" />
+
+    <item type="id" name="scroll_dialog_content" />
+
+    <item type="id" name="scroll_gp_dialog_content" />
+
+    <item type="id" name="scroll_log" />
+
+    <item type="id" name="scroll_prompt_dialog_content" />
+
+    <item type="id" name="sdk_dismiss_button" />
+
+    <item type="id" name="secondary" />
+
+    <item type="id" name="section_title" />
+
+    <item type="id" name="select" />
+
+    <item type="id" name="send_code" />
+
+    <item type="id" name="send_sms_tos" />
+
+    <item type="id" name="server_input" />
+
+    <item type="id" name="server_layout" />
+
+    <item type="id" name="settings" />
+
+    <item type="id" name="settingsWidget" />
+
+    <item type="id" name="settings_container" />
+
+    <item type="id" name="share" />
+
+    <item type="id" name="shutdown" />
+
+    <item type="id" name="sign_in_email_sent_text" />
+
+    <item type="id" name="sliding_pane_detail_container" />
+
+    <item type="id" name="sliding_pane_layout" />
+
+    <item type="id" name="slogan" />
+
+    <item type="id" name="sms_content_input" />
+
+    <item type="id" name="sms_content_layout" />
+
+    <item type="id" name="sms_from_input" />
+
+    <item type="id" name="sms_from_layout" />
+
+    <item type="id" name="spacer_above_loading_spinner" />
+
+    <item type="id" name="spn" />
+
+    <item type="id" name="spn_input" />
+
+    <item type="id" name="spn_layout" />
+
+    <item type="id" name="status" />
+
+    <item type="id" name="status_bar_latest_event_content" />
+
+    <item type="id" name="sub_benefits" />
+
+    <item type="id" name="sub_state" />
+
+    <item type="id" name="subscription_card" />
+
+    <item type="id" name="subtitle" />
+
+    <item type="id" name="sv_input" />
+
+    <item type="id" name="sv_layout" />
+
+    <item type="id" name="swipe_refresh" />
+
+    <item type="id" name="tab_gp_capsule" />
+
+    <item type="id" name="tab_gp_notif" />
+
+    <item type="id" name="tab_gp_split" />
+
+    <item type="id" name="tab_wizard_notif" />
+
+    <item type="id" name="tab_wizard_overlay" />
+
+    <item type="id" name="tab_wizard_split" />
+
+    <item type="id" name="tag_compat_insets_dispatch" />
+
+    <item type="id" name="tag_system_bar_state_monitor" />
+
+    <item type="id" name="task_icon" />
+
+    <item type="id" name="task_name" />
+
+    <item type="id" name="task_status" />
+
+    <item type="id" name="telegram" />
+
+    <item type="id" name="telegram_name" />
+
+    <item type="id" name="telegram_text" />
+
+    <item type="id" name="test_addr_input" />
+
+    <item type="id" name="test_addr_layout" />
+
+    <item type="id" name="textField" />
+
+    <item type="id" name="textWatcher" />
+
+    <item type="id" name="text_input_end_icon" />
+
+    <item type="id" name="text_input_error_icon" />
+
+    <item type="id" name="text_input_start_icon" />
+
+    <item type="id" name="ticker" />
+
+    <item type="id" name="tips" />
+
+    <item type="id" name="title" />
+
+    <item type="id" name="title_bar" />
+
+    <item type="id" name="today_coins" />
+
+    <item type="id" name="today_title" />
+
+    <item type="id" name="toggle_purchased" />
+
+    <item type="id" name="toolbar" />
+
+    <item type="id" name="top_level_view" />
+
+    <item type="id" name="top_progress_bar" />
+
+    <item type="id" name="tos" />
+
+    <item type="id" name="touch_mode" />
+
+    <item type="id" name="trouble_signing_in" />
+
+    <item type="id" name="tv_a14_capsule_icon" />
+
+    <item type="id" name="tv_a14_capsule_text" />
+
+    <item type="id" name="tv_add" />
+
+    <item type="id" name="tv_bottom_max_procs" />
+
+    <item type="id" name="tv_capsule_hint" />
+
+    <item type="id" name="tv_capsule_status" />
+
+    <item type="id" name="tv_capsule_submit" />
+
+    <item type="id" name="tv_capsule_title" />
+
+    <item type="id" name="tv_delete" />
+
+    <item type="id" name="tv_dialog_message" />
+
+    <item type="id" name="tv_dialog_title" />
+
+    <item type="id" name="tv_direct_unlock_text" />
+
+    <item type="id" name="tv_gp_cta_icon" />
+
+    <item type="id" name="tv_gp_cta_text" />
+
+    <item type="id" name="tv_gp_dialog_icon" />
+
+    <item type="id" name="tv_gp_dialog_message" />
+
+    <item type="id" name="tv_gp_dialog_title" />
+
+    <item type="id" name="tv_gp_hero_icon" />
+
+    <item type="id" name="tv_gp_main_desc" />
+
+    <item type="id" name="tv_gp_main_title" />
+
+    <item type="id" name="tv_gp_os_version" />
+
+    <item type="id" name="tv_gp_page_counter" />
+
+    <item type="id" name="tv_gp_pairing_header" />
+
+    <item type="id" name="tv_gp_split_hint" />
+
+    <item type="id" name="tv_gp_split_port" />
+
+    <item type="id" name="tv_gp_split_submit" />
+
+    <item type="id" name="tv_gp_status_pill" />
+
+    <item type="id" name="tv_log" />
+
+    <item type="id" name="tv_os_badge_icon" />
+
+    <item type="id" name="tv_os_badge_text" />
+
+    <item type="id" name="tv_os_status_tag" />
+
+    <item type="id" name="tv_overlay_step1_tag" />
+
+    <item type="id" name="tv_prompt_dialog_message" />
+
+    <item type="id" name="tv_prompt_dialog_title" />
+
+    <item type="id" name="tv_shizuku_cta_icon" />
+
+    <item type="id" name="tv_shizuku_cta_text" />
+
+    <item type="id" name="tv_split_guide_desc" />
+
+    <item type="id" name="tv_split_port_status" />
+
+    <item type="id" name="tv_split_submit_text" />
+
+    <item type="id" name="twitter" />
+
+    <item type="id" name="twitter_name" />
+
+    <item type="id" name="twitter_text" />
+
+    <item type="id" name="user_input" />
+
+    <item type="id" name="user_layout" />
+
+    <item type="id" name="utvBottomIconView" />
+
+    <item type="id" name="utvLeftIconView" />
+
+    <item type="id" name="utvRightIconView" />
+
+    <item type="id" name="utvTopIconView" />
+
+    <item type="id" name="version" />
+
+    <item type="id" name="view_capsule_drag_handle" />
+
+    <item type="id" name="view_tree_disjoint_parent" />
+
+    <item type="id" name="view_tree_navigation_event_dispatcher_owner" />
+
+    <item type="id" name="vmsurfaceview" />
+
+    <item type="id" name="volume" />
+
+    <item type="id" name="welcome_back_email_link_body" />
+
+    <item type="id" name="welcome_back_idp_button" />
+
+    <item type="id" name="welcome_back_idp_prompt" />
+
+    <item type="id" name="welcome_back_password_body" />
+
+    <item type="id" name="width_input" />
+
+    <item type="id" name="width_layout" />
+
+    <item type="id" name="youtube" />
+
+    <item type="id" name="youtube_name" />
+
+    <item type="id" name="youtube_text" />
+</resources>
