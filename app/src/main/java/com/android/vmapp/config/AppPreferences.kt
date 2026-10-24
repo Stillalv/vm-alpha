@@ -14,6 +14,10 @@ class AppPreferences(context: Context) {
         get() = prefs.getString("theme_mode", "catalog_purple") ?: "catalog_purple"
         set(value) = prefs.edit().putString("theme_mode", value).apply()
 
+    var nightMode: Int
+        get() = prefs.getInt("night_mode", 0)
+        set(value) = prefs.edit().putInt("night_mode", value).apply()
+
     /**
      * Upgrade plan is disabled ("Plan Mati") — VIP is permanently unlocked for all features.
      */

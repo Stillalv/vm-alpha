@@ -6,7 +6,8 @@ import androidx.navigation.fragment.NavHostFragment
 import com.android.vmapp.ui.base.BaseActivity
 import com.android.vmapp.ui.vm.resolution.ResolutionFragment
 import com.android.vmapp.ui.vm.rom.RomFragment
-import com.android.vmcore.DevicePreset
+import com.android.vmcore.DisplayConfig
+import com.android.vmcore.RomConfig
 import com.android.vmcore.VMManager
 import com.clone.android.dual.space.R
 import com.google.android.material.appbar.MaterialToolbar
@@ -56,18 +57,33 @@ class VMCreateActivity : BaseActivity() {
 
     private fun createVMAndFinish() {
         val presetId = if (RomFragment.selectedRomSdk == 22) {
-            "samsung_s6_51"
+            "galaxy_s6_5_1"
         } else {
-            DevicePreset.DEFAULT_71_PRESET_ID
+            "pixel_xl_7_1"
         }
-        val vm = VMManager.getInstance(this).createVM(
+        val romConfig = RomConfig().apply {
+            id = if (RomFragment.selectedRomSdk == 22) "rom_5_1_1" else "rom_7_1_2"
+            displayName = RomFragment.selectedRomName
+            osVersion = RomFragment.selectedRomSdk
+            romVersion = 1
+            romUri = arrayOf("asset:///rom71_64.7z")
+            magiskUri = "asset:///plugins/magisk.zip"
+            suUri = "asset:///plugins/superuser.zip"
+            xposedUri = "asset:///plugins/xposed.zip"
+            playUri = "asset:///plugins/play.zip"
+        }
+        val displayConfig = DisplayConfig(
+            name = "${ResolutionFragment.selectedWidth}x${ResolutionFragment.selectedHeight}",
+            width = ResolutionFragment.selectedWidth,
+            height = ResolutionFragment.selectedHeight,
+            dpi = ResolutionFragment.selectedDpi
+        )
+        VMManager.getInstance(this).createVM(
             name = VMNamingFragment.enteredName,
+            romConfig = romConfig,
+            displayConfig = displayConfig,
             presetId = presetId
         )
-        vm.config.width = ResolutionFragment.selectedWidth
-        vm.config.height = ResolutionFragment.selectedHeight
-        vm.config.dpi = ResolutionFragment.selectedDpi
-        vm.config.save(this)
         finish()
     }
 }

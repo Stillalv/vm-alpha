@@ -39,7 +39,7 @@ class YouFragment : Fragment() {
         view.findViewById<View>(R.id.adb_activate)?.apply {
             visibility = View.VISIBLE
             setOnClickListener {
-                DisablerLauncher.open(requireContext())
+                DisablerLauncher.launch(requireContext())
             }
         }
 
