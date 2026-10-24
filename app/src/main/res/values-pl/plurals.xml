@@ -5,8 +5,5 @@
         <item quantity="one">Hasło jest za słabe. Powinno mieć przynajmniej %1$d znak i być kombinacją liter i cyfr.</item>
         <item quantity="few">Hasło jest za słabe. Powinno mieć przynajmniej %1$d znaki i być kombinacją liter i cyfr.</item>
         <item quantity="many">Hasło jest za słabe. Powinno mieć przynajmniej %1$d znaków i być kombinacją liter i cyfr.</item>
-    </plurals>        <item quantity="one">%d nowe powiadomienie</item>
-        <item quantity="few">%d nowe powiadomienia</item>
-        <item quantity="many">%d nowych powiadomień</item>
     </plurals>
 </resources>

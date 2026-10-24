@@ -3,6 +3,5 @@
     <plurals name="aaui_error_weak_password">
         <item quantity="other">Kata laluan tidak kukuh. Gunakan sekuang-kurangnya %1$d aksara dan gabungkan huruf dengan nombor</item>
         <item quantity="one">Kata laluan tidak kukuh. Gunakan sekuang-kurangnya %1$d aksara dan gabungkan huruf dengan nombor</item>
-    </plurals>        <item quantity="one">%d pemberitahuan baharu</item>
     </plurals>
 </resources>

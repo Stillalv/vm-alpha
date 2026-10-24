@@ -3,6 +3,5 @@
     <plurals name="aaui_error_weak_password">
         <item quantity="other">گذرواژه به اندازه کافی قوی نیست. حداقل باید از %1$d نویسه و ترکیبی از حروف و اعداد استفاده شود</item>
         <item quantity="one">گذرواژه به اندازه کافی قوی نیست. حداقل باید از %1$d نویسه و ترکیبی از حروف و اعداد استفاده شود</item>
-    </plurals>        <item quantity="one">%d اعلان جدید</item>
     </plurals>
 </resources>
