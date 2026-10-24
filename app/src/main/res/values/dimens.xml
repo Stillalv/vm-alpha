@@ -66,7 +66,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>
-    <item type="dimen" name="m3e_searchview_appbarwithsearch_toolbar_height">@dimen/m3_comp_search_view_contained_full_screen_bar_container_height</item>
+    <dimen name="m3e_searchview_appbarwithsearch_toolbar_height">56.0dip</dimen>
     <dimen name="navigation_bar_height">36.0dip</dimen>
     <dimen name="navigation_extra_key_width">36.0dip</dimen>
     <dimen name="navigation_key_width">70.0dip</dimen>

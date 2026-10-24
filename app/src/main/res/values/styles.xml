@@ -321,6 +321,8 @@
         <item name="android:textAppearance">?android:textAppearanceListItemSecondary</item>
     </style>
 
+    <style name="Widget.Catalog.Toolbar" parent="@style/Widget.Material3.Toolbar" />
+
     <style name="Theme.Catalog" parent="@style/Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="iconSpaceReserved">false</item>
