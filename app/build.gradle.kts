@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.alpha.android.dual.space"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 35
         versionCode = 3286
         versionName = "3.2.86-alpha"
