@@ -61,8 +61,8 @@ object KLog {
     }
 
     @JvmStatic
-    private external fun nativeKLog(priority: Int, tag: String, msg: String)
+    external fun nativeKLog(priority: Int, tag: String, msg: String)
 
     @JvmStatic
-    private external fun nativeFlushKLog()
+    external fun nativeFlushKLog()
 }

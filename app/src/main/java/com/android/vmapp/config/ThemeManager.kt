@@ -8,12 +8,12 @@ object ThemeManager {
     fun applyTheme(activity: Activity) {
         val prefs = AppPreferences(activity)
         when (prefs.themeMode) {
-            "green" -> activity.setTheme(R.style.Theme_Catalog_Green)
-            "purple" -> activity.setTheme(R.style.Theme_Catalog_Purple)
-            else -> {
-                activity.setTheme(R.style.Theme_Catalog)
+            "green", "catalog_green" -> activity.setTheme(R.style.Theme_Catalog_Green)
+            "dynamic", "catalog_dynamic" -> {
+                activity.setTheme(R.style.Theme_Catalog_Purple)
                 DynamicColors.applyToActivityIfAvailable(activity)
             }
+            else -> activity.setTheme(R.style.Theme_Catalog_Purple)
         }
     }
 }

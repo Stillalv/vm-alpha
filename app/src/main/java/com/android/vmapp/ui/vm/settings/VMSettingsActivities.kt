@@ -1,19 +1,65 @@
 package com.android.vmapp.ui.vm.settings
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.preference.EditTextPreference
 import androidx.preference.ListPreference
+import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
 import com.android.vmapp.ui.base.BaseActivity
+import com.android.vmapp.ui.vm.backup.VMBackupActivity
+import com.android.vmapp.ui.vm.backup.VMBackupRestoreActivity
 import com.android.vmcore.DevicePreset
 import com.android.vmcore.VMManager
 import com.clone.android.dual.space.R
+import com.google.android.material.appbar.MaterialToolbar
 
 class VMSettingsActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_settings)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager
+                .beginTransaction()
+                .replace(R.id.settings_container, VMMainPreferenceFragment())
+                .commitAllowingStateLoss()
+        }
+    }
+}
+
+class VMMainPreferenceFragment : PreferenceFragmentCompat() {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        val vmId = activity?.intent?.getIntExtra("vm_id", 0) ?: 0
+        preferenceManager.sharedPreferencesName = "vm_config_$vmId"
+        setPreferencesFromResource(R.xml.vm_preferences, rootKey)
+
+        fun bindNav(key: String, target: Class<*>) {
+            findPreference<Preference>(key)?.setOnPreferenceClickListener {
+                val intent = Intent(requireContext(), target)
+                intent.putExtra("vm_id", vmId)
+                startActivity(intent)
+                true
+            }
+        }
+
+        bindNav("vm_pref_key_hw_info", VMHWInfoActivity::class.java)
+        bindNav("vm_pref_key_sensor", VMSensorActivity::class.java)
+        bindNav("vm_pref_key_location", VMLocationActivity::class.java)
+        bindNav("vm_pref_key_network", VMNetworkActivity::class.java)
+        bindNav("vm_pref_key_phone", VMPhoneActivity::class.java)
+        bindNav("vm_pref_key_security", VMSecurityActivity::class.java)
+        bindNav("vm_pref_key_notification", VMNotificationActivity::class.java)
+        bindNav("vm_pref_key_resolution", VMResolutionActivity::class.java)
+        bindNav("vm_pref_key_backup", VMBackupActivity::class.java)
+        bindNav("vm_pref_key_restore", VMBackupRestoreActivity::class.java)
+
+        findPreference<Preference>("vm_pref_key_delete")?.setOnPreferenceClickListener {
+            VMManager.getInstance(requireContext()).deleteVM(vmId)
+            activity?.finish()
+            true
+        }
     }
 }
 
@@ -21,6 +67,7 @@ class VMHWInfoActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vm_hw_info)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
         if (savedInstanceState == null) {
             supportFragmentManager
                 .beginTransaction()
@@ -126,48 +173,102 @@ class VMHWInfoPreferenceFragment : PreferenceFragmentCompat() {
 class VMLocationActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_location)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_location_preferences))
+                .commitAllowingStateLoss()
+        }
     }
 }
 
 class VMNetworkActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_network)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_network_preferences))
+                .commitAllowingStateLoss()
+        }
     }
 }
 
 class VMNotificationActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_notification)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_notification_preferences))
+                .commitAllowingStateLoss()
+        }
     }
 }
 
 class VMPhoneActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_phone)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_phone_preferences))
+                .commitAllowingStateLoss()
+        }
     }
 }
 
 class VMResolutionActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_resolution)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
     }
 }
 
 class VMSecurityActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_security)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_security_preferences))
+                .commitAllowingStateLoss()
+        }
     }
 }
 
 class VMSensorActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_sensor)
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener { finish() }
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.settings_container, SimpleXmlPrefFragment.newInstance(R.xml.vm_sensor_preferences))
+                .commitAllowingStateLoss()
+        }
+    }
+}
+
+class SimpleXmlPrefFragment : PreferenceFragmentCompat() {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        val vmId = activity?.intent?.getIntExtra("vm_id", 0) ?: 0
+        preferenceManager.sharedPreferencesName = "vm_config_$vmId"
+        val xmlRes = arguments?.getInt("xml_res") ?: R.xml.vm_preferences
+        setPreferencesFromResource(xmlRes, rootKey)
+    }
+
+    companion object {
+        fun newInstance(xmlRes: Int): SimpleXmlPrefFragment {
+            return SimpleXmlPrefFragment().apply {
+                arguments = Bundle().apply { putInt("xml_res", xmlRes) }
+            }
+        }
     }
 }

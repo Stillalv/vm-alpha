@@ -21,6 +21,6 @@ class PrivacyAddActivity : BaseActivity() {
 class PrivacySettingActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_privacy_main)
+        setContentView(R.layout.activity_privacy_setting)
     }
 }

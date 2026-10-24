@@ -84,7 +84,7 @@ object AndUn7z {
     }
 
     @JvmStatic
-    private external fun un7zip(
+    external fun un7zip(
         filePath: String,
         outPath: String,
         password: String?,

@@ -4,6 +4,7 @@ import android.content.Context
 import android.os.Handler
 import android.os.Looper
 import com.android.vmcore.hal.HALManager
+import com.android.vmcore.hal.InputService
 import com.android.vmcore.ui.VMSurfaceView
 import com.android.vmcore.vpn.VpnManager
 import java.io.File
@@ -18,6 +19,7 @@ class VMInstance(
         private set
 
     val halManager: HALManager = HALManager(context, this)
+    val inputService: InputService = InputService(this)
     val vpnManager: VpnManager = VpnManager(context, this)
     var surfaceView: VMSurfaceView? = null
 

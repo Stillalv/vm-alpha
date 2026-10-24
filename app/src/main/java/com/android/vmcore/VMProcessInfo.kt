@@ -1,10 +1,10 @@
 package com.android.vmcore
 
-data class VMProcessInfo(
-    var pid: Int = 0,
-    var ppid: Int = 0,
-    var name: String = "",
-    var state: String = "",
-    var exe: String = "",
-    var cwd: String = ""
+class VMProcessInfo(
+    @JvmField var pid: Int = 0,
+    @JvmField var ppid: Int = 0,
+    @JvmField var name: String = "",
+    @JvmField var state: String = "",
+    @JvmField var exe: String = "",
+    @JvmField var cwd: String = ""
 )

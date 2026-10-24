@@ -6,7 +6,7 @@ import com.android.vmapp.config.ThemeManager
 
 abstract class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         ThemeManager.applyTheme(this)
+        super.onCreate(savedInstanceState)
     }
 }

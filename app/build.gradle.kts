@@ -79,6 +79,7 @@ dependencies {
     implementation("androidx.fragment:fragment-ktx:1.8.6")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
     implementation("androidx.coordinatorlayout:coordinatorlayout:1.3.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation("androidx.recyclerview:recyclerview:1.4.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.preference:preference-ktx:1.2.1")

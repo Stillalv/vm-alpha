@@ -457,4 +457,9 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
+
+    <style name="Theme.App.Starting" parent="@style/Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.Catalog.Purple</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+    </style>
 </resources>

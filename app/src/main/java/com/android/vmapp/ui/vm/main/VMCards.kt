@@ -1,11 +1,16 @@
 package com.android.vmapp.ui.vm.main
 
 import android.content.Context
+import android.content.Intent
+import android.text.method.ScrollingMovementMethod
 import android.util.AttributeSet
 import android.view.LayoutInflater
+import android.view.View
 import android.widget.FrameLayout
+import android.widget.RelativeLayout
+import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import com.android.vmapp.ui.vm.create.VMCreateActivity
 import com.android.vmcore.VMInstance
 import com.clone.android.dual.space.R
 import com.google.android.material.card.MaterialCardView
@@ -21,6 +26,10 @@ class VMEmptyCardView @JvmOverloads constructor(
 ) : FrameLayout(context, attrs, defStyleAttr) {
     init {
         LayoutInflater.from(context).inflate(R.layout.view_vm_empty_card, this, true)
+        findViewById<TextView>(R.id.slogan)?.movementMethod = ScrollingMovementMethod()
+        findViewById<View>(R.id.start)?.setOnClickListener {
+            context.startActivity(Intent(context, VMCreateActivity::class.java))
+        }
     }
 }
 
@@ -30,9 +39,6 @@ class VMBigCardView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : MaterialCardView(context, attrs, defStyleAttr) {
     var vm: VMInstance? = null
-    init {
-        LayoutInflater.from(context).inflate(R.layout.view_vm_big_card, this, true)
-    }
 }
 
 class VMBigPreviewCardView @JvmOverloads constructor(
@@ -41,9 +47,6 @@ class VMBigPreviewCardView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : MaterialCardView(context, attrs, defStyleAttr) {
     var vm: VMInstance? = null
-    init {
-        LayoutInflater.from(context).inflate(R.layout.view_vm_big_preview_card, this, true)
-    }
 }
 
 class VMSmallCardView @JvmOverloads constructor(
@@ -52,9 +55,6 @@ class VMSmallCardView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : MaterialCardView(context, attrs, defStyleAttr) {
     var vm: VMInstance? = null
-    init {
-        LayoutInflater.from(context).inflate(R.layout.view_vm_small_card, this, true)
-    }
 }
 
 class VMSmallPreviewCardView @JvmOverloads constructor(
@@ -63,18 +63,12 @@ class VMSmallPreviewCardView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : MaterialCardView(context, attrs, defStyleAttr) {
     var vm: VMInstance? = null
-    init {
-        LayoutInflater.from(context).inflate(R.layout.view_vm_small_preview_card, this, true)
-    }
 }
 
 class VMListItemView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
-) : MaterialCardView(context, attrs, defStyleAttr) {
+) : RelativeLayout(context, attrs, defStyleAttr) {
     var vm: VMInstance? = null
-    init {
-        LayoutInflater.from(context).inflate(R.layout.view_vm_list_item, this, true)
-    }
 }

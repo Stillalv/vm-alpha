@@ -1,7 +1,6 @@
 package com.android.vmcore.ui
 
 import android.content.Context
-import android.graphics.PointF
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.SurfaceHolder
@@ -9,7 +8,6 @@ import android.view.SurfaceView
 import android.view.View
 import android.widget.FrameLayout
 import com.android.vmcore.VMInstance
-import com.android.vmcore.hal.InputService
 
 interface VMSurfaceListener {
     fun onSurfaceCreated()
@@ -57,9 +55,8 @@ class VMSurfaceView @JvmOverloads constructor(
         val pointerId = event.getPointerId(pointerIdx)
         val x = event.getX(pointerIdx)
         val y = event.getY(pointerIdx)
-        val pressure = event.getPressure(pointerIdx)
         val timeNanos = event.eventTime * 1_000_000L
-        InputService.sendTouchEvent(action, pointerId, x, y, pressure, timeNanos)
+        vmInstance?.inputService?.onTouchEvent(action, pointerId, timeNanos, x, y)
         return true
     }
 }
