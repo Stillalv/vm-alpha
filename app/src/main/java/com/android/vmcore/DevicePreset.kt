@@ -38,6 +38,10 @@ data class DevicePreset(
     val gpuConfigValue: String
         get() = "$gpuVendor|$gpuRenderer"
 
+    val name: String get() = productName
+    val device: String get() = deviceCode
+    val baseband: String get() = baseBand
+
     /**
      * Applies this preset's complete hardware & build.prop identity to a VM's SharedPreferences.
      */
@@ -511,6 +515,12 @@ data class DevicePreset(
                 tacPrefix = "357690"
             )
         )
+
+        @JvmField
+        val DEFAULT_PRESET: DevicePreset = ALL_PRESETS[0]
+
+        @JvmStatic
+        fun getPresetById(id: String?): DevicePreset? = getById(id)
 
         @JvmStatic
         fun getById(id: String?): DevicePreset? {

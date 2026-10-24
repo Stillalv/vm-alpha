@@ -594,4 +594,51 @@
         <item>partially_support</item>
         <item>fully_support</item>
     </string-array>
+
+    <string-array name="language_entries">
+        <item>System Default</item>
+        <item>English</item>
+        <item>Bahasa Indonesia</item>
+        <item>العربية</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>فارسی</item>
+        <item>Français</item>
+        <item>हिन्दी</item>
+        <item>Italiano</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>Bahasa Melayu</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Русский</item>
+        <item>ไทย</item>
+        <item>Türkçe</item>
+        <item>Tiếng Việt</item>
+        <item>简体中文</item>
+        <item>繁體中文</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>SYSTEM</item>
+        <item>en</item>
+        <item>in</item>
+        <item>ar</item>
+        <item>de-DE</item>
+        <item>es</item>
+        <item>fa</item>
+        <item>fr</item>
+        <item>hi</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ms</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>vi-VN</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+    </string-array>
 </resources>

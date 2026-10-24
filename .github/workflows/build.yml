@@ -30,12 +30,46 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
-      - name: Build Debug APK
+      - name: Build Base APK with AAPT2 Stable IDs
         run: ./gradlew assembleDebug --stacktrace
 
-      - name: Prepare Release APK File
+      - name: Assemble Complete Engine & Sign APK
         run: |
-          cp app/build/outputs/apk/debug/app-debug.apk VM-Alpha-v3.2.86-debug.apk
+          mkdir -p work_dir
+          cd work_dir
+          
+          # Extract the compiled enhancer classes.dex
+          unzip -p ../app/build/outputs/apk/debug/app-debug.apk classes.dex > classes4.dex
+          
+          # Copy base APK
+          cp ../app/build/outputs/apk/debug/app-debug.apk app-mod.apk
+          
+          # Remove original debug signature and single classes.dex from the base APK
+          zip -d app-mod.apk classes.dex || true
+          zip -d app-mod.apk "META-INF/*" || true
+          
+          # Add all 4 dex files (3 patched engine dex + 1 compiled enhancer dex) uncompressed
+          cp ../app/prebuilt-dex/classes.dex .
+          cp ../app/prebuilt-dex/classes2.dex .
+          cp ../app/prebuilt-dex/classes3.dex .
+          zip -u -0 app-mod.apk classes.dex classes2.dex classes3.dex classes4.dex
+          
+          # Locate Android SDK build-tools for zipalign and apksigner
+          BUILD_TOOLS_DIR=$(ls -d $ANDROID_HOME/build-tools/* | sort -V | tail -n 1)
+          echo "Using Android Build Tools from: $BUILD_TOOLS_DIR"
+          
+          # 4-byte align the APK
+          $BUILD_TOOLS_DIR/zipalign -v -p 4 app-mod.apk ../aligned.apk
+          cd ..
+          
+          # Generate debug signing keystore
+          keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          
+          # Sign APK with v1, v2, and v3 schemes
+          $BUILD_TOOLS_DIR/apksigner sign --ks debug.keystore --ks-pass pass:android --key-pass pass:android --out VM-Alpha-v3.2.86-debug.apk aligned.apk
+          
+          # Verify APK signature
+          $BUILD_TOOLS_DIR/apksigner verify -v VM-Alpha-v3.2.86-debug.apk
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
@@ -48,14 +82,16 @@ jobs:
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         with:
           tag_name: v3.2.86-alpha
-          name: "VM Alpha v3.2.86 (Side-by-Side Build)"
+          name: "VM Alpha v3.2.86 (Complete Patched Engine Build)"
           body: |
-            ### VM Alpha v3.2.86 (Clean-Room Reconstructed Build)
+            ### VM Alpha v3.2.86 (Complete Patched Engine Build)
             - **Package Name (`applicationId`)**: `com.alpha.android.dual.space` (Tidak bentrok dengan versi original `com.clone.android.dual.space`, bisa di-install bersamaan / side-by-side)
-            - **VIP / Plan Status**: Permanently Unlocked (Plan Mati & No Ads)
-            - **Device Presets**: Optional Android 7.1.2, Android 5.1.1, & Modern Flagship Presets
-            - **GPU Database**: 97 GPUs (Android 4.0 – Present)
-            - **Real-Device Hardening**: Valid IEEE Vendor OUI MAC, Dynamic per-VM LAN IP (`192.168.1.X`), Sensor Gaussian Micro-Noise, & `/proc/self/mounts` + `/proc/self/maps` Anti-Detection
+            - **ROM Catalog & Downloader**: 10 ROM Catalog (Android 4.2.2 - 12.1.0) dengan tombol Download, Telegram mirror, MD5 verification, dan import local ROM (.7z/.zip)
+            - **VM Boot & Display Engine**: Full rootfs unpacker, cgroups mounting, socket bridge, dan real display HAL (no black screen)
+            - **Language Settings**: Fixed force close / crash saat membuka opsi bahasa di Settings (ListPreference entries array wired)
+            - **VM Settings Data**: Dynamic LAN IP (`192.168.1.X`), valid IEEE Vendor OUI MAC, authentic Luhn IMEI, natural Wi-Fi SSID, Device Preset selector with 97 GPUs
+            - **VIP / Plan Status**: Permanently Unlocked ("Plan Mati" & No Ads)
+            - **Sensor Micro-Noise & Anti-Detection**: Gaussian micro-noise pada sensor gyro/accelerometer, battery temp jitter, dan `/proc/self/mounts` + `/proc/self/maps` path sanitization
           files: VM-Alpha-v3.2.86-debug.apk
           prerelease: false
           make_latest: true
