@@ -152,6 +152,10 @@ For this flow to successfully connect your %2$s account with this email, you hav
     <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Password</string>
     <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
     <string name="app_name">VM Alpha</string>
+    <string name="copyright">© 2026 VM Alpha</string>
+    <string name="shizuku_not_running">Shizuku is not running</string>
+    <string name="shizuku_permission_not_granted">Shizuku permission not granted</string>
+    <string name="shizuku_authorized">Shizuku authorized</string>
     <string name="app_web_host">CHANGE-ME</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="backup_bad_backup_msg">This is not a correct VM backup.</string>

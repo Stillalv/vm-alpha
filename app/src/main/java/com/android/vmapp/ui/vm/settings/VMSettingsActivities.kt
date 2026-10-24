@@ -20,11 +20,11 @@ class VMSettingsActivity : BaseActivity() {
 class VMHWInfoActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_settings)
+        setContentView(R.layout.activity_vm_hw_info)
         if (savedInstanceState == null) {
             supportFragmentManager
                 .beginTransaction()
-                .replace(R.id.fragment_container_view_tag, VMHWInfoPreferenceFragment())
+                .replace(R.id.settings_container, VMHWInfoPreferenceFragment())
                 .commitAllowingStateLoss()
         }
     }

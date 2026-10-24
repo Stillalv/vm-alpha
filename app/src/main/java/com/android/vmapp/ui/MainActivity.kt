@@ -22,21 +22,21 @@ class MainActivity : BaseActivity() {
         }
         setContentView(R.layout.activity_main)
 
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        val bottomNav = findViewById<BottomNavigationView>(R.id.nav_bar)
         bottomNav.setOnItemSelectedListener { item ->
             val fragment: Fragment = when (item.itemId) {
-                R.id.nav_vm -> VMFragment()
-                R.id.nav_you -> YouFragment()
+                R.id.action_vm -> VMFragment()
+                R.id.action_you -> YouFragment()
                 else -> VMFragment()
             }
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, fragment)
+                .replace(R.id.nav_host_container, fragment)
                 .commit()
             true
         }
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, VMFragment())
+                .replace(R.id.nav_host_container, VMFragment())
                 .commit()
         }
     }

@@ -11,8 +11,8 @@ import com.clone.android.dual.space.R
 class EulaActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_eula)
-        findViewById<Button>(R.id.btn_agree)?.setOnClickListener {
+        setContentView(R.layout.fragment_eula)
+        findViewById<Button>(R.id.agree)?.setOnClickListener {
             AppPreferences(this).isEulaAccepted = true
             startActivity(Intent(this, MainActivity::class.java))
             finish()

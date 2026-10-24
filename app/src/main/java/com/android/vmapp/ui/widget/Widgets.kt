@@ -116,9 +116,9 @@ class CommonEmptyView @JvmOverloads constructor(
 
     init {
         LayoutInflater.from(context).inflate(R.layout.view_common_empty, this, true)
-        loadingView = findViewById(R.id.progress)
+        loadingView = findViewById(R.id.indicator)
         messageView = findViewById(R.id.message)
-        actionButton = findViewById(R.id.action_button)
+        actionButton = findViewById(R.id.button)
     }
 
     fun showLoading() {

@@ -10,7 +10,7 @@ open class BaseVMStartActivity(val vmId: Int) : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vm_start)
-        findViewById<LottieAnimationView>(R.id.lottie_view)?.playAnimation()
+        findViewById<LottieAnimationView>(R.id.loading_animation)?.playAnimation()
         window.decorView.postDelayed({
             val intent = Intent(this, VMDisplayActivity::class.java).apply {
                 putExtra("extra_vm_id", vmId)
