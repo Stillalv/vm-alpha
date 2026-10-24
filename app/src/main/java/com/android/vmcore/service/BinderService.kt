@@ -7,7 +7,9 @@ import android.os.IBinder
 import com.android.vmcore.KLog
 
 class BinderService : Service() {
-    private val binder = object : Binder(), IBinderService {}
+    private val binder = object : Binder(), IBinderService {
+        override fun asBinder(): IBinder = this
+    }
 
     override fun onBind(intent: Intent?): IBinder = binder
 

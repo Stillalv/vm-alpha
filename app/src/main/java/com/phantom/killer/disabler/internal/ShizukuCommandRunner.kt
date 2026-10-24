@@ -27,7 +27,13 @@ object ShizukuCommandRunner {
 
     fun execCommand(cmd: String): ExecutionResult {
         return try {
-            val process: ShizukuRemoteProcess = Shizuku.newProcess(arrayOf("sh", "-c", cmd), null, null)
+            val newProcessMethod = Shizuku::class.java.getDeclaredMethod(
+                "newProcess",
+                Array<String>::class.java,
+                Array<String>::class.java,
+                String::class.java
+            ).apply { isAccessible = true }
+            val process = newProcessMethod.invoke(null, arrayOf("sh", "-c", cmd), null, null) as ShizukuRemoteProcess
             val reader = BufferedReader(InputStreamReader(process.inputStream))
             val sb = StringBuilder()
             var line: String?

@@ -65,7 +65,7 @@ class VMManager private constructor(val context: Context) {
         val id = nextVmId++
         val prefs = context.getSharedPreferences("vm_config_$id", Context.MODE_PRIVATE)
         val finalName = if (TextUtils.isEmpty(name)) {
-            "${romConfig?.name ?: "Android"}_$id"
+            "${romConfig?.displayName ?: "Android"}_$id"
         } else {
             name
         }
@@ -74,7 +74,7 @@ class VMManager private constructor(val context: Context) {
         val preset = if (presetId == DevicePreset.PRESET_CUSTOM) {
             null
         } else {
-            DevicePreset.getById(presetId) ?: DevicePreset.getRandomForRom(romConfig?.name)
+            DevicePreset.getById(presetId) ?: DevicePreset.getRandomForRom(romConfig?.displayName)
         }
 
         val carrierInfo = detectCarrier()

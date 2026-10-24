@@ -30,7 +30,7 @@ class PairingNotificationReceiver : BroadcastReceiver() {
                 val results = RemoteInput.getResultsFromIntent(intent)
                 val code = results?.getCharSequence(KEY_PAIRING_CODE)?.toString()
                 if (!code.isNullOrEmpty()) {
-                    mgr.pairWithAdb(AdbPairingInfo(code = code, port = 0))
+                    mgr.pairWithAdb(AdbPairingInfo(host = "127.0.0.1", pairingPort = 0, pairingCode = code))
                 }
             }
             ACTION_AUTO_RETRY -> {
