@@ -9,13 +9,6 @@ class AdbPairingInfo @JvmOverloads constructor(
     val host: String = if (host.isNullOrEmpty()) "127.0.0.1" else host
     val connectionPort: Int = if (connectionPort <= 0) 5555 else connectionPort
 
-    constructor(host: String?, pairingPort: Int, pairingCode: String?) : this(
-        host = host,
-        pairingPort = pairingPort,
-        connectionPort = 5555,
-        pairingCode = pairingCode
-    )
-
     val port: Int
         get() = pairingPort
 
