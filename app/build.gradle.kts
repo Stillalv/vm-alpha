@@ -44,7 +44,7 @@ android {
     }
 
     buildFeatures {
-        viewBinding = true
+        viewBinding = false
         buildConfig = true
     }
 
@@ -125,13 +125,9 @@ dependencies {
     // Image Loading, Animations & UI Helpers
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("com.airbnb.android:lottie:6.4.0")
-    implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.11")
-    implementation("com.github.princekin-f:EasyFloat:2.0.4")
-    implementation("me.zhanghai.android.appiconloader:appiconloader:1.5.0")
 
     // Utilities, Compression, Reflection & Shizuku
     implementation("com.blankj:utilcodex:1.31.1")
-    implementation("me.weishu:free_reflection:3.2.0")
     implementation("org.apache.commons:commons-compress:1.26.1")
     implementation("org.tukaani:xz:1.9")
     implementation("dev.rikka.shizuku:api:13.1.5")
