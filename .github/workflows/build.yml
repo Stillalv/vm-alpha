@@ -38,21 +38,18 @@ jobs:
           mkdir -p work_dir
           cd work_dir
           
-          # Extract the compiled enhancer classes.dex
-          unzip -p ../app/build/outputs/apk/debug/app-debug.apk classes.dex > classes4.dex
-          
-          # Copy base APK
+          # Copy base APK from Gradle build (which has resources, AndroidManifest.xml, assets, and jniLibs)
           cp ../app/build/outputs/apk/debug/app-debug.apk app-mod.apk
           
-          # Remove original debug signature and single classes.dex from the base APK
-          zip -d app-mod.apk classes.dex || true
+          # Remove ALL debug dex files and debug signatures from Gradle build
+          zip -d app-mod.apk "classes*.dex" || true
           zip -d app-mod.apk "META-INF/*" || true
           
-          # Add all 4 dex files (3 patched engine dex + 1 compiled enhancer dex) uncompressed
+          # Inject exactly the 3 prebuilt DEX files (containing complete engine + smali patches + VMAlphaEnhancer)
           cp ../app/prebuilt-dex/classes.dex .
           cp ../app/prebuilt-dex/classes2.dex .
           cp ../app/prebuilt-dex/classes3.dex .
-          zip -u -0 app-mod.apk classes.dex classes2.dex classes3.dex classes4.dex
+          zip -u -0 app-mod.apk classes.dex classes2.dex classes3.dex
           
           # Locate Android SDK build-tools for zipalign and apksigner
           BUILD_TOOLS_DIR=$(ls -d $ANDROID_HOME/build-tools/* | sort -V | tail -n 1)
